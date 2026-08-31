@@ -1118,13 +1118,84 @@
           "category": "水",
           "quantity": 220,
           "unit": "g"
+        },
+        {
+          "category": "黄油",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个"
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "category": "全脂牛奶",
+          "quantity": 60,
+          "unit": "g"
+        },
+        {
+          "category": "低筋面粉",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "category": "可可粉",
+          "quantity": 20,
+          "unit": "g"
+        },
+        {
+          "category": "黄油",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "category": "巧克力",
+          "quantity": 60,
+          "unit": "g"
         }
       ],
       "steps": [
         {
-          "text": "1",
+          "text": "混合材料",
           "images": [],
-          "materials": [],
+          "materials": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "揉出手套膜",
+          "images": [],
+          "materials": [
+            3,
+            8
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "巧克力夹馅",
+          "images": [],
+          "materials": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
           "timerMinutes": 0
         }
       ],
