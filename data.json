@@ -827,6 +827,29 @@
         "calcium": 244
       },
       "remainingQuantity": 185
+    },
+    {
+      "id": "mmthkucr9qshgp",
+      "name": "矿泉水",
+      "brand": "昆仑山",
+      "category": "水",
+      "specification": "10000",
+      "unit": "ml",
+      "price": 55.56,
+      "packCount": 1,
+      "totalQuantity": 10000,
+      "amount": 55.56,
+      "expiryDate": "2028-04-30",
+      "openingDate": "",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 10000
     }
   ],
   "recipes": [
