@@ -382,12 +382,12 @@
       "expiryDate": "2027-10-18",
       "openingDate": "",
       "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
+        "calories": 1575,
+        "protein": 47.6,
+        "fat": 1.7,
+        "carbs": 45.5,
         "sodium": null,
-        "calcium": null
+        "calcium": 106
       },
       "remainingQuantity": 40
     },
