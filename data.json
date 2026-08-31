@@ -796,8 +796,8 @@
       "expiryDate": "2029-05-16",
       "openingDate": "2026-08-02",
       "nutrition": {
-        "calories": null,
-        "protein": null,
+        "calories": 1506,
+        "protein": 85,
         "fat": null,
         "carbs": null,
         "sodium": null,
