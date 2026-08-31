@@ -1074,6 +1074,73 @@
       "createdAt": 1786837744805,
       "order": 1786837744805,
       "id": "rmsv123s5y0ses"
+    },
+    {
+      "name": "大理石纹巧克力吐司",
+      "description": "450g*2",
+      "ingredients": [
+        {
+          "category": "高筋面粉",
+          "quantity": 510,
+          "unit": "g"
+        },
+        {
+          "category": "酵母",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "category": "盐",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "category": "奶粉",
+          "quantity": 20,
+          "unit": "g"
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个"
+        },
+        {
+          "category": "炼乳",
+          "quantity": 25,
+          "unit": "g"
+        },
+        {
+          "category": "水",
+          "quantity": 220,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "text": "1",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        }
+      ],
+      "emoji": "🍪",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1788187549568,
+      "order": 1788187549568,
+      "id": "rmthcp3swlpnzx"
     }
   ],
   "usageLogs": [],
