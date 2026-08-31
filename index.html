@@ -3964,7 +3964,7 @@ window.viewCategoryItems = function(catName) {
         document.body.classList.toggle('not-logged-in', !logged);
         document.body.classList.toggle('is-logged-in', logged);
         const btn = document.getElementById('sheepLoginBtn');
-        if (btn) btn.textContent = logged ? '🚪 退出登录' : '🐑 小绵羊登录';
+        if (btn) btn.textContent = logged ? '退出登录' : '小绵羊登录';
     }
 
     function parseRepo(repoStr) {
@@ -4334,12 +4334,12 @@ window.viewCategoryItems = function(catName) {
             <div class="form-group"><label>分支</label><input type="text" id="cloudBranch" value="${escapeHtml(cfg.branch || 'main')}" placeholder="main"></div>
             <div class="form-group"><label>数据文件路径</label><input type="text" id="cloudPath" value="${escapeHtml(cfg.path || 'data.json')}" placeholder="data.json"></div>
             <div class="form-group"><label>访问令牌（仅拥有者填写，用于上传）</label><input type="password" id="cloudToken" value="${escapeHtml(cfg.token || '')}" placeholder="ghp_ 或 github_pat_ 开头的令牌" autocomplete="off"></div>
-            <div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:8px;">当前身份：${hasToken ? '🔓 拥有者（可编辑+上传）' : '👀 访客（只读，只能拉取）'} · 上次同步：${lastSyncStr}</div>
+            <div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:8px;">当前身份：${hasToken ? '拥有者（可编辑+上传）' : '访客（只读）'} · 上次同步：${lastSyncStr}</div>
             <div class="modal-actions" style="flex-wrap:nowrap;justify-content:space-between;gap:6px;">
-                <button class="btn btn-outline" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="cleanupOrphanImages()">🧹 清理未引用图片</button>
-                <button class="btn btn-primary" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="saveCloudSettings()">💾 保存设置</button>
-                <button class="btn btn-outline" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="syncNowPull()">⬇️ 从云端拉取</button>
-                <button class="btn btn-outline" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="syncNowPush()">⬆️ 推送到云端</button>
+                <button class="btn btn-outline" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="cleanupOrphanImages()">清理未引用图片</button>
+                <button class="btn btn-primary" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="saveCloudSettings()">保存设置</button>
+                <button class="btn btn-outline" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="syncNowPull()">从云端拉取</button>
+                <button class="btn btn-outline" style="flex:1;padding:0 4px;white-space:nowrap;" onclick="syncNowPush()">推送到云端</button>
             </div>`;
         openModal(html, false, 'cloudSettings');
     };
@@ -4574,7 +4574,7 @@ window.viewCategoryItems = function(catName) {
     };
     window.sheepLogin = function() {
         if (isOwner()) {
-            showConfirm('当前已登录（拥有者）。确定退出登录、切换为只读吗？', function() { logout(); }, function() {});
+            showConfirm('当前已登录（拥有者）。确定、切换为只读吗？', function() { logout(); }, function() {});
             return;
         }
         const cfg = getCloudConfig();
