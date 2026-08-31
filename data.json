@@ -944,8 +944,8 @@
         {
           "text": "加入软化的黄油，搅拌出手套膜。",
           "images": [
-            "img_1786837348824_pvu685",
-            "img_1786838370755_yy5jyt"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185819651_snewq4.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185822378_y1fq04.jpg"
           ],
           "materials": [
             9
@@ -955,8 +955,7 @@
         {
           "text": "揉好的面团，温度30度，发酵40-60分钟。",
           "images": [
-            "img_1786838395281_11cmkk",
-            "img_1786838395310_kljp2j"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185832087_jgyvsi.jpg"
           ],
           "materials": [],
           "timerMinutes": 40
@@ -964,7 +963,8 @@
         {
           "text": "分成2份，分好之后揉圆松弛20分钟。",
           "images": [
-            "img_1786838587700_nnypbo"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185839841_u3rxkr.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185844084_yt7ykn.jpg"
           ],
           "materials": [],
           "timerMinutes": 20
@@ -972,7 +972,7 @@
         {
           "text": "做开心果奶酪夹心",
           "images": [
-            "img_1786838668856_8zm0fc"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185854542_6eyjcq.jpg"
           ],
           "materials": [
             10,
@@ -984,7 +984,7 @@
         {
           "text": "把松弛好的面团，擀的尽量长一点。",
           "images": [
-            "img_1786838750655_o6gysm"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185859818_o9e5ts.jpg"
           ],
           "materials": [],
           "timerMinutes": 0
@@ -992,7 +992,7 @@
         {
           "text": "涂抹开心果夹心，越薄越好。",
           "images": [
-            "img_1786838803389_klqkxg"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185866717_6ziwcn.jpg"
           ],
           "materials": [],
           "timerMinutes": 0
@@ -1000,8 +1000,8 @@
         {
           "text": "卷的稍微紧一点，从中间隔开",
           "images": [
-            "img_1786838861720_wp127p",
-            "img_1786838861783_uno93z"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185872807_7eay0s.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185875565_23db24.jpg"
           ],
           "materials": [],
           "timerMinutes": 0
@@ -1009,19 +1009,16 @@
         {
           "text": "卷起来，放入吐司盒，发酵大约一个小时到一个半小时，发酵至9分满。",
           "images": [
-            "img_1786839090235_jieine",
-            "img_1786839090294_fdjuh7",
-            "img_1786839090349_0zxd5t"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185884307_ka5amm.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185886099_xouzup.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788185892285_mq3nw7.jpg"
           ],
           "materials": [],
           "timerMinutes": 80
         },
         {
           "text": "预热烤箱，上温190，下温180，最下层，烤26分钟左右。",
-          "images": [
-            "img_1786839449324_xvox50",
-            "img_1786839565970_hbxoii"
-          ],
+          "images": [],
           "materials": [],
           "timerMinutes": 26
         }
