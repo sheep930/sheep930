@@ -290,12 +290,12 @@
       "expiryDate": "",
       "openingDate": "",
       "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
+        "calories": 581,
+        "protein": 13.1,
+        "fat": 8.6,
+        "carbs": 2.4,
+        "sodium": 131.5,
+        "calcium": 56
       },
       "remainingQuantity": 16
     },
