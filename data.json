@@ -804,6 +804,29 @@
         "calcium": null
       },
       "remainingQuantity": 25
+    },
+    {
+      "id": "mmthkicvox6bbi",
+      "name": "炼乳",
+      "brand": "沃集鲜",
+      "category": "炼乳",
+      "specification": "185",
+      "unit": "g",
+      "price": 9.9,
+      "packCount": 1,
+      "totalQuantity": 185,
+      "amount": 9.9,
+      "expiryDate": "2028-01-02",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1405,
+        "protein": 8.1,
+        "fat": 8.8,
+        "carbs": 55.4,
+        "sodium": 80,
+        "calcium": 244
+      },
+      "remainingQuantity": 185
     }
   ],
   "recipes": [
