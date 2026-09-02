@@ -481,7 +481,7 @@
         "sodium": 38983,
         "calcium": null
       },
-      "remainingQuantity": 256
+      "remainingQuantity": 250
     },
     {
       "id": "mmsvisc32gifcg",
@@ -573,7 +573,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 50
+      "remainingQuantity": 0
     },
     {
       "id": "mmsujo1qjgjdyp",
@@ -596,7 +596,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 230
+      "remainingQuantity": 210
     },
     {
       "id": "mmsuk531clnjbw",
@@ -1285,6 +1285,42 @@
       "timestamp": 1788352392358,
       "amountUsed": 40.755,
       "priceAtUse": 0.13189320388349515,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsukrxi5ezon9",
+      "materialName": "天然三零食用盐 淮盐",
+      "quantity": 6,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788352443773,
+      "amountUsed": 0.15234375,
+      "priceAtUse": 0.025390625,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsujfuqop86lx",
+      "materialName": "加勒比黑巧克力豆66％ 法芙娜",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788352443774,
+      "amountUsed": 18.37,
+      "priceAtUse": 0.3674,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsujo1qjgjdyp",
+      "materialName": "无糖巧克力70% 奥乐齐",
+      "quantity": 20,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788352443774,
+      "amountUsed": 3.1919999999999997,
+      "priceAtUse": 0.1596,
       "batchId": null
     }
   ],
