@@ -277,27 +277,27 @@
       "remainingQuantity": 600
     },
     {
-      "id": "mmsvisc32gifcg",
-      "name": "普通鸡蛋",
-      "brand": "",
-      "category": "鸡蛋",
-      "specification": "16",
-      "unit": "个",
-      "price": 9.5,
+      "id": "mmthkucr9qshgp",
+      "name": "矿泉水",
+      "brand": "昆仑山",
+      "category": "水",
+      "specification": "10000",
+      "unit": "ml",
+      "price": 55.56,
       "packCount": 1,
-      "totalQuantity": 16,
-      "amount": 9.5,
-      "expiryDate": "",
+      "totalQuantity": 10000,
+      "amount": 55.56,
+      "expiryDate": "2028-04-30",
       "openingDate": "",
       "nutrition": {
-        "calories": 581,
-        "protein": 13.1,
-        "fat": 8.6,
-        "carbs": 2.4,
-        "sodium": 131.5,
-        "calcium": 56
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
       },
-      "remainingQuantity": 16
+      "remainingQuantity": 10000
     },
     {
       "id": "mmsuj0qj256832",
@@ -553,27 +553,27 @@
       "remainingQuantity": 780
     },
     {
-      "id": "mmsokw4i1je1xp",
-      "name": "白巧克力32%",
-      "brand": "嘉利宝",
-      "category": "白巧克力",
-      "specification": "400",
-      "unit": "g",
-      "price": 44.72,
+      "id": "mmsvisc32gifcg",
+      "name": "普通鸡蛋",
+      "brand": "",
+      "category": "鸡蛋",
+      "specification": "16",
+      "unit": "个",
+      "price": 9.5,
       "packCount": 1,
-      "totalQuantity": 400,
-      "amount": 44.72,
-      "expiryDate": "2027-07-11",
-      "openingDate": "2026-08-02",
+      "totalQuantity": 16,
+      "amount": 9.5,
+      "expiryDate": "",
+      "openingDate": "",
       "nutrition": {
-        "calories": 2465,
-        "protein": 6.1,
-        "fat": 40,
-        "carbs": 51,
-        "sodium": 87,
-        "calcium": null
+        "calories": 581,
+        "protein": 13.1,
+        "fat": 8.6,
+        "carbs": 2.4,
+        "sodium": 131.5,
+        "calcium": 56
       },
-      "remainingQuantity": 100
+      "remainingQuantity": 16
     },
     {
       "id": "mmsujo1qjgjdyp",
@@ -829,27 +829,27 @@
       "remainingQuantity": 185
     },
     {
-      "id": "mmthkucr9qshgp",
-      "name": "矿泉水",
-      "brand": "昆仑山",
-      "category": "水",
-      "specification": "10000",
-      "unit": "ml",
-      "price": 55.56,
+      "id": "mmsokw4i1je1xp",
+      "name": "白巧克力32%",
+      "brand": "嘉利宝",
+      "category": "白巧克力",
+      "specification": "400",
+      "unit": "g",
+      "price": 44.72,
       "packCount": 1,
-      "totalQuantity": 10000,
-      "amount": 55.56,
-      "expiryDate": "2028-04-30",
-      "openingDate": "",
+      "totalQuantity": 400,
+      "amount": 44.72,
+      "expiryDate": "2027-07-11",
+      "openingDate": "2026-08-02",
       "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
+        "calories": 2465,
+        "protein": 6.1,
+        "fat": 40,
+        "carbs": 51,
+        "sodium": 87,
         "calcium": null
       },
-      "remainingQuantity": 10000
+      "remainingQuantity": 100
     }
   ],
   "recipes": [
@@ -1066,8 +1066,8 @@
           "text": "预热烤箱，上温190，下温180，最下层，烤26分钟左右。",
           "images": [
             "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788243655264_rfq2bt.jpg",
-            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788243656246_90uho1.jpg",
-            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788243657229_9r51xp.jpg"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788243657229_9r51xp.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788243656246_90uho1.jpg"
           ],
           "materials": [],
           "timerMinutes": 26
