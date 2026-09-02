@@ -21,7 +21,7 @@
         "sodium": 4,
         "calcium": null
       },
-      "remainingQuantity": 1300
+      "remainingQuantity": 1210
     },
     {
       "id": "mmsuitlaxonrtg",
@@ -90,7 +90,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 200
+      "remainingQuantity": 0
     },
     {
       "id": "mmsv0dwunqh6uv",
@@ -113,7 +113,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 2
+      "remainingQuantity": 1.69
     },
     {
       "id": "mmsvhk8cwc841a",
@@ -205,7 +205,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 320
+      "remainingQuantity": 280
     },
     {
       "id": "mmsvh6zdi5gsr3",
@@ -251,7 +251,7 @@
         "sodium": 70,
         "calcium": 125
       },
-      "remainingQuantity": 4800
+      "remainingQuantity": 4740
     },
     {
       "id": "mmsvjslujce5t6",
@@ -274,7 +274,7 @@
         "sodium": 380,
         "calcium": 800
       },
-      "remainingQuantity": 600
+      "remainingQuantity": 580
     },
     {
       "id": "mmthkucr9qshgp",
@@ -297,7 +297,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 10000
+      "remainingQuantity": 9780
     },
     {
       "id": "mmsuj0qj256832",
@@ -389,7 +389,7 @@
         "sodium": null,
         "calcium": 106
       },
-      "remainingQuantity": 40
+      "remainingQuantity": 30
     },
     {
       "id": "mmsukuiqirgrds",
@@ -412,7 +412,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 1000
+      "remainingQuantity": 900
     },
     {
       "id": "mmsvhv3o54o97g",
@@ -481,7 +481,7 @@
         "sodium": 38983,
         "calcium": null
       },
-      "remainingQuantity": 256
+      "remainingQuantity": 250
     },
     {
       "id": "mmsujfuqop86lx",
@@ -504,7 +504,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 50
+      "remainingQuantity": 0
     },
     {
       "id": "mmsujats72z2iw",
@@ -527,7 +527,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 50
+      "remainingQuantity": 40
     },
     {
       "id": "mmsujjitjlezpg",
@@ -573,7 +573,7 @@
         "sodium": 131.5,
         "calcium": 56
       },
-      "remainingQuantity": 16
+      "remainingQuantity": 14
     },
     {
       "id": "mmsujo1qjgjdyp",
@@ -665,7 +665,7 @@
         "sodium": 21,
         "calcium": null
       },
-      "remainingQuantity": 80
+      "remainingQuantity": 60
     },
     {
       "id": "mmsvij4w3dcqi8",
@@ -826,7 +826,7 @@
         "sodium": 80,
         "calcium": 244
       },
-      "remainingQuantity": 185
+      "remainingQuantity": 160
     },
     {
       "id": "mmsokw4i1je1xp",
@@ -1286,6 +1286,222 @@
       "amountUsed": 40.755,
       "priceAtUse": 0.13189320388349515,
       "batchId": "bmtjdrwhzgc1g"
+    },
+    {
+      "materialId": "mmsuh8ngi9bz4y",
+      "materialName": "硬红高筋小麦粉 山姆",
+      "quantity": 200,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340716,
+      "amountUsed": 1.6800000000000002,
+      "priceAtUse": 0.008400000000000001,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsv0dwunqh6uv",
+      "materialName": "柔风樱花吐司粉 王后",
+      "quantity": 0.31,
+      "unit": "kg",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340717,
+      "amountUsed": 7.10644,
+      "priceAtUse": 22.924,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsujxzm4yw6tp",
+      "materialName": "高活性干酵母耐高糖型 燕子",
+      "quantity": 10,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340717,
+      "amountUsed": 2.355,
+      "priceAtUse": 0.2355,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsukuiqirgrds",
+      "materialName": "精制白砂糖 红棉",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340717,
+      "amountUsed": 0.6005,
+      "priceAtUse": 0.01201,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsukrxi5ezon9",
+      "materialName": "天然三零食用盐 淮盐",
+      "quantity": 6,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340717,
+      "amountUsed": 0.15234375,
+      "priceAtUse": 0.025390625,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsvjslujce5t6",
+      "materialName": "河套奶粉 河套",
+      "quantity": 20,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340718,
+      "amountUsed": 0.7616666666666667,
+      "priceAtUse": 0.03808333333333334,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsvisc32gifcg",
+      "materialName": "普通鸡蛋",
+      "quantity": 1,
+      "unit": "个",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340718,
+      "amountUsed": 0.59375,
+      "priceAtUse": 0.59375,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmthkicvox6bbi",
+      "materialName": "炼乳 沃集鲜",
+      "quantity": 25,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340718,
+      "amountUsed": 1.337837837837838,
+      "priceAtUse": 0.053513513513513515,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmthkucr9qshgp",
+      "materialName": "矿泉水 昆仑山",
+      "quantity": 220,
+      "unit": "ml",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340718,
+      "amountUsed": 1.22232,
+      "priceAtUse": 0.005556,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsul602aajg1s",
+      "materialName": "恩喜村淡味黄油片 艾许",
+      "quantity": 40,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340718,
+      "amountUsed": 5.0792,
+      "priceAtUse": 0.12698,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsujfuqop86lx",
+      "materialName": "加勒比黑巧克力豆66％ 法芙娜",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340719,
+      "amountUsed": 18.37,
+      "priceAtUse": 0.3674,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsujats72z2iw",
+      "materialName": "黑巧克力54.5% 嘉利宝",
+      "quantity": 10,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340719,
+      "amountUsed": 1.5644,
+      "priceAtUse": 0.15644,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsul602aajg1s",
+      "materialName": "恩喜村淡味黄油片 艾许",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340719,
+      "amountUsed": 6.349,
+      "priceAtUse": 0.12698,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsvisc32gifcg",
+      "materialName": "普通鸡蛋",
+      "quantity": 1,
+      "unit": "个",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340719,
+      "amountUsed": 0.59375,
+      "priceAtUse": 0.59375,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsukuiqirgrds",
+      "materialName": "精制白砂糖 红棉",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340719,
+      "amountUsed": 0.6005,
+      "priceAtUse": 0.01201,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsvireddht9la",
+      "materialName": "优加高钙纯牛奶 光明",
+      "quantity": 60,
+      "unit": "ml",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340720,
+      "amountUsed": 0.6546249999999999,
+      "priceAtUse": 0.010910416666666665,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsvhq448l6n8p",
+      "materialName": "软白低筋粉 王后",
+      "quantity": 40,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340720,
+      "amountUsed": 0.9530666666666667,
+      "priceAtUse": 0.02382666666666667,
+      "batchId": "bmtjdsy23wyyj"
+    },
+    {
+      "materialId": "mmsukj475ovvwu",
+      "materialName": "生可可粉 未碱化 Soileta",
+      "quantity": 20,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310340720,
+      "amountUsed": 5.430666666666665,
+      "priceAtUse": 0.2715333333333333,
+      "batchId": "bmtjdsy23wyyj"
     }
   ],
   "categories": [
