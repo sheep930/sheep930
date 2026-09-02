@@ -1175,6 +1175,16 @@
           "unit": "g"
         },
         {
+          "category": "巧克力",
+          "quantity": 60,
+          "unit": "g"
+        },
+        {
+          "category": "黄油",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
           "category": "鸡蛋",
           "quantity": 1,
           "unit": "个"
@@ -1197,16 +1207,6 @@
         {
           "category": "可可粉",
           "quantity": 20,
-          "unit": "g"
-        },
-        {
-          "category": "黄油",
-          "quantity": 50,
-          "unit": "g"
-        },
-        {
-          "category": "巧克力",
-          "quantity": 60,
           "unit": "g"
         }
       ],
@@ -1238,13 +1238,13 @@
           "text": "巧克力夹馅",
           "images": [],
           "materials": [
-            9,
-            10,
             11,
             12,
             13,
             14,
-            15
+            15,
+            10,
+            9
           ],
           "timerMinutes": 0
         }
