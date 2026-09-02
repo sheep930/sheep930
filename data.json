@@ -665,7 +665,7 @@
         "sodium": 21,
         "calcium": null
       },
-      "remainingQuantity": 40
+      "remainingQuantity": 20
     },
     {
       "id": "mmsvij4w3dcqi8",
@@ -1718,6 +1718,18 @@
       "amountUsed": 1.7325000000000002,
       "priceAtUse": 0.1155,
       "batchId": "bmtjdugffagi1"
+    },
+    {
+      "materialId": "mmsukj475ovvwu",
+      "materialName": "生可可粉 未碱化 Soileta",
+      "quantity": 20,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310459176,
+      "amountUsed": 5.430666666666665,
+      "priceAtUse": 0.2715333333333333,
+      "batchId": null
     }
   ],
   "categories": [
