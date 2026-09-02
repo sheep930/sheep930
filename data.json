@@ -757,7 +757,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 309
+      "remainingQuantity": 0
     },
     {
       "id": "mmsol6vo80ysec",
@@ -1274,7 +1274,20 @@
       "id": "rmthcp3swlpnzx"
     }
   ],
-  "usageLogs": [],
+  "usageLogs": [
+    {
+      "materialId": "mmsolb7jzbmek7",
+      "materialName": "原味大颗开心果 天虹牌",
+      "quantity": 309,
+      "unit": "g",
+      "recipeName": "开心果酱",
+      "recipeId": "rmsv123s5y0ses",
+      "timestamp": 1788352392358,
+      "amountUsed": 40.755,
+      "priceAtUse": 0.13189320388349515,
+      "batchId": null
+    }
+  ],
   "categories": [
     "高筋面粉",
     "低筋面粉",
