@@ -481,7 +481,7 @@
         "sodium": 38983,
         "calcium": null
       },
-      "remainingQuantity": 244
+      "remainingQuantity": 250
     },
     {
       "id": "mmsvisc32gifcg",
@@ -573,7 +573,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 0
+      "remainingQuantity": 50
     },
     {
       "id": "mmsujo1qjgjdyp",
@@ -596,7 +596,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 150
+      "remainingQuantity": 170
     },
     {
       "id": "mmsuk531clnjbw",
@@ -757,7 +757,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 0
+      "remainingQuantity": 309
     },
     {
       "id": "mmsol6vo80ysec",
@@ -1275,54 +1275,6 @@
     }
   ],
   "usageLogs": [
-    {
-      "materialId": "mmsolb7jzbmek7",
-      "materialName": "原味大颗开心果 天虹牌",
-      "quantity": 309,
-      "unit": "g",
-      "recipeName": "开心果酱",
-      "recipeId": "rmsv123s5y0ses",
-      "timestamp": 1788352392358,
-      "amountUsed": 40.755,
-      "priceAtUse": 0.13189320388349515,
-      "batchId": null
-    },
-    {
-      "materialId": "mmsukrxi5ezon9",
-      "materialName": "天然三零食用盐 淮盐",
-      "quantity": 6,
-      "unit": "g",
-      "recipeName": "提拉米苏",
-      "recipeId": "rmsolj3o9ueh5b",
-      "timestamp": 1788352443773,
-      "amountUsed": 0.15234375,
-      "priceAtUse": 0.025390625,
-      "batchId": null
-    },
-    {
-      "materialId": "mmsujfuqop86lx",
-      "materialName": "加勒比黑巧克力豆66％ 法芙娜",
-      "quantity": 50,
-      "unit": "g",
-      "recipeName": "提拉米苏",
-      "recipeId": "rmsolj3o9ueh5b",
-      "timestamp": 1788352443774,
-      "amountUsed": 18.37,
-      "priceAtUse": 0.3674,
-      "batchId": null
-    },
-    {
-      "materialId": "mmsujo1qjgjdyp",
-      "materialName": "无糖巧克力70% 奥乐齐",
-      "quantity": 20,
-      "unit": "g",
-      "recipeName": "提拉米苏",
-      "recipeId": "rmsolj3o9ueh5b",
-      "timestamp": 1788352443774,
-      "amountUsed": 3.1919999999999997,
-      "priceAtUse": 0.1596,
-      "batchId": null
-    },
     {
       "materialId": "mmsujxzm4yw6tp",
       "materialName": "高活性干酵母耐高糖型 燕子",
