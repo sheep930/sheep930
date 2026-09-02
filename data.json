@@ -1250,7 +1250,9 @@
         }
       ],
       "emoji": "🍪",
-      "finalImages": [],
+      "finalImages": [
+        "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788309784820_mfalla.jpg"
+      ],
       "nutrition": {
         "calories": null,
         "protein": null,
