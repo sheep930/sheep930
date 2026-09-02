@@ -30,7 +30,7 @@
         }
         body.modal-open { position:fixed; width:100%; top:0; left:0; }
         .img-drag-over { outline:2px dashed var(--primary); outline-offset:2px; }
-        .app-container { max-width:1200px; margin:0 auto; padding:16px 16px 40px; position:relative; z-index:1; }
+        .app-container { max-width:1400px; margin:0 auto; padding:12px 10px 40px; position:relative; z-index:1; }
         .app-header { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; text-align:center; padding:12px 12px 6px; position:relative; gap:6px; }
         .app-header .header-left { display:flex; align-items:center; gap:6px; flex:1 1 auto; justify-content:center; }
         .app-header .logo-icon { font-size:32px; animation:float 3s ease-in-out infinite; filter:drop-shadow(0 4px 8px rgba(180,100,40,0.15)); flex-shrink:0; }
@@ -130,6 +130,8 @@
         .filter-bar input { flex:1; min-width:160px; max-width:280px; }
         .filter-bar .btn { flex-shrink:0; }
         .filter-bar .btn-sm { min-height:44px; padding:0 16px; height:44px; display:inline-flex; align-items:center; justify-content:center; font-size:0.9rem; }
+        .filter-bar .btn.active-filter { background:var(--primary); color:#fff; border-color:var(--primary); }
+        .filter-bar .btn.active-filter:hover { background:var(--primary-dark); color:#fff; }
         .recipe-filter-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; gap:6px; padding-bottom:4px; }
         .recipe-filter-bar input { flex:2; min-width:100px; max-width:none; font-size:0.9rem; }
         .recipe-filter-bar select { flex:1; min-width:80px; max-width:none; text-align:center; text-align-last:center; -webkit-text-align-last:center; font-size:0.9rem; }
@@ -158,6 +160,10 @@
         .modal h2 { font-family:var(--font-heading); color:var(--primary-dark); font-size:1.25rem; margin-bottom:14px; letter-spacing:0.02em; padding-right:30px; font-weight:700; }
         .modal .form-group { margin-bottom:14px; }
         .modal .form-group label { display:block; font-weight:600; font-size:0.85rem; color:var(--text-light); margin-bottom:4px; letter-spacing:0.02em; }
+        .req-star { color:var(--danger); font-weight:700; }
+        .no-spinner::-webkit-outer-spin-button,
+        .no-spinner::-webkit-inner-spin-button { -webkit-appearance:none; margin:0; }
+        .no-spinner { -moz-appearance:textfield; appearance:textfield; }
         .modal .form-group input, .modal .form-group select, .modal .form-group textarea { width:100%; padding:8px 12px; border-radius:var(--radius-sm); border:2px solid var(--border); font-size:16px; font-family:var(--font-body); background:#fefcf9; color:var(--text); transition:var(--transition); outline:none; resize:vertical; -webkit-appearance:none; appearance:none; height:40px; }
         .modal .form-group input:focus, .modal .form-group select:focus, .modal .form-group textarea:focus { border-color:var(--primary-light); box-shadow:0 0 0 3px rgba(200,117,61,0.07); }
         .modal .form-group input[readonly] { background:#f5f0eb; color:var(--text-muted); }
@@ -206,7 +212,7 @@
         .total-weight { font-weight:700; color:var(--text); }
         .toast-wrap { position:fixed; top:20px; top:calc(20px + var(--safe-top)); left:50%; transform:translateX(-50%); z-index:300; display:flex; flex-direction:column; gap:6px; align-items:center; pointer-events:none; max-width:90%; width:90%; }
         .toast { background:#3e2a1a; color:#fff; padding:12px 18px; border-radius:var(--radius); font-weight:500; font-size:0.85rem; box-shadow:0 8px 24px rgba(40,18,5,0.3); animation:toastIn 0.3s ease; pointer-events:auto; cursor:pointer; letter-spacing:0.02em; position:relative; display:flex; align-items:flex-start; gap:8px; width:100%; max-width:480px; line-height:1.5; text-align:left; border-left:4px solid #fff; }
-        .toast .toast-text { flex:1; word-break:break-word; }
+        .toast .toast-text { flex:1; word-break:break-word; white-space:pre-line; }
         .toast .toast-close { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; background:rgba(255,255,255,0.15); color:#fff; font-size:0.7rem; flex-shrink:0; margin-top:-1px; }
         .toast .toast-close:hover { background:rgba(255,255,255,0.3); }
         .toast.success { background:var(--success); border-left-color:#fff; }
@@ -289,6 +295,7 @@
         .ingredient-row .qty-input::-webkit-inner-spin-button { -webkit-appearance:none; margin:0; }
         .ingredient-row .unit-select { flex:0 0 56px; min-width:56px; max-width:56px; padding:0; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:14px; background:#fff; text-align:center; text-align-last:center; -webkit-text-align-last:center; height:36px; display:inline-flex; align-items:center; justify-content:center; box-sizing:border-box; font-family:var(--font-body); }
         .ingredient-row .row-btns { display:flex; gap:3px; flex-shrink:0; margin-left:4px; }
+        .ingredient-row .tag-input { flex:0 0 64px; min-width:56px; max-width:64px; padding:6px 6px; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:13px; background:#fff; height:36px; box-sizing:border-box; color:var(--text); }
         .ingredient-row .row-btns .btn-icon { width:28px; height:28px; border-radius:6px; font-size:0.7rem; padding:0; display:inline-flex; align-items:center; justify-content:center; border:1px solid var(--border); background:#fff; cursor:pointer; color:var(--text-muted); }
         .ingredient-row .row-btns .btn-icon.btn-delete { color:var(--danger); border-color:#f5d0c8; }
         .ingredient-row .row-btns .btn-icon:hover { background:#f5ece4; }
@@ -341,6 +348,7 @@
         .detail-ingredient-item .ing-left { display:flex; align-items:center; gap:6px; flex:1; min-width:0; }
         .detail-ingredient-item .ing-name { font-weight:500; color:var(--text); font-size:0.95rem; }
         .detail-ingredient-item .ing-sub { color:var(--text-muted); font-weight:400; font-size:0.75rem; }
+        .detail-ingredient-item .detail-tag { display:inline-block; padding:1px 8px; border-radius:10px; font-size:0.68rem; font-weight:600; background:var(--primary); color:#fff; flex-shrink:0; line-height:1.4; }
         .detail-ingredient-item .ing-right { display:flex; align-items:center; gap:8px; flex-shrink:0; }
         .detail-ingredient-item .ing-amount { font-weight:600; color:var(--text); font-variant-numeric:tabular-nums; min-width:40px; text-align:right; }
         .detail-ingredient-item .ing-stock { font-size:0.7rem; color:var(--text-muted); min-width:24px; }
@@ -404,6 +412,13 @@
         .rotate-btn { position:absolute; bottom:20px; right:20px; background:rgba(0,0,0,0.5); color:#fff; border:none; border-radius:50%; width:44px; height:44px; font-size:24px; display:flex; align-items:center; justify-content:center; cursor:pointer; z-index:25; margin-left:4px; }
         .rotate-left { right:70px; }
         .rotate-right { right:20px; }
+        .ios-preview-stage { position:relative; width:100%; height:100%; background:#000; overflow:hidden; touch-action:none; }
+        .ios-preview-track { position:absolute; inset:0; display:flex; align-items:center; will-change:transform; }
+        .ios-preview-slide { flex:0 0 100%; height:100%; display:flex; align-items:center; justify-content:center; box-sizing:border-box; padding:0 1.5px; }
+        .ios-preview-slide img { max-width:100%; max-height:100%; object-fit:contain; user-select:none; -webkit-user-drag:none; touch-action:none; transform-origin:center center; will-change:transform; }
+        .ios-preview-img { max-width:100%; max-height:100%; object-fit:contain; user-select:none; -webkit-user-drag:none; touch-action:none; transform-origin:center center; will-change:transform; }
+        .ios-preview-counter { position:absolute; top:12px; left:50%; transform:translateX(-50%); color:#fff; background:rgba(255,255,255,0.16); padding:2px 12px; border-radius:14px; font-size:13px; z-index:20; }
+        .ios-preview-close { position:absolute; top:12px; right:12px; width:32px; height:32px; border-radius:50%; background:rgba(255,255,255,0.16); color:#fff; border:none; font-size:16px; cursor:pointer; z-index:20; display:flex; align-items:center; justify-content:center; }
         .detail-recipe-name { font-size:2.0rem; font-weight:800; color:var(--primary-dark); text-align:left; margin-bottom:2px; line-height:1.3; font-family: Arial, 'Helvetica Neue', sans-serif; }
         .detail-recipe-name .detail-emoji { font-size:1.6rem; margin-right:4px; }
         .detail-recipe-desc { font-size:0.85rem; color:var(--text-muted); text-align:left; margin-bottom:8px; font-weight:400; }
@@ -581,6 +596,7 @@
         <section class="panel" id="panel-materials">
             <div class="filter-bar material-filter-bar">
                 <input type="text" id="materialSearch" placeholder="搜索商品或分类..." oninput="renderMaterials()">
+                <button class="btn btn-outline btn-sm" id="stockFilterBtn" onclick="toggleStockFilter()" style="height:44px;min-height:44px;">库存管理</button>
                 <button class="btn btn-outline btn-sm" onclick="openCategoryMgmtModal()" style="height:44px;min-height:44px;">分类管理</button>
             </div>
             <div class="material-table-wrap">
@@ -1208,6 +1224,21 @@
         }
         closeBtn.addEventListener('click', (e) => { e.stopPropagation(); dismiss(); });
         toast.addEventListener('click', (e) => { if (e.target === toast || e.target === textSpan) dismiss(); });
+        let _touchStartY = null;
+        toast.addEventListener('touchstart', (e) => { _touchStartY = e.touches[0].clientY; }, { passive: true });
+        toast.addEventListener('touchmove', (e) => {
+            if (_touchStartY === null) return;
+            const dy = e.touches[0].clientY - _touchStartY;
+            if (dy < 0) { toast.style.transform = 'translateY(' + dy + 'px)'; toast.style.transition = 'none'; }
+        }, { passive: true });
+        toast.addEventListener('touchend', (e) => {
+            if (_touchStartY === null) return;
+            const dy = e.changedTouches[0].clientY - _touchStartY;
+            _touchStartY = null;
+            toast.style.transition = 'transform 0.25s ease';
+            if (dy < -40) { dismiss(); }
+            else { toast.style.transform = ''; }
+        }, { passive: true });
         if (action && action.label) {
             const actionBtn = document.createElement('span');
             actionBtn.className = 'toast-action';
@@ -1218,9 +1249,10 @@
         }
         container.appendChild(toast);
         if (!persistent) {
-            let autoTimer = setTimeout(() => { dismiss(); }, 3200);
+            const TOAST_MS = 6000;
+            let autoTimer = setTimeout(() => { dismiss(); }, TOAST_MS);
             toast.addEventListener('mouseenter', () => { if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; } });
-            toast.addEventListener('mouseleave', () => { if (!autoTimer) { autoTimer = setTimeout(() => { dismiss(); }, 2000); } });
+            toast.addEventListener('mouseleave', () => { if (!autoTimer) { autoTimer = setTimeout(() => { dismiss(); }, TOAST_MS); } });
         }
     }
 
@@ -1409,7 +1441,7 @@
         if (!requireLogin()) return;
         const mgmtModal = document.querySelector('#modalOverlay .modal');
         if (mgmtModal) _mgmtModalScrollTop = mgmtModal.scrollTop;
-        const html = '<button class="close-btn" onclick="closeRenameCategoryModal(true)">✕</button><h2>重命名分类</h2><div class="form-group"><label>原名称</label><input type="text" value="' + oldName + '" disabled style="background:#f5f0eb;color:var(--text-muted);"></div><div class="form-group"><label>新名称 *</label><input type="text" id="renameCategoryInput" placeholder="请输入新名称" value="' + oldName + '" required></div><div class="modal-actions"><button class="btn btn-ghost" onclick="closeRenameCategoryModal(true)">取消</button><button class="btn btn-primary" onclick="confirmRenameCategory(\'' + oldName.replace(/'/g, "\\'") + '\')">确认重命名</button></div>';
+        const html = '<button class="close-btn" onclick="closeRenameCategoryModal(true)">✕</button><h2>重命名分类</h2><div class="form-group"><label>原名称</label><input type="text" value="' + oldName + '" disabled style="background:#f5f0eb;color:var(--text-muted);"></div><div class="form-group"><label>新名称 <span class="req-star">*</span></label><input type="text" id="renameCategoryInput" placeholder="请输入新名称" value="' + oldName + '" required></div><div class="modal-actions"><button class="btn btn-ghost" onclick="closeRenameCategoryModal(true)">取消</button><button class="btn btn-primary" onclick="confirmRenameCategory(\'' + oldName.replace(/'/g, "\\'") + '\')">确认重命名</button></div>';
         openModal(html, false, 'categoryRename');
         setTimeout(() => { const inp = document.getElementById('renameCategoryInput'); if (inp) { inp.focus(); inp.select(); } }, 300);
         window._renameOldName = oldName;
@@ -1696,7 +1728,7 @@
             '<h2>' + title + '</h2>' +
             '<form onsubmit="saveMaterial(event, ' + (isEdit ? '\'' + materialId + '\'' : 'null') + ')">' +
             '<div class="form-row keep-row">' +
-            '<div class="form-group"><label>商品名称 *</label><input type="text" id="matName" value="' + (material ? material.name : '') + '" required placeholder=" "></div>' +
+            '<div class="form-group"><label>商品名称 <span class="req-star">*</span></label><input type="text" id="matName" value="' + (material ? material.name : '') + '" required placeholder=" "></div>' +
             '<div class="form-group"><label>品牌</label><input type="text" id="matBrand" value="' + (material ? material.brand : '') + '" placeholder=" "></div>' +
             '</div>' +
             '<div class="form-group"><label>分类</label>' +
@@ -1901,6 +1933,7 @@
 
         if (!name) return showToast('请输入商品名称');
 
+        let savedMaterialId = null;
         if (editId) {
             const oldMat = findMaterialById(editId);
             if (oldMat) {
@@ -1908,21 +1941,29 @@
                 Object.assign(oldMat, { name, brand, category, specification, unit, price, packCount, totalQuantity: totalNum, amount, expiryDate, openingDate, nutrition });
                 oldMat.remainingQuantity = oldRemaining;
                 showToast('✅ 商品已更新', 'success');
+                savedMaterialId = editId;
             }
-            setLastSelectedCategory(category);
-            saveMaterialsAndSync();
-            clearMaterialDraft();
-            closeModal();
-            renderAllPreserveScroll();
         } else {
             const newId = genId('m');
             materials.push({ id: newId, name, brand, category, specification, unit, price, packCount, totalQuantity: totalNum, amount, expiryDate, openingDate, nutrition, remainingQuantity: totalNum });
             showToast('✅ 商品已添加', 'success');
-            setLastSelectedCategory(category);
-            saveMaterialsAndSync();
-            clearMaterialDraft();
+            savedMaterialId = newId;
+        }
+        setLastSelectedCategory(category);
+        saveMaterialsAndSync();
+        clearMaterialDraft();
+        renderAllPreserveScroll();
+        if (savedMaterialId) {
+            const detailHtml = generateMaterialDetailHTML(savedMaterialId);
+            if (detailHtml) {
+                replaceModalContent(detailHtml);
+                const modal = document.querySelector('#modalOverlay .modal');
+                if (modal) modal.scrollTop = 0;
+            } else {
+                closeModal();
+            }
+        } else {
             closeModal();
-            renderAllPreserveScroll();
         }
     };
     window.deleteMaterial = function(materialId) {
@@ -1989,10 +2030,10 @@
         return '<button class="close-btn" onclick="closeModal()">✕</button>' +
             '<h2>📦 商品详情</h2>' +
             '<div class="detail-field"><span class="label">名称</span><span class="value">' + escapeHtml(item.name) + '</span></div>' +
-            '<div class="detail-field"><span class="label">品牌</span><span class="value">' + escapeHtml(item.brand) || '—' + '</span></div>' +
+            '<div class="detail-field"><span class="label">品牌</span><span class="value">' + (item.brand ? escapeHtml(item.brand) : '—') + '</span></div>' +
             '<div class="detail-field"><span class="label">分类</span><span class="value">' + escapeHtml(item.category) + '</span></div>' +
-            '<div class="detail-field"><span class="label">规格</span><span class="value">' + escapeHtml(item.specification) || '—' + '</span></div>' +
-            '<div class="detail-field"><span class="label">单位</span><span class="value">' + escapeHtml(item.unit) || '—' + '</span></div>' +
+            '<div class="detail-field"><span class="label">规格</span><span class="value">' + (item.specification ? escapeHtml(item.specification) : '—') + '</span></div>' +
+            '<div class="detail-field"><span class="label">单位</span><span class="value">' + (item.unit ? escapeHtml(item.unit) : '—') + '</span></div>' +
             '<div class="detail-field"><span class="label">单价(元/件)</span><span class="value">' + priceDisplay + '</span></div>' +
             '<div class="detail-field"><span class="label">件数</span><span class="value">' + (item.packCount || 1) + '</span></div>' +
             '<div class="detail-field"><span class="label">总金额</span><span class="value">' + amountDisplay + '</span></div>' +
@@ -2094,6 +2135,7 @@
         return total;
     }
 
+    let materialStockFilter = 'all';   // 'all' | 'in-stock' | 'zero-stock'
     function renderMaterials() {
         const searchEl = document.getElementById('materialSearch');
         const searchTerm = ((searchEl && searchEl.value) || '').toLowerCase();
@@ -2104,6 +2146,11 @@
                 (m.brand && m.brand.toLowerCase().includes(searchTerm)) ||
                 (m.category && m.category.toLowerCase().includes(searchTerm))
             );
+        }
+        if (materialStockFilter === 'in-stock') {
+            filtered = filtered.filter(m => getItemRemaining(m) > 0);
+        } else if (materialStockFilter === 'zero-stock') {
+            filtered = filtered.filter(m => getItemRemaining(m) <= 0);
         }
         const tbody = document.getElementById('materialTableBody');
         const emptyEl = document.getElementById('materialEmpty');
@@ -2131,6 +2178,32 @@
     }
 
     let currentSort = { key: null, direction: 'none' };
+
+    // ---- 库存筛选（库存管理按钮 / 首页跳转） ----
+    function updateStockFilterButton() {
+        const btn = document.getElementById('stockFilterBtn');
+        if (!btn) return;
+        if (materialStockFilter === 'zero-stock') {
+            btn.classList.add('active-filter');
+        } else {
+            btn.classList.remove('active-filter');
+        }
+    }
+    window.toggleStockFilter = function() {
+        materialStockFilter = (materialStockFilter === 'zero-stock') ? 'all' : 'zero-stock';
+        updateStockFilterButton();
+        renderMaterials();
+    };
+    window.goToCanMakeRecipes = function() {
+        const filterEl = document.getElementById('recipeFilter');
+        if (filterEl) filterEl.value = 'can-make';
+        switchTab('recipes');
+    };
+    window.goToInStockMaterials = function() {
+        materialStockFilter = 'in-stock';
+        updateStockFilterButton();
+        switchTab('materials');
+    };
     function updateSortIndicators() {
         const icons = { name: document.getElementById('sortIcon-name'), category: document.getElementById('sortIcon-category'), stock: document.getElementById('sortIcon-stock') };
         Object.values(icons).forEach(el => { if (el) el.textContent = ''; });
@@ -2204,6 +2277,7 @@
                 return `<div class="ingredient-row" data-index="${i}">
                     <div style="display:flex;flex:2;gap:4px;align-items:center;">
                         <select class="cat-select" data-index="${i}" onchange="onCategoryChange(${i}, this.value)" style="flex:1;min-width:60px;"><option value="">-- 选择分类 --</option>${buildCategoryOptions(ing.category)}</select>
+                        <input type="text" class="tag-input" data-index="${i}" value="${escapeHtml(ing.tag || '')}" placeholder="标签" onchange="onIngredientTagChange(${i}, this.value)">
                     </div>
                     <input type="number" class="qty-input no-spinner" data-index="${i}" value="${ing.quantity}" min="0" step="0.1" placeholder="用量" inputmode="decimal" onchange="onQtyChange(${i}, this.value)">
                     <select class="unit-select" data-index="${i}" onchange="onUnitChange(${i}, this.value)">${buildUnitOptions(ing.unit)}</select>
@@ -2306,6 +2380,7 @@ window.renderIngredientRows = function() {
             return `<div class="ingredient-row" data-index="${i}">
                 <div style="display:flex;flex:2;gap:4px;align-items:center;">
                     <select class="cat-select" data-index="${i}" onchange="onCategoryChange(${i}, this.value)" style="flex:1;min-width:60px;"><option value="">-- 选择分类 --</option>${buildCategoryOptions(ing.category)}</select>
+                    <input type="text" class="tag-input" data-index="${i}" value="${escapeHtml(ing.tag || '')}" placeholder="标签" onchange="onIngredientTagChange(${i}, this.value)">
                 </div>
                 <input type="number" class="qty-input no-spinner" data-index="${i}" value="${ing.quantity}" min="0" step="0.1" placeholder="用量" inputmode="decimal" onchange="onQtyChange(${i}, this.value)">
                 <select class="unit-select" data-index="${i}" onchange="onUnitChange(${i}, this.value)">${buildUnitOptions(ing.unit)}</select>
@@ -2361,6 +2436,10 @@ window.onUnitChange = function(index, value) {
     if (index < 0 || index >= _editIngs.length) return;
     _editIngs[index].unit = value;
     autoCalcAndFillNutrition();
+};
+window.onIngredientTagChange = function(index, value) {
+    if (index < 0 || index >= _editIngs.length) return;
+    _editIngs[index].tag = (value || '').trim();
 };
 window.moveIngredient = function(index, direction) {
     const newIndex = index + direction;
@@ -2496,16 +2575,18 @@ window.renderStepEditItems = function() {
                 </div>
             </div>
             <div class="step-row-text"><textarea class="step-text-input" rows="1" placeholder="步骤${stepNum} 内容" oninput="autoResizeTextarea(this); _editSteps[${i}].text=this.value">${(step.text||'').replace(/"/g,'&quot;')}</textarea></div>
-            <div class="step-materials-select" style="margin-top:4px;"><div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:3px;">材料（勾选本步骤用到的）：</div><div style="display:flex;flex-wrap:wrap;gap:4px;">${_editIngs.map((ing, ingIdx) => {
-                if (ing.isNewCategory) return '';
-                const checked = stepMats.includes(ingIdx);
-                if (usedByOther.has(ingIdx) && !checked) return '';
-                const label = ing.category ? `${escapeHtml(ing.category)} ${ing.quantity}${ing.unit}` : `材料${ingIdx+1}`;
-                return `<label class="mat-label ${checked?'checked':''}" style="display:inline-flex;align-items:center;gap:3px;padding:3px 8px;border-radius:12px;font-size:0.75rem;cursor:pointer;border:1px solid var(--border);background:${checked?'var(--primary)':'var(--surface)'};color:${checked?'#fff':'var(--text-light)'};font-weight:${checked?'600':'400'};transition:var(--transition);">
-                    <input type="checkbox" ${checked?'checked':''} onchange="toggleStepMaterial(${i}, ${ingIdx}, this.checked)" style="display:none;">
-                    ${label}
-                </label>`;
-            }).join('')}</div></div>
+            <div class="step-materials-select" style="margin-top:4px;"><div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:3px;">材料（点击本步骤用到的，再次点击取消）：</div><div style="display:flex;flex-wrap:wrap;gap:4px;">${(() => {
+                const chips = [];
+                const stepSet = new Set(stepMats);
+                _editIngs.forEach((ing, ingIdx) => {
+                    if (ing.isNewCategory) return;
+                    const checked = stepSet.has(ingIdx);
+                    if (usedByOther.has(ingIdx) && !checked) return;
+                    const label = ing.category ? `${escapeHtml(ing.category)} ${ing.quantity}${ing.unit}` : `材料${ingIdx+1}`;
+                    chips.push(`<span class="mat-label ${checked?'checked':''}" style="display:inline-flex;align-items:center;gap:3px;padding:3px 10px;border-radius:12px;font-size:0.75rem;cursor:pointer;border:1px solid var(--border);background:${checked?'var(--primary)':'var(--surface)'};color:${checked?'#fff':'var(--text-light)'};font-weight:${checked?'600':'400'};transition:var(--transition);touch-action:manipulation;user-select:none;" onclick="toggleStepMaterial(${i}, ${ingIdx}, ${!checked})">${label}</span>`);
+                });
+                return chips.join('');
+            })()}</div></div>
             <div class="step-row-actions">
                 <div class="step-image-upload" ondragover="event.preventDefault(); this.classList.add('img-drag-over');" ondragleave="this.classList.remove('img-drag-over');" ondrop="event.preventDefault(); this.classList.remove('img-drag-over'); handleStepImageDrop(${i}, event);"><div class="step-images-grid" id="stepImagesGrid_${i}">${imagesHTML}${`<div class="step-img-placeholder" onclick="document.getElementById('stepImage_${i}').click()"><span class="plus-icon">+</span><span>添加图片</span></div>`}<input type="file" accept="image/*" id="stepImage_${i}" onchange="handleStepImageUpload(${i}, this)" multiple style="display:none;"></div></div>
                 <div class="step-timer-edit" style="margin-top:6px;"><label style="font-size:0.75rem;color:var(--text-muted);margin-right:4px;">⏱️ 计时（分钟）：</label><input type="number" class="step-timer-input" value="${step.timerMinutes||0}" min="0" step="1" style="width:60px;padding:4px 6px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:14px;height:30px;" onchange="syncStepTextsFromDOM();"></div>
@@ -2668,7 +2749,7 @@ window.openRecipeModal = function(recipeId) {
         <form onsubmit="saveRecipe(event, ${isEdit?'\''+recipeId+'\'':'null'})">
             <div class="form-group icon-name-row" style="display:flex;gap:12px;align-items:flex-end;">
                 <div style="flex:0 0 auto;min-width:50px;"><label>图标</label><select id="recipeEmoji" style="height:44px;">${emojiSelectHTML}</select></div>
-                <div style="flex:1;"><label>配方名称 *</label><input type="text" id="recipeName" value="${recipe?recipe.name:''}" required placeholder=" " style="height:44px;font-family:Arial, sans-serif;"></div>
+                <div style="flex:1;"><label>配方名称 <span class="req-star">*</span></label><input type="text" id="recipeName" value="${recipe?recipe.name:''}" required placeholder=" " style="height:44px;font-family:Arial, sans-serif;"></div>
             </div>
             <div class="form-group"><label>简介描述</label><input type="text" id="recipeDesc" value="${recipe?recipe.description:''}" placeholder="简短描述这个配方..." style="height:40px;"></div>
             <div class="form-group"><label>营养成分表（每100g）</label><div id="nutritionPer100Preview"></div></div>
@@ -2788,8 +2869,8 @@ window.saveRecipe = async function(event, editId) {
     clearRecipeDraft();
     renderAllPreserveScroll();
     closeModal();
-    showToast('✅ 配方已保存到本地，图片正在后台上传', 'success');
-    if (editId) setTimeout(() => viewRecipeDetail(editId, true), 50);
+    showToast('✅ 配方已保存，图片正在上传', 'success');
+    setTimeout(() => viewRecipeDetail(savedId, false), 80);
 
     // ③ 后台图片上传（登录时转存 CDN），完成后重新保存并同步
     uploadRecipeImagesToRemote(savedId);
@@ -2830,13 +2911,14 @@ window.previewStepImage = function(stepIndex, imgIndex) {
 
 function renderStepMaterials(stepMats, recipe) {
     if (!stepMats || stepMats.length === 0) return '';
-    return stepMats.map(idx => {
-        const ing = recipe.ingredients[idx];
-        if (!ing) return '';
+    const stepSet = new Set(stepMats);
+    const ings = recipe.ingredients || [];
+    return ings.map((ing, idx) => {
+        if (!stepSet.has(idx)) return '';
         const displayQty = ing.quantity * _detailServings;
         const cat = ing.category;
         return `<span class="step-materials-display" data-cat="${escapeHtml(cat)}" onclick="toggleStepMaterialCompleted(this)">${escapeHtml(cat)} ${displayQty}${ing.unit}</span>`;
-    }).join(' ');
+    }).filter(Boolean).join(' ');
 }
 
 window.toggleStepMaterialCompleted = function(el) { el.classList.toggle('completed'); };
@@ -2940,7 +3022,8 @@ async function generateRecipeDetailHTML(recipeId) {
         const displayAmount = d.quantity * _detailServings;
         const itemCount = d.items.length;
         const btnDisabled = itemCount === 0 || d.available < d.quantity;
-        return `<div class="detail-ingredient-item" data-cat="${escapeHtml(d.category)}"><div class="ing-left"><span class="ing-name">${escapeHtml(d.category)}</span>${itemCount > 0 ? `<span class="ing-sub">(${itemCount}种商品)</span>` : '<span class="ing-sub" style="color:var(--text-muted);">无库存</span>'}</div><div class="ing-right"><span class="ing-amount">${displayAmount}</span><span class="ing-stock">${escapeHtml(d.unit)}</span><button class="btn-use" onclick="useMaterialByCategory('${recipe.id}','${escapeHtml(d.category)}',${d.quantity},'${d.unit}',${_detailServings})" ${btnDisabled ? 'disabled' : ''}>使用</button></div></div>`;
+        const tagHTML = d.tag ? `<span class="detail-tag">${escapeHtml(d.tag)}</span>` : '';
+        return `<div class="detail-ingredient-item" data-cat="${escapeHtml(d.category)}"><div class="ing-left"><span class="ing-name">${escapeHtml(d.category)}</span>${tagHTML}${itemCount > 0 ? `<span class="ing-sub">(${itemCount}种商品)</span>` : '<span class="ing-sub" style="color:var(--text-muted);">无库存</span>'}</div><div class="ing-right"><span class="ing-amount">${displayAmount}</span><span class="ing-stock">${escapeHtml(d.unit)}</span><button class="btn-use" onclick="useMaterialByCategory('${recipe.id}','${escapeHtml(d.category)}',${d.quantity},'${d.unit}',${_detailServings})" ${btnDisabled ? 'disabled' : ''}>使用</button></div></div>`;
     }).join('');
 
     const stepsCardsHTML = recipe.steps.map((s, i) => {
@@ -3022,19 +3105,27 @@ async function generateRecipeDetailHTML(recipeId) {
 window.viewRecipeDetail = async function(recipeId, keepPosition) {
     const recipe = recipes.find(r => r.id === recipeId);
     if (!recipe) return;
-    if (keepPosition) {
+    const inPlace = window._detailInPlace === true;
+    window._detailInPlace = false;
+    if (keepPosition && !inPlace) {
         const oldModal = document.querySelector('#modalOverlay .modal');
         if (oldModal) _detailModalScrollTop = oldModal.scrollTop;
     }
     _detailRecipeId = recipeId;
     _detailServings = keepPosition ? _detailServings : 1;
     const html = await generateRecipeDetailHTML(recipeId);
-    openModal(html, false, 'recipeDetail_' + recipeId);
-    if (keepPosition && _detailModalScrollTop) {
-        setTimeout(() => {
-            const modal = document.querySelector('#modalOverlay .modal');
-            if (modal) modal.scrollTop = _detailModalScrollTop;
-        }, 60);
+    if (inPlace) {
+        replaceModalContent(html);
+        const modal = document.querySelector('#modalOverlay .modal');
+        if (modal) modal.scrollTop = 0;
+    } else {
+        openModal(html, false, 'recipeDetail_' + recipeId);
+        if (keepPosition && _detailModalScrollTop) {
+            setTimeout(() => {
+                const modal = document.querySelector('#modalOverlay .modal');
+                if (modal) modal.scrollTop = _detailModalScrollTop;
+            }, 60);
+        }
     }
     setTimeout(async () => {
         recipe.steps.forEach((s, i) => {
@@ -3055,7 +3146,7 @@ window.viewRecipeDetail = async function(recipeId, keepPosition) {
             for (let i = 0; i < recipe.finalImages.length; i++) {
                 const url = await resolveImageUrl(recipe.finalImages[i]);
                 const label = recipe.finalImages.length > 1 ? `${i+1}/${recipe.finalImages.length}` : '';
-                imgsHtml += `<div class="detail-thumb-item" onclick="previewFullImageByRecipe('${recipe.id}', ${i}, true)"><img src="${url}" loading="lazy">${label ? `<span class="thumb-counter">${label}</span>` : ''}<div class="thumb-overlay"><span>🔍</span></div></div>`;
+                imgsHtml += `<div class="detail-thumb-item" onclick="previewFullImageByRecipe('${recipe.id}', ${i}, true)"><img src="${url}" loading="lazy">${label ? `<span class="thumb-counter">${label}</span>` : ''}</div>`;
             }
             finalContainer.innerHTML = imgsHtml;
         }
@@ -3116,6 +3207,7 @@ window.updateServings = function(val) {
 
 // ---- 使用材料（分类） ----
 let _multiSelectState = null;
+let _selectModalKey = null;
 
 window.useMaterialByCategory = function(recipeId, category, quantity, unit, servings) {
     if (!requireLogin()) return;
@@ -3136,113 +3228,264 @@ window.useMaterialByCategory = function(recipeId, category, quantity, unit, serv
         const msg = actualUse < need ? '✅ 使用了 ' + actualUse + ' ' + unit + ' 的「' + item.name + '」（库存不足，已全部使用）' : '✅ 使用了 ' + actualUse + ' ' + unit + ' 的「' + item.name + '」';
         showToast(msg, 'success');
         renderAllPreserveScroll();
+        window._detailInPlace = true;
         if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 100);
         return;
     }
-    _multiSelectState = { category, remainingNeed: need, unit, recipeId, excludeIds: [], recipeName: '', batchId: 'b' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6) };
-    showMultiSelectForRemaining(true);
+    _multiSelectState = { category, remainingNeed: need, unit, recipeId, excludeIds: [], recipeName: '' };
+    _selectModalKey = null;
+    showMultiSelectForRemaining();
 };
 
-function showMultiSelectForRemaining(isFirst) {
-    if (!_multiSelectState) return;
-    const { category, remainingNeed, unit, recipeId, excludeIds, batchId } = _multiSelectState;
-    const items = materials.filter(m => m.category === category && !excludeIds.includes(m.id) && getItemRemaining(m) > 0);
-    if (items.length === 0) {
-        showToast('没有更多可用库存', 'error');
-        _multiSelectState = null;
-        return;
+// 选择弹窗辅助：首次用 openModal，同 key 后续用 replaceModalContent 避免栈增长
+function openSelectModal(html, key) {
+    const overlay = document.getElementById('modalOverlay');
+    const modal = overlay.querySelector('.modal');
+    if (_selectModalKey === key && modal) {
+        modal.innerHTML = html;
+        modal.scrollTop = 0;
+    } else {
+        openModal(html, false, key);
+        _selectModalKey = key;
     }
-    const recipe = recipes.find(r => r.id === recipeId);
-    const recipeName = recipe ? recipe.name : '直接使用';
-    _multiSelectState.recipeName = recipeName;
-
-    let html = `<button class="close-btn" onclick="closeMultiSelect()">✕</button><h2>选择使用材料</h2>
-        <p style="margin-bottom:10px;">分类：${escapeHtml(category)}，还需 ${remainingNeed} ${unit}，请选择要使用的商品（可多选）：</p>
-        <div style="max-height:300px;overflow-y:auto;">`;
-    items.forEach(item => {
-        const rem = getItemRemaining(item);
-        const remInTarget = convertToUnit(rem, item.unit, unit, item.name);
-        const checked = remInTarget > 0 ? '' : 'disabled';
-        html += `<div style="display:flex;align-items:center;padding:6px 0;border-bottom:1px solid var(--border-light);gap:8px;">
-            <input type="checkbox" class="multi-select-item" value="${item.id}" data-rem="${remInTarget}" ${checked}>
-            <span style="flex:1;">${escapeHtml(item.name)} (剩余 ${rem} ${item.unit})</span>
-            <span style="font-weight:600;">${remInTarget.toFixed(2)} ${unit}</span>
-        </div>`;
-    });
-    html += `</div>
-        <div class="modal-actions">
-            <button class="btn btn-ghost" onclick="closeMultiSelect()">取消</button>
-            <button class="btn btn-primary" onclick="confirmMultiSelect()">使用选中</button>
-        </div>`;
-    openModal(html, false, 'multiSelect');
+}
+function closeSelectModal() {
+    if (_selectModalKey) {
+        _selectModalKey = null;
+        closeModal();
+    }
 }
 
-window.closeMultiSelect = function() {
-    _multiSelectState = null;
-    closeModal();
-};
-
-window.confirmMultiSelect = function() {
+function showMultiSelectForRemaining() {
     if (!_multiSelectState) return;
-    const { category, remainingNeed, unit, recipeId, excludeIds, recipeName, batchId } = _multiSelectState;
-    const checkboxes = document.querySelectorAll('.multi-select-item:checked');
-    if (checkboxes.length === 0) { showToast('请至少选择一个商品', 'error'); return; }
-    let totalUsed = 0;
-    const usedItems = [];
-    checkboxes.forEach(cb => {
-        const id = cb.value;
-        const item = findMaterialById(id);
-        if (!item) return;
+    const s = _multiSelectState;
+    const need = s.remainingNeed;
+    if (need <= 0) {
+        showToast('✅「' + s.category + '」已使用完毕', 'success');
+        _multiSelectState = null;
+        closeSelectModal();
+        renderAllPreserveScroll();
+        window._detailInPlace = true;
+        if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 100);
+        return;
+    }
+    const items = materials.filter(m => m.category === s.category);
+    const available = items.filter(item => getItemRemaining(item) > 0 && !s.excludeIds.includes(item.id));
+    if (available.length === 0) {
+        showToast('⚠️「' + s.category + '」已无可选商品，还差 ' + need + s.unit, 'error');
+        _multiSelectState = null;
+        closeSelectModal();
+        renderAllPreserveScroll();
+        window._detailInPlace = true;
+        if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 100);
+        return;
+    }
+    if (available.length === 1) {
+        const item = available[0];
+        const remaining = getItemRemaining(item);
+        const remainingInTarget = convertToUnit(remaining, item.unit, s.unit, item.name);
+        if (remainingInTarget <= 0) { s.excludeIds.push(item.id); showMultiSelectForRemaining(); return; }
+        const actualUse = Math.min(s.remainingNeed, remainingInTarget);
+        const actualUseOriginal = convertToUnit(actualUse, s.unit, item.unit, item.name);
+        const recipe = recipes.find(r => r.id === s.recipeId);
+        const recipeName = recipe ? recipe.name : '直接使用';
+        addUsageLog(item.id, actualUseOriginal, item.unit, recipeName, s.recipeId);
+        s.remainingNeed -= actualUse;
+        s.excludeIds.push(item.id);
+        if (s.remainingNeed > 0) {
+            showToast('✅ 使用了 ' + actualUse + s.unit + '「' + item.name + '」，还差 ' + s.remainingNeed + s.unit, 'success');
+            showMultiSelectForRemaining();
+        } else {
+            showToast('✅ 使用了 ' + actualUse + s.unit + '「' + item.name + '」', 'success');
+            _multiSelectState = null;
+            closeSelectModal();
+            renderAllPreserveScroll();
+            window._detailInPlace = true;
+        if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 100);
+        }
+        return;
+    }
+    let usedText = (s.excludeIds.length > 0) ? '<br><span style="color:var(--text-muted);font-size:0.9rem;">已选商品扣减后，还需 <strong>' + need + ' ' + s.unit + '</strong></span>' : '';
+    let html = '<button class="close-btn" onclick="closeMultiSelectRemaining()">✕</button><h2>选择商品</h2><div style="margin-bottom:12px;font-size:0.9rem;color:var(--text-light);line-height:1.6;">需要 <strong>' + need + ' ' + s.unit + '</strong> 的 <strong>' + escapeHtml(s.category) + '</strong>，请选择使用哪个商品：' + usedText + '</div><div style="max-height:400px;overflow-y:auto;">';
+    available.forEach(item => {
         const rem = getItemRemaining(item);
-        const remInTarget = convertToUnit(rem, item.unit, unit, item.name);
-        const use = Math.min(remInTarget, remainingNeed - totalUsed);
-        if (use <= 0) return;
-        const useOriginal = convertToUnit(use, unit, item.unit, item.name);
-        usedItems.push({ id, useOriginal, unit: item.unit });
-        totalUsed += use;
+        const remInTarget = convertToUnit(rem, item.unit, s.unit, item.name);
+        const canUse = remInTarget >= need;
+        html += '<div class="item-select-card" style="background:var(--surface-alt);border:2px solid var(--border);border-radius:var(--radius-sm);padding:12px 14px;margin:6px 0;cursor:pointer;transition:var(--transition);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;" onclick="selectItemForRemaining(\'' + item.id + '\')">' +
+            '<div class="item-info"><span class="item-name">' + escapeHtml(item.name) + (item.brand ? ' · ' + escapeHtml(item.brand) : '') + '</span></div>' +
+            '<div class="item-stock">剩余 ' + rem + ' ' + item.unit + '</div>' +
+            (canUse ? '<span class="item-badge" style="background:var(--success);color:#fff;padding:2px 8px;border-radius:12px;font-size:0.6rem;font-weight:600;">可用</span>' : '<span class="item-badge" style="background:#b87820;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.6rem;font-weight:600;">部分</span>') +
+            '</div>';
     });
-    if (totalUsed === 0) { showToast('所选商品无可使用数量', 'error'); return; }
-    usedItems.forEach(({ id, useOriginal, unit }) => {
-        addUsageLog(id, useOriginal, unit, recipeName, recipeId, batchId);
-    });
-    const msg = totalUsed < remainingNeed ? `✅ 已使用 ${totalUsed.toFixed(2)} ${unit}（部分满足，剩余 ${(remainingNeed - totalUsed).toFixed(2)} ${unit}）` : `✅ 已使用 ${totalUsed.toFixed(2)} ${unit}`;
-    showToast(msg, 'success');
-    closeModal();
-    _multiSelectState = null;
-    renderAllPreserveScroll();
-    if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 100);
+    html += '</div><div class="modal-actions"><button class="btn btn-ghost" onclick="finishMultiSelectRemaining()">完成选择</button></div>';
+    openSelectModal(html, 'multiSelect');
+}
+
+window.selectItemForRemaining = function(itemId) {
+    if (!_multiSelectState) return;
+    const s = _multiSelectState;
+    const item = findMaterialById(itemId);
+    if (!item) { showToast('商品不存在', 'error'); return; }
+    const remaining = getItemRemaining(item);
+    if (remaining <= 0) { showToast('⚠️ 该商品已无库存', 'error'); return; }
+    const remainingInTarget = convertToUnit(remaining, item.unit, s.unit, item.name);
+    if (remainingInTarget <= 0) { showToast('该商品无可用库存', 'error'); return; }
+    const actualUse = Math.min(s.remainingNeed, remainingInTarget);
+    const actualUseOriginal = convertToUnit(actualUse, s.unit, item.unit, item.name);
+    const recipe = recipes.find(r => r.id === s.recipeId);
+    const recipeName = recipe ? recipe.name : '直接使用';
+    addUsageLog(item.id, actualUseOriginal, item.unit, recipeName, s.recipeId);
+    s.remainingNeed -= actualUse;
+    s.excludeIds.push(item.id);
+    if (s.remainingNeed <= 0) {
+        showToast('✅ 使用了 ' + actualUse + s.unit + '「' + item.name + '」', 'success');
+        _multiSelectState = null;
+        closeSelectModal();
+        renderAllPreserveScroll();
+        window._detailInPlace = true;
+        if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 50);
+    } else {
+        showToast('✅ 使用了 ' + actualUse + s.unit + '「' + item.name + '」，还差 ' + s.remainingNeed + s.unit, 'success');
+        showMultiSelectForRemaining();
+    }
 };
 
-// ---- 全部使用 ----
+window.closeMultiSelectRemaining = function() {
+    if (_multiSelectState && _multiSelectState.remainingNeed > 0) showToast('⚠️ 已取消选择，还差 ' + _multiSelectState.remainingNeed + _multiSelectState.unit + '未使用', 'error');
+    _multiSelectState = null;
+    closeSelectModal();
+    renderAllPreserveScroll();
+    if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 50);
+};
+
+window.finishMultiSelectRemaining = function() {
+    if (_multiSelectState && _multiSelectState.remainingNeed > 0) showToast('⚠️ 完成选择，还差 ' + _multiSelectState.remainingNeed + _multiSelectState.unit + '未使用', 'error');
+    _multiSelectState = null;
+    closeSelectModal();
+    renderAllPreserveScroll();
+    if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 50);
+};
+
+// ---- 全部使用（多商品选择） ----
+let _allUseQueue = [], _allUseResults = [], _allUseSkipped = [], _allUseRecipeId = null, _allUseRecipeName = '';
+
 window.useAllMaterialsByCategory = function(recipeId) {
     if (!requireLogin()) return;
     const recipe = recipes.find(r => r.id === recipeId);
     if (!recipe) return;
-    showConfirm('确定要使用所有材料吗？将根据库存逐一扣减。', () => {
-        let allOk = true;
-        const batchId = 'b' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+    showConfirm('确定要使用所有材料吗？多商品将逐个选择。', () => {
+        _allUseQueue = []; _allUseResults = []; _allUseSkipped = []; _allUseRecipeId = recipeId; _allUseRecipeName = recipe.name;
+        _selectModalKey = null;
         for (const ing of recipe.ingredients) {
-            const need = ing.quantity;
-            const items = materials.filter(m => m.category === ing.category && getItemRemaining(m) > 0);
-            let remainingNeed = need;
-            for (const item of items) {
-                if (remainingNeed <= 0) break;
+            const items = materials.filter(m => m.category === ing.category);
+            const available = items.filter(item => getItemRemaining(item) > 0);
+            if (available.length === 0) { _allUseSkipped.push(ing.category); continue; }
+            let totalAvail = 0;
+            for (const item of available) totalAvail += convertToUnit(getItemRemaining(item), item.unit, ing.unit, item.name);
+            if (totalAvail <= 0) { _allUseSkipped.push(ing.category); continue; }
+            if (available.length === 1) {
+                const item = available[0];
+                const need = ing.quantity;
                 const rem = getItemRemaining(item);
                 const remInTarget = convertToUnit(rem, item.unit, ing.unit, item.name);
-                if (remInTarget <= 0) continue;
-                const use = Math.min(remInTarget, remainingNeed);
-                const useOriginal = convertToUnit(use, ing.unit, item.unit, item.name);
-                addUsageLog(item.id, useOriginal, item.unit, recipe.name, recipeId, batchId);
-                remainingNeed -= use;
+                const actualUse = Math.min(need, remInTarget);
+                const actualUseOriginal = convertToUnit(actualUse, ing.unit, item.unit, item.name);
+                _allUseResults.push({ id: item.id, name: item.name, usedOriginal: actualUseOriginal, unitOriginal: item.unit, used: actualUse, need: need, unit: ing.unit, amt: actualUse * getUnitPrice(item) });
+            } else {
+                _allUseQueue.push({ category: ing.category, available, need: ing.quantity, unit: ing.unit, excludeIds: [] });
             }
-            if (remainingNeed > 0) allOk = false;
         }
-        const msg = allOk ? '✅ 所有材料已使用完毕' : '⚠️ 部分材料库存不足，已使用现有库存';
-        showToast(msg, allOk ? 'success' : 'error');
-        renderAllPreserveScroll();
-        if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 100);
+        if (_allUseQueue.length === 0) { finishAllUse(); return; }
+        showNextMultiSelect();
     }, () => {});
 };
+
+function showNextMultiSelect() {
+    if (_allUseQueue.length === 0) { finishAllUse(); return; }
+    const task = _allUseQueue[0];
+    const available = task.available.filter(it => getItemRemaining(it) > 0 && !task.excludeIds.includes(it.id));
+    if (available.length === 0) { if (task.need > 0) _allUseSkipped.push(task.category + '(差' + task.need + task.unit + ')'); _allUseQueue.shift(); showNextMultiSelect(); return; }
+    task.available = available;
+    const remaining = _allUseQueue.length;
+    const usedCount = _allUseResults.length;
+    let headerMsg = '需要 <strong>' + task.need + ' ' + task.unit + '</strong> 的 <strong>' + escapeHtml(task.category) + '</strong>，请选择使用哪个商品';
+    if (task.excludeIds.length > 0) headerMsg += '<br><span style="font-size:0.9rem;color:var(--text-muted);">已选商品扣减后，还需 <strong>' + task.need + ' ' + task.unit + '</strong></span>';
+    if (remaining > 1) headerMsg += '<br><span style="font-size:0.9rem;color:var(--text-muted);">（选完本分类后还有 ' + (remaining - 1) + ' 种材料需要选择）</span>';
+    let html = '<button class="close-btn" onclick="skipMultiSelect()">✕</button><h2>选择商品<span style="font-family:Arial, \'Helvetica Neue\', sans-serif;">（' + (usedCount + 1) + '/' + (usedCount + _allUseQueue.length) + '）</span></h2><div style="margin-bottom:12px;font-size:0.9rem;color:var(--text-light);line-height:1.6;">' + headerMsg + '</div><div style="max-height:400px;overflow-y:auto;">';
+    available.forEach(item => {
+        const rem = getItemRemaining(item);
+        const remInTarget = convertToUnit(rem, item.unit, task.unit, item.name);
+        const canUse = remInTarget >= task.need;
+        html += '<div class="item-select-card" style="background:var(--surface-alt);border:2px solid var(--border);border-radius:var(--radius-sm);padding:12px 14px;margin:6px 0;cursor:pointer;transition:var(--transition);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;" onclick="confirmMultiSelectItem(\'' + item.id + '\')">' +
+            '<div class="item-info"><span class="item-name">' + escapeHtml(item.name) + (item.brand ? ' · ' + escapeHtml(item.brand) : '') + '</span></div>' +
+            '<div class="item-stock">剩余 ' + rem + ' ' + item.unit + '</div>' +
+            (canUse ? '<span class="item-badge" style="background:var(--success);color:#fff;padding:2px 8px;border-radius:12px;font-size:0.6rem;font-weight:600;">可用</span>' : '<span class="item-badge" style="background:#b87820;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.6rem;font-weight:600;">部分</span>') +
+            '</div>';
+    });
+    html += '</div><div class="modal-actions"><button class="btn btn-ghost" onclick="skipMultiSelect()">跳过此项</button><button class="btn btn-ghost" onclick="cancelAllUse()">取消全部</button></div>';
+    openSelectModal(html, 'multiSelectAll');
+}
+
+window.confirmMultiSelectItem = function(itemId) {
+    const task = _allUseQueue[0];
+    if (!task) return;
+    const item = findMaterialById(itemId);
+    if (!item) { showToast('商品不存在', 'error'); return; }
+    const remaining = getItemRemaining(item);
+    if (remaining <= 0) { showToast('⚠️ 该商品已无库存', 'error'); return; }
+    const remInTarget = convertToUnit(remaining, item.unit, task.unit, item.name);
+    if (remInTarget <= 0) { showToast('该商品无可用库存', 'error'); return; }
+    const actualUse = Math.min(task.need, remInTarget);
+    const actualUseOriginal = convertToUnit(actualUse, task.unit, item.unit, item.name);
+    _allUseResults.push({ id: item.id, name: item.name, usedOriginal: actualUseOriginal, unitOriginal: item.unit, used: actualUse, need: task.need, unit: task.unit, amt: actualUse * getUnitPrice(item) });
+    task.need -= actualUse;
+    task.excludeIds.push(item.id);
+    if (task.need > 0) {
+        const stillAvailable = task.available.filter(it => getItemRemaining(it) > 0 && !task.excludeIds.includes(it.id));
+        if (stillAvailable.length === 0) { _allUseSkipped.push(task.category + '(差' + task.need + task.unit + ')'); _allUseQueue.shift(); }
+        else { task.available = stillAvailable; showToast('✅ 使用了 ' + actualUse + task.unit + '「' + item.name + '」，还差 ' + task.need + task.unit, 'success'); showNextMultiSelect(); return; }
+    } else {
+        _allUseQueue.shift();
+    }
+    showNextMultiSelect();
+};
+
+window.skipMultiSelect = function() {
+    if (_allUseQueue.length > 0) { _allUseSkipped.push(_allUseQueue[0].category); _allUseQueue.shift(); }
+    showNextMultiSelect();
+};
+
+window.cancelAllUse = function() {
+    _allUseQueue = []; _allUseResults = []; _allUseSkipped = [];
+    closeSelectModal();
+    renderAllPreserveScroll();
+    showToast('已取消全部使用', '');
+    window._detailInPlace = true;
+    if (_detailRecipeId) setTimeout(() => viewRecipeDetail(_detailRecipeId, true), 60);
+};
+
+function finishAllUse() {
+    const plan = _allUseResults;
+    if (plan.length === 0) {
+        _allUseQueue = []; _allUseResults = []; _allUseSkipped = [];
+        closeSelectModal();
+        renderAllPreserveScroll();
+        showToast('❌ 所有材料均无库存', 'error');
+        return;
+    }
+    plan.forEach(u => { addUsageLog(u.id, u.usedOriginal, u.unitOriginal, _allUseRecipeName, _allUseRecipeId); });
+    let totalAmount = plan.reduce((s, u) => s + u.amt, 0);
+    let detailMsg = plan.map(u => '· ' + u.name + ' ' + u.used + u.unit + (u.used < u.need ? '(仅剩)' : '') + ' ¥' + u.amt.toFixed(2)).join('\n');
+    let toastMsg = '✅ 已使用 ' + plan.length + ' 种材料，总金额 ¥' + totalAmount.toFixed(2);
+    if (_allUseSkipped.length > 0) toastMsg += '\n已跳过：' + _allUseSkipped.join('、');
+    toastMsg += '\n明细：\n' + detailMsg;
+    showToast(toastMsg, 'success');
+    closeSelectModal();
+    renderAllPreserveScroll();
+    window._detailInPlace = true;
+    if (_allUseRecipeId) setTimeout(() => viewRecipeDetail(_allUseRecipeId, true), 80);
+    _allUseQueue = []; _allUseResults = []; _allUseSkipped = [];
+}
 
 // ---- 预览成品图（在详情中） ----
 window.previewFullImageByRecipe = function(recipeId, index, keepPosition) {
@@ -3275,11 +3518,6 @@ function clearRecipeDraft() {
     if (_editingRecipeId) localStorage.removeItem('draft_recipe_' + _editingRecipeId);
     else localStorage.removeItem('draft_recipe_new');
 }
-
-// ---- 全屏步骤制作（跳转到详情） ----
-window.showFullscreenStepsById = function(recipeId) {
-    viewRecipeDetail(recipeId, false);
-};
 
 // ---- 删除配方 ----
 window.deleteRecipe = function(recipeId) {
@@ -3321,7 +3559,7 @@ window.deleteRecipe = function(recipeId) {
 
         grid.innerHTML = filtered.map(r => {
             const canMake = canMakeRecipe(r);
-            const statusText = canMake ? '✅ 可制作' : '❌ 材料不足';
+            const statusText = canMake ? '✅ 可制作' : '材料不足';
             const statusClass = canMake ? 'can-make' : 'cannot-make';
             const ingCount = r.ingredients ? r.ingredients.length : 0;
             const stepCount = r.steps ? r.steps.length : 0;
@@ -3343,6 +3581,7 @@ window.deleteRecipe = function(recipeId) {
                 nutHTML +
                 '<div class="recipe-actions">' +
                 '<button class="btn btn-primary btn-xs" onclick="event.stopPropagation(); viewRecipeDetail(\'' + r.id + '\', false)">查看</button>' +
+                '<button class="btn btn-success btn-xs" onclick="event.stopPropagation(); showFullscreenStepsById(\'' + r.id + '\')">制作</button>' +
                 '<button class="btn btn-outline btn-xs" onclick="event.stopPropagation(); openRecipeModal(\'' + r.id + '\')">编辑</button>' +
                 '<button class="btn btn-xs btn-delete" onclick="event.stopPropagation(); deleteRecipe(\'' + r.id + '\')" style="background:transparent;border:1px solid var(--danger);color:var(--danger);">删除</button>' +
                 '</div></div>';
@@ -3435,7 +3674,7 @@ window.deleteRecipe = function(recipeId) {
             <form onsubmit="saveRecipe(event, ${isEdit?'\''+recipeId+'\'':'null'})">
                 <div class="form-group icon-name-row" style="display:flex;gap:12px;align-items:flex-end;">
                     <div style="flex:0 0 auto;min-width:50px;"><label>图标</label><select id="recipeEmoji" style="height:44px;">${emojiSelectHTML}</select></div>
-                    <div style="flex:1;"><label>配方名称 *</label><input type="text" id="recipeName" value="${recipe?recipe.name:''}" required placeholder=" " style="height:44px;font-family:Arial, sans-serif;"></div>
+                    <div style="flex:1;"><label>配方名称 <span class="req-star">*</span></label><input type="text" id="recipeName" value="${recipe?recipe.name:''}" required placeholder=" " style="height:44px;font-family:Arial, sans-serif;"></div>
                 </div>
                 <div class="form-group"><label>简介描述</label><input type="text" id="recipeDesc" value="${recipe?recipe.description:''}" placeholder="简短描述这个配方..." style="height:40px;"></div>
                 <div class="form-group"><label>营养成分表（每100g）</label><div id="nutritionPer100Preview"></div></div>
@@ -3510,6 +3749,29 @@ window.deleteRecipe = function(recipeId) {
         renderLogs();
     };
 
+    let _draggingLog = null;
+    window.startLogDrag = function(event, materialId, timestamp) {
+        _draggingLog = { materialId, timestamp };
+        if (event && event.dataTransfer) {
+            event.dataTransfer.setData('text/plain', materialId + '|' + timestamp);
+            event.dataTransfer.effectAllowed = 'move';
+        }
+    };
+    window.dropLogToGroup = function(event, gi) {
+        event.preventDefault();
+        if (!_draggingLog) return;
+        const groups = window._logGroups || [];
+        const target = groups[gi];
+        if (!target) { _draggingLog = null; return; }
+        const log = usageLogs.find(u => u.materialId === _draggingLog.materialId && u.timestamp === _draggingLog.timestamp);
+        _draggingLog = null;
+        if (!log) return;
+        if ((log.recipeName || '直接使用') === target.recipeName) return;
+        log.recipeName = target.recipeName;
+        saveUsageLogsAndSync();
+        renderLogs();
+    };
+
     function renderLogs() {
         const container = document.getElementById('logsList');
         if (!container) return;
@@ -3543,36 +3805,42 @@ window.deleteRecipe = function(recipeId) {
                 if (!recipeGroups.has(rn)) recipeGroups.set(rn, []);
                 recipeGroups.get(rn).push(log);
             });
-            const SIX_HOURS = 6 * 3600 * 1000;
+            const TWO_HOURS = 2 * 3600 * 1000;
             const batches = [];
             for (const [rn, logs] of recipeGroups) {
                 logs.sort((a, b) => b.timestamp - a.timestamp);
                 let currentBatch = null;
                 for (const log of logs) {
-                    if (!currentBatch || (currentBatch.timestamp - log.timestamp) > SIX_HOURS) {
-                        currentBatch = { recipeName: rn, timestamp: log.timestamp, logs: [], totalAmount: 0 };
+                    if (!currentBatch || (currentBatch.lastTimestamp - log.timestamp) > TWO_HOURS) {
+                        currentBatch = { recipeName: rn, timestamp: log.timestamp, lastTimestamp: log.timestamp, logs: [], totalAmount: 0 };
                         batches.push(currentBatch);
                     }
                     currentBatch.logs.push(log);
                     currentBatch.totalAmount += (log.amountUsed || 0);
+                    currentBatch.lastTimestamp = log.timestamp;
                 }
             }
             const groups = batches;
             groups.sort((a, b) => b.timestamp - a.timestamp);
-            container.innerHTML = groups.map(g => {
+            window._logGroups = groups;
+            container.innerHTML = groups.map((g, gi) => {
                 const itemsHTML = g.logs.map(log => {
-                    return '<div class="log-item">' +
+                    return '<div class="log-item" draggable="true" ondragstart="startLogDrag(event, \'' + log.materialId + '\', ' + log.timestamp + ')">' +
                         '<div class="log-left">' +
                         '<span class="log-name">' + escapeHtml(log.materialName) + '</span>' +
                         '<span class="log-detail">' + log.quantity + ' ' + escapeHtml(log.unit) + '</span>' +
                         '<span class="log-amount">¥' + (log.amountUsed || 0).toFixed(2) + '</span>' +
                         '</div>' +
-                        '<span class="log-time">' + new Date(log.timestamp).toLocaleTimeString('zh-CN') + '</span>' +
-                        '<button class="btn btn-xs btn-outline" onclick="restoreLog(\'' + log.materialId + '\', ' + log.timestamp + ')" style="margin-left:8px;">还原</button>' +
+                        '<button class="btn btn-outline btn-xs" style="min-width:44px;padding:4px 12px;font-size:0.7rem;min-height:28px;" onclick="restoreLog(\'' + log.materialId + '\', ' + log.timestamp + ')">还原</button>' +
                         '</div>';
                 }).join('');
                 const dateStr = new Date(g.timestamp).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
-                return '<div class="log-group"><div class="log-group-title"><span class="log-group-emoji">🍰</span><span>' + escapeHtml(g.recipeName) + '</span><span class="log-group-meta">' + dateStr + ' · ' + g.logs.length + '项 · ¥' + g.totalAmount.toFixed(2) + '</span></div><div class="log-group-body">' + itemsHTML + '</div></div>';
+                return '<div class="log-group">' +
+                    '<div class="log-group-title" style="flex-direction:column;align-items:stretch;gap:4px;padding:10px 12px;" ondragover="event.preventDefault(); this.classList.add(\'img-drag-over\');" ondragleave="this.classList.remove(\'img-drag-over\');" ondrop="event.preventDefault(); this.classList.remove(\'img-drag-over\'); dropLogToGroup(event, ' + gi + ')">' +
+                    '<div style="display:flex;align-items:center;gap:6px;line-height:1.4;"><span class="log-group-emoji" style="font-size:1rem;line-height:1.4;">🍰</span><span style="font-size:1.2rem;font-weight:700;color:var(--primary-dark);line-height:1.4;">' + escapeHtml(g.recipeName) + '</span><span style="margin-left:auto;color:var(--text-muted);font-size:0.72rem;font-weight:400;line-height:1.4;white-space:nowrap;">' + dateStr + '</span></div>' +
+                    '<div style="display:flex;align-items:center;justify-content:space-between;gap:8px;"><span style="font-size:0.85rem;color:var(--text-light);font-weight:600;line-height:1.4;">' + g.logs.length + ' 项 · ¥' + g.totalAmount.toFixed(2) + '</span><button class="btn btn-outline btn-xs" onclick="restoreLogGroup(' + gi + ')" style="min-width:44px;padding:4px 12px;font-size:0.7rem;min-height:28px;">还原</button></div>' +
+                    '</div>' +
+                    '<div class="log-group-body">' + itemsHTML + '</div></div>';
             }).join('');
         }
     }
@@ -3594,6 +3862,28 @@ window.deleteRecipe = function(recipeId) {
         }, () => {});
     };
 
+    window.restoreLogGroup = function(groupIndex) {
+        if (!requireLogin()) return;
+        const groups = window._logGroups || [];
+        const group = groups[groupIndex];
+        if (!group || !group.logs || group.logs.length === 0) return;
+        showConfirm('确定要还原这一组记录吗？将把 ' + group.logs.length + ' 条记录的用量加回库存。', () => {
+            let restored = 0;
+            group.logs.forEach(log => {
+                const item = findMaterialById(log.materialId);
+                if (item) {
+                    item.remainingQuantity = (item.remainingQuantity || 0) + log.quantity;
+                    restored++;
+                }
+                usageLogs = usageLogs.filter(u => !(u.materialId === log.materialId && u.timestamp === log.timestamp));
+            });
+            if (restored > 0) saveMaterialsAndSync();
+            saveUsageLogsAndSync();
+            showToast('✅ 已还原 ' + restored + ' 条记录', 'success');
+            renderAllPreserveScroll();
+        }, () => {});
+    };
+
     window.clearLogs = function() {
         if (!requireLogin()) return;
         showConfirm('确定要清空所有使用记录吗？', () => { usageLogs = []; saveUsageLogsAndSync(); renderLogs(); showToast('已清空所有记录'); }, () => {});
@@ -3607,18 +3897,24 @@ window.deleteRecipe = function(recipeId) {
             showToast('回收站为空');
             return;
         }
-        const html = '<button class="close-btn" onclick="closeModal()">✕</button><h2>🗑️ 回收站</h2><div style="max-height:60vh;overflow-y:auto;">' +
+        const html = '<button class="close-btn" onclick="closeModal()">✕</button><h2 style="text-align:center;">🗑️ 回收站</h2><div style="max-height:60vh;overflow-y:auto;">' +
             recycleBin.map((item, idx) => {
                 const typeLabel = item.type === 'material' ? '📦 商品' : item.type === 'recipe' ? '📖 配方' : '🏷️ 分类';
                 const name = item.data.name || item.data.label || '未命名';
                 const time = new Date(item.deletedAt).toLocaleString();
-                return '<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border-light);gap:10px;flex-wrap:wrap;">' +
-                    '<div><span style="font-weight:600;">' + typeLabel + '</span> ' + escapeHtml(name) + ' <span style="color:var(--text-muted);font-size:0.8rem;">' + time + '</span></div>' +
-                    '<div style="display:flex;gap:6px;"><button class="btn btn-xs btn-outline" onclick="restoreRecycleItem(' + idx + ')">还原</button><button class="btn btn-xs btn-delete" onclick="deleteRecycleItem(' + idx + ')">永久删除</button></div>' +
+                return '<div style="display:flex;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border-light);gap:10px;">' +
+                    '<span style="flex-shrink:0;font-weight:600;white-space:nowrap;">' + typeLabel + '</span>' +
+                    '<span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + escapeHtml(name) + '</span>' +
+                    '<span style="flex-shrink:0;color:var(--text-muted);font-size:0.78rem;white-space:nowrap;">' + time + '</span>' +
+                    '<button class="btn btn-outline btn-xs" style="flex-shrink:0;min-width:36px;padding:2px 6px;font-size:0.6rem;min-height:24px;" onclick="restoreRecycleItem(' + idx + ')">还原</button>' +
                     '</div>';
             }).join('') +
-            '<div style="margin-top:12px;text-align:right;"><button class="btn btn-outline-danger btn-sm" onclick="clearRecycleBin()">清空回收站</button></div></div>' +
-            '<div class="modal-actions"><button class="btn btn-ghost" onclick="closeModal()">关闭</button></div>';
+            '</div>' +
+            '<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:nowrap;align-items:center;">' +
+            '<button class="btn btn-outline-danger btn-sm" onclick="clearRecycleBin()">清空回收站</button>' +
+            '<button class="btn btn-primary btn-sm" onclick="restoreAllRecycleItems()">全部还原</button>' +
+            '<button class="btn btn-ghost" style="margin-left:auto;" onclick="closeModal()">关闭</button>' +
+            '</div>';
         openModal(html, false, 'recycleBin');
     };
 
@@ -3641,6 +3937,26 @@ window.deleteRecipe = function(recipeId) {
         renderAllPreserveScroll();
         closeModal();
         setTimeout(() => openRecycleBin(), 50);
+    };
+
+    window.restoreAllRecycleItems = function() {
+        if (recycleBin.length === 0) { showToast('回收站为空'); return; }
+        showConfirm('确定要全部还原吗？', () => {
+            let hasMat = false, hasRecipe = false, hasCat = false;
+            recycleBin.forEach(item => {
+                if (item.type === 'material') { materials.push(item.data); hasMat = true; }
+                else if (item.type === 'recipe') { recipes.push(item.data); hasRecipe = true; }
+                else if (item.type === 'category') { if (!CATEGORIES.includes(item.data.name)) CATEGORIES.push(item.data.name); hasCat = true; }
+            });
+            recycleBin = [];
+            saveRecycleBin();
+            if (hasMat) saveMaterialsAndSync();
+            if (hasRecipe) saveRecipesAndSync();
+            if (hasCat) saveCategoriesLocal();
+            showToast('✅ 已全部还原', 'success');
+            renderAllPreserveScroll();
+            closeModal();
+        }, () => {});
     };
 
     window.deleteRecycleItem = function(index) {
@@ -3726,44 +4042,67 @@ window.deleteRecipe = function(recipeId) {
     function renderGallery() {
         const container = document.getElementById('galleryContainer');
         if (!container) return;
-        const allImages = [];
+        const groups = [];
         for (const r of recipes) {
             if (r.finalImages && r.finalImages.length > 0) {
-                for (const img of r.finalImages) {
-                    allImages.push({ recipeId: r.id, recipeName: r.name, url: img, emoji: r.emoji || '📖' });
-                }
+                groups.push({ id: r.id, name: r.name, emoji: r.emoji || '📖', images: r.finalImages });
             }
         }
-        if (allImages.length === 0) {
+        if (groups.length === 0) {
             container.innerHTML = '<div class="gallery-empty"><span class="empty-icon">🖼️</span><p>暂无成品图，添加配方时上传吧</p></div>';
             return;
         }
-        // 去重（按URL去重）
-        const unique = [];
-        const seen = new Set();
-        for (const item of allImages) {
-            if (!seen.has(item.url)) {
-                seen.add(item.url);
-                unique.push(item);
+        const maxDisplay = 8;
+        let html = '';
+        for (const g of groups) {
+            const total = g.images.length;
+            const showMore = total > maxDisplay;
+            const displayImages = showMore ? g.images.slice(0, maxDisplay) : g.images;
+            html += '<div class="gallery-group" style="margin-bottom:24px;">' +
+                '<div class="gallery-group-title" style="font-weight:700;color:var(--primary-dark);margin-bottom:8px;font-size:1rem;">' + escapeHtml(g.emoji) + ' ' + escapeHtml(g.name) + ' (' + total + '张)</div>' +
+                '<div class="gallery-grid">';
+            for (let i = 0; i < displayImages.length; i++) {
+                const counter = total > 1 ? (i + 1) + '/' + total : '';
+                const isLastAndMore = showMore && i === maxDisplay - 1;
+                const moreBadge = isLastAndMore ? '<span class="gallery-more-badge">+' + (total - maxDisplay) + '</span>' : '';
+                html += '<div class="gallery-item" data-recipe-id="' + g.id + '" data-idx="' + i + '" onclick="previewGalleryGroupImage(\'' + g.id + '\',' + i + ')">' +
+                    '<div class="gallery-img-wrap"><img src="" alt="成品图" loading="lazy" style="display:none;"><span class="gallery-img-ph" style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-muted);">加载中</span>' +
+                    (counter ? '<span style="position:absolute;top:4px;left:4px;background:rgba(0,0,0,0.6);color:#fff;padding:0 8px;border-radius:12px;font-size:0.6rem;font-weight:600;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);line-height:1.6;z-index:5;">' + counter + '</span>' : '') +
+                    moreBadge +
+                    '</div></div>';
             }
+            html += '</div></div>';
         }
-        let html = '<div class="gallery-grid">';
-        for (let i = 0; i < Math.min(unique.length, 50); i++) {
-            const item = unique[i];
-            const resolvedUrl = item.url; // 详情里异步加载
-            html += '<div class="gallery-item" onclick="previewGalleryImage(' + i + ')">' +
-                '<div class="gallery-img-wrap"><img src="' + resolvedUrl + '" loading="lazy" onerror="this.src=\'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0e8e0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%239b8a7a%22 font-size=%2240%22%3E🖼️%3C/text%3E%3C/svg%3E\'"></div>' +
-                '<div style="padding:4px 8px;font-size:0.75rem;font-weight:500;color:var(--text-light);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + item.emoji + ' ' + escapeHtml(item.recipeName) + '</div>' +
-                '</div>';
-        }
-        if (unique.length > 50) {
-            html += '<div class="gallery-item" style="display:flex;align-items:center;justify-content:center;background:var(--surface-alt);font-size:1.5rem;font-weight:700;color:var(--text-muted);">+' + (unique.length - 50) + '</div>';
-        }
-        html += '</div>';
         container.innerHTML = html;
-        // 存储图片列表供预览
-        window._galleryImages = unique;
+        container.querySelectorAll('.gallery-item[data-recipe-id]').forEach(el => {
+            const recipeId = el.dataset.recipeId;
+            const idx = parseInt(el.dataset.idx);
+            const recipe = recipes.find(r => r.id === recipeId);
+            if (!recipe || !recipe.finalImages) return;
+            const ref = recipe.finalImages[idx];
+            resolveImageUrl(ref).then(url => {
+                if (url) {
+                    const img = el.querySelector('img');
+                    const ph = el.querySelector('.gallery-img-ph');
+                    if (img) { img.src = url; img.style.display = 'block'; }
+                    if (ph) ph.style.display = 'none';
+                }
+            }).catch(() => {
+                const ph = el.querySelector('.gallery-img-ph');
+                if (ph) ph.textContent = '加载失败';
+            });
+        });
     }
+
+    window.previewGalleryGroupImage = function(recipeId, index) {
+        const recipe = recipes.find(r => r.id === recipeId);
+        if (!recipe || !recipe.finalImages || recipe.finalImages.length === 0) return;
+        Promise.all(recipe.finalImages.map(u => resolveImageUrl(u))).then(urls => {
+            _previewImages = urls;
+            _previewIndex = Math.max(0, Math.min(index, urls.length - 1));
+            renderPreviewModal();
+        });
+    };
 
     window.previewGalleryImage = function(index) {
         const images = window._galleryImages || [];
@@ -3776,55 +4115,170 @@ window.deleteRecipe = function(recipeId) {
     // ============================================================
     // 预览模态框（修复）
     // ============================================================
+    let _pvScale = 1, _pvTx = 0, _pvTy = 0;
+
     function renderPreviewModal() {
         if (!_previewImages || _previewImages.length === 0) return;
-        const html = '<div class="fullscreen-preview-wrap">' +
-            '<div class="fullscreen-preview-counter">' + (_previewIndex + 1) + ' / ' + _previewImages.length + '</div>' +
-            '<div class="fullscreen-preview-nav">' +
-            '<button class="nav-btn" onclick="navPreview(-1)" ' + (_previewIndex <= 0 ? 'disabled' : '') + '>‹</button>' +
-            '<button class="nav-btn" onclick="navPreview(1)" ' + (_previewIndex >= _previewImages.length - 1 ? 'disabled' : '') + '>›</button>' +
-            '</div>' +
-            '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;">' +
-            '<img src="' + _previewImages[_previewIndex] + '" class="fullscreen-preview-img" style="max-width:90%;max-height:90%;object-fit:contain;" id="previewImg" onclick="closeModal()">' +
-            '</div>' +
-            '<button class="rotate-btn rotate-left" onclick="rotatePreview(-90)">↺</button>' +
-            '<button class="rotate-btn rotate-right" onclick="rotatePreview(90)">↻</button>' +
-            '<button class="close-btn" style="position:absolute;top:12px;right:12px;background:rgba(0,0,0,0.5);color:#fff;z-index:30;" onclick="closeModal()">✕</button>' +
+        _pvScale = 1; _pvTx = 0; _pvTy = 0;
+        const slides = _previewImages.map((url, i) => '<div class="ios-preview-slide" data-idx="' + i + '"><img src="' + url + '" alt=""></div>').join('');
+        const html = '<div class="ios-preview-stage" id="previewStage">' +
+            '<div class="ios-preview-counter" id="previewCounter">' + (_previewIndex + 1) + ' / ' + _previewImages.length + '</div>' +
+            '<div class="ios-preview-track" id="previewTrack">' + slides + '</div>' +
+            '<button class="ios-preview-close" onclick="closeModal()">✕</button>' +
             '</div>';
         openModal(html, true, 'previewModal');
-        _rotateDeg = 0;
-        const img = document.getElementById('previewImg');
-        if (img) {
-            img.style.transform = 'rotate(0deg)';
-            img.addEventListener('load', function() {
-                this.style.transform = 'rotate(' + _rotateDeg + 'deg)';
-            });
-        }
+        bindPreviewGestures();
     }
 
-    window.navPreview = function(delta) {
-        const newIdx = _previewIndex + delta;
-        if (newIdx < 0 || newIdx >= _previewImages.length) return;
-        _previewIndex = newIdx;
-        const img = document.getElementById('previewImg');
-        if (img) {
-            img.src = _previewImages[_previewIndex];
-            img.style.transform = 'rotate(' + _rotateDeg + 'deg)';
-        }
-        const counter = document.querySelector('.fullscreen-preview-counter');
-        if (counter) counter.textContent = (_previewIndex + 1) + ' / ' + _previewImages.length;
-        const navBtns = document.querySelectorAll('.fullscreen-preview-nav .nav-btn');
-        if (navBtns.length === 2) {
-            navBtns[0].disabled = _previewIndex <= 0;
-            navBtns[1].disabled = _previewIndex >= _previewImages.length - 1;
-        }
-    };
+    function bindPreviewGestures() {
+        const stage = document.getElementById('previewStage');
+        const track = document.getElementById('previewTrack');
+        if (!stage || !track) return;
+        const slideWidth = stage.clientWidth || window.innerWidth;
+        let cur = _previewIndex;
+        _pvScale = 1; _pvTx = 0; _pvTy = 0;
 
-    window.rotatePreview = function(deg) {
-        _rotateDeg = (_rotateDeg + deg) % 360;
-        const img = document.getElementById('previewImg');
-        if (img) img.style.transform = 'rotate(' + _rotateDeg + 'deg)';
-    };
+        function currentImg() {
+            const slide = track.querySelector('.ios-preview-slide[data-idx="' + cur + '"]');
+            return slide ? slide.querySelector('img') : null;
+        }
+        function applyTrack() {
+            track.style.transform = 'translateX(' + (-cur * slideWidth) + 'px)';
+        }
+        function applyZoom(img) {
+            if (img) img.style.transform = 'translate(' + _pvTx + 'px,' + _pvTy + 'px) scale(' + _pvScale + ')';
+        }
+        function resetZoom() {
+            _pvScale = 1; _pvTx = 0; _pvTy = 0;
+            track.querySelectorAll('.ios-preview-slide img').forEach(function(im) { im.style.transition = 'none'; im.style.transform = ''; });
+        }
+        function updateCounter() {
+            const counter = document.getElementById('previewCounter');
+            if (counter) counter.textContent = (_previewIndex + 1) + ' / ' + _previewImages.length;
+        }
+        function clampPv() {
+            if (_pvScale <= 1) { _pvScale = 1; _pvTx = 0; _pvTy = 0; return; }
+            const maxT = 240 * _pvScale;
+            _pvTx = Math.max(-maxT, Math.min(maxT, _pvTx));
+            _pvTy = Math.max(-maxT, Math.min(maxT, _pvTy));
+        }
+
+        track.style.transition = 'none';
+        applyTrack();
+        resetZoom();
+
+        let startX = 0, startY = 0, startTrackPos = 0;
+        let startDist = 0;
+        let pinchStartScale = 1, pinchStartTx = 0, pinchStartTy = 0, pinchMidX = 0, pinchMidY = 0;
+        let mode = 'none';
+        let lastDx = 0, lastDy = 0;
+        let panImg = null, panStartTx = 0, panStartTy = 0;
+
+        stage.addEventListener('touchstart', function(e) {
+            if (e.touches.length === 1) {
+                startX = e.touches[0].clientX;
+                startY = e.touches[0].clientY;
+                startTrackPos = -cur * slideWidth;
+                panImg = currentImg();
+                panStartTx = _pvTx; panStartTy = _pvTy;
+                lastDx = 0; lastDy = 0;
+                mode = 'none';
+                track.style.transition = 'none';
+                if (panImg) panImg.style.transition = 'none';
+            } else if (e.touches.length === 2) {
+                const dx = e.touches[1].clientX - e.touches[0].clientX;
+                const dy = e.touches[1].clientY - e.touches[0].clientY;
+                startDist = Math.hypot(dx, dy);
+                pinchStartScale = _pvScale; pinchStartTx = _pvTx; pinchStartTy = _pvTy;
+                pinchMidX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+                pinchMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+                mode = 'pinch';
+                if (panImg) panImg.style.transition = 'none';
+            }
+        }, { passive: false });
+
+        stage.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+            if (e.touches.length === 2) {
+                const dx = e.touches[1].clientX - e.touches[0].clientX;
+                const dy = e.touches[1].clientY - e.touches[0].clientY;
+                const dist = Math.hypot(dx, dy);
+                if (startDist > 0) {
+                    _pvScale = Math.max(1, Math.min(4, pinchStartScale * (dist / startDist)));
+                    const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+                    const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+                    _pvTx = pinchStartTx + (midX - pinchMidX);
+                    _pvTy = pinchStartTy + (midY - pinchMidY);
+                    applyZoom(panImg);
+                }
+                mode = 'pinch';
+            } else if (e.touches.length === 1) {
+                const dx = e.touches[0].clientX - startX;
+                const dy = e.touches[0].clientY - startY;
+                lastDx = dx; lastDy = dy;
+                if (_pvScale > 1.01) {
+                    mode = 'pan';
+                    _pvTx = panStartTx + dx;
+                    _pvTy = panStartTy + dy;
+                    applyZoom(panImg);
+                } else {
+                    if (mode === 'none') {
+                        mode = Math.abs(dx) > Math.abs(dy) ? 'swipe-h' : 'swipe-v';
+                    }
+                    if (mode === 'swipe-h') {
+                        track.style.transform = 'translateX(' + (startTrackPos + dx) + 'px)';
+                    } else if (mode === 'swipe-v') {
+                        track.style.transform = 'translateX(' + startTrackPos + 'px) translateY(' + dy + 'px)';
+                        stage.style.background = 'rgba(0,0,0,' + Math.max(0.4, 1 - Math.abs(dy) / 600).toFixed(3) + ')';
+                    }
+                }
+            }
+        }, { passive: false });
+
+        stage.addEventListener('touchend', function(e) {
+            if (mode === 'pinch') {
+                clampPv();
+                if (panImg) { panImg.style.transition = 'transform 0.25s ease'; applyZoom(panImg); }
+                mode = 'none';
+                return;
+            }
+            if (mode === 'pan') {
+                clampPv();
+                if (panImg) { panImg.style.transition = 'transform 0.25s ease'; applyZoom(panImg); }
+                mode = 'none';
+                return;
+            }
+            if (mode === 'swipe-h') {
+                const th = 60;
+                track.style.transition = 'transform 0.25s ease';
+                if (lastDx < -th && cur < _previewImages.length - 1) {
+                    cur++; _previewIndex = cur; resetZoom();
+                } else if (lastDx > th && cur > 0) {
+                    cur--; _previewIndex = cur; resetZoom();
+                }
+                applyTrack();
+                updateCounter();
+                mode = 'none';
+                return;
+            }
+            if (mode === 'swipe-v') {
+                const th = 100;
+                track.style.transition = 'transform 0.25s ease';
+                if (lastDy > th) {
+                    track.style.transform = 'translateX(' + (-cur * slideWidth) + 'px) translateY(110%)';
+                    stage.style.transition = 'opacity 0.25s ease';
+                    stage.style.opacity = '0';
+                    setTimeout(function() { closeModal(); }, 200);
+                } else {
+                    applyTrack();
+                    stage.style.background = '#000';
+                }
+                mode = 'none';
+                return;
+            }
+            mode = 'none';
+        }, { passive: false });
+    }
 
     // ============================================================
     // 仪表板渲染（修复）
@@ -3845,8 +4299,8 @@ window.deleteRecipe = function(recipeId) {
         statsEl.innerHTML =
             '<div class="stat-card" onclick="switchTab(\'materials\')"><div class="stat-icon">📦</div><div class="stat-info"><div class="stat-value">' + totalMaterials + '</div><div class="stat-desc">材料种类</div></div></div>' +
             '<div class="stat-card" onclick="switchTab(\'recipes\')"><div class="stat-icon">📖</div><div class="stat-info"><div class="stat-value">' + totalRecipes + '</div><div class="stat-desc">配方总数</div></div></div>' +
-            '<div class="stat-card" onclick="switchTab(\'recipes\')"><div class="stat-icon">✅</div><div class="stat-info"><div class="stat-value" style="color:var(--success);">' + canMakeCount + '</div><div class="stat-desc">可制作配方</div></div></div>' +
-            '<div class="stat-card" onclick="switchTab(\'logs\')"><div class="stat-icon">💰</div><div class="stat-info"><div class="stat-value">¥' + totalStockValue.toFixed(0) + '</div><div class="stat-desc">库存价值</div></div></div>';
+            '<div class="stat-card" onclick="goToCanMakeRecipes()"><div class="stat-icon">✅</div><div class="stat-info"><div class="stat-value" style="color:var(--success);">' + canMakeCount + '</div><div class="stat-desc">可制作配方</div></div></div>' +
+            '<div class="stat-card" onclick="goToInStockMaterials()"><div class="stat-icon">💰</div><div class="stat-info"><div class="stat-value">¥' + totalStockValue.toFixed(0) + '</div><div class="stat-desc">库存价值</div></div></div>';
 
         // 可制作配方列表
         const tableWrap = document.getElementById('availableRecipesTableWrap');
@@ -3862,7 +4316,7 @@ window.deleteRecipe = function(recipeId) {
                 const ingCount = r.ingredients ? r.ingredients.length : 0;
                 return '<tr onclick="viewRecipeDetail(\'' + r.id + '\', false)">' +
                     '<td><span class="avail-emoji">' + (r.emoji || '📖') + '</span><span class="avail-name">' + escapeHtml(r.name) + '</span><span class="avail-meta">' + ingCount + ' 种材料</span></td>' +
-                    '<td style="text-align:right;"><button class="avail-action" onclick="event.stopPropagation(); viewRecipeDetail(\'' + r.id + '\', false)">制作</button></td>' +
+                    '<td style="text-align:right;"><button class="avail-action" onclick="event.stopPropagation(); showFullscreenStepsById(\'' + r.id + '\')">制作</button></td>' +
                     '</tr>';
             }).join('');
         }
@@ -4020,10 +4474,55 @@ window.deleteRecipe = function(recipeId) {
         openLoginModal();
     };
 
-    // 占位：全屏步骤制作
+    // ---- 制作此配方（仅显示制作步骤，隐藏其他内容） ----
     window.showFullscreenStepsById = function(recipeId) {
-        showToast('全屏制作功能已集成在配方详情中', '');
-        viewRecipeDetail(recipeId, false);
+        const recipe = recipes.find(r => r.id === recipeId);
+        if (!recipe) return;
+        _detailRecipeId = recipeId;
+        _detailServings = 1;
+        const steps = recipe.steps || [];
+        const stepsCardsHTML = steps.map((s, i) => {
+            const listId = 'stepList_' + i + '_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6);
+            const stepMatsHTML = renderStepMaterials(s.materials, recipe);
+            const matsHTML = stepMatsHTML ? `<div style="margin-top:6px;margin-bottom:4px;font-size:0.85rem;font-weight:500;color:var(--text-light);"> 材料：${stepMatsHTML}</div>` : '';
+            const timerMinutes = s.timerMinutes || 0;
+            const timerDisplay = timerMinutes > 0 ? `
+                <div class="step-timer-wrap step-timer-${recipeId}-${i}">
+                    <span class="timer-label">⏱️</span>
+                    <div class="timer-controls">
+                        <span class="timer-display step-timer-display-${recipeId}-${i}">00:00</span>
+                        <button class="btn btn-primary btn-xs step-timer-start-${recipeId}-${i}" onclick="startStepTimer('${recipeId}', ${i})">开始</button>
+                        <button class="btn btn-xs step-timer-pause-${recipeId}-${i}" onclick="pauseStepTimer('${recipeId}', ${i})" disabled>暂停</button>
+                        <button class="btn btn-xs step-timer-reset-${recipeId}-${i}" onclick="resetStepTimer('${recipeId}', ${i})">重置</button>
+                    </div>
+                </div>
+            ` : '';
+            const stepNum = toChineseNumber(i + 1);
+            return `<div class="step-card" data-step-index="${i}"><div class="step-header"><span class="step-num-icon">${i + 1}</span><span class="step-num-text">步骤${stepNum}</span></div><div class="step-text">${escapeHtml(s.text)}</div>${matsHTML}${timerDisplay}<div id="${listId}" style="width:100%;"></div></div>`;
+        }).join('');
+        const html = `
+            <button class="close-btn" onclick="closeModal()">✕</button>
+            <div class="detail-recipe-name"><span class="detail-emoji">${recipe.emoji || '📖'}</span> ${escapeHtml(recipe.name)}</div>
+            <div style="margin:2px 0 14px;font-size:0.85rem;color:var(--text-muted);">👩‍🍳 制作步骤 · 共 ${steps.length} 步</div>
+            <div id="detailStepsContainer">${stepsCardsHTML}</div>
+            <div class="detail-actions" style="margin-top:16px;">
+                <button class="btn btn-primary" onclick="closeModal()">完成</button>
+            </div>`;
+        openModal(html, false, 'fullscreenSteps_' + recipeId);
+        setTimeout(async () => {
+            steps.forEach((s, i) => {
+                const containers = document.querySelectorAll(`#detailStepsContainer .step-card[data-step-index="${i}"] [id^="stepList_${i}_"]`);
+                if (containers.length > 0 && s.images && s.images.length > 0) {
+                    renderStepImagesList(s.images, containers[containers.length - 1].id, i);
+                }
+                const key = recipeId + '_' + i;
+                if (!stepTimers[key]) {
+                    const totalSec = (s.timerMinutes || 0) * 60;
+                    stepTimers[key] = { totalSeconds: totalSec, remain: totalSec, state: 'idle', startTime: null, interval: null };
+                }
+                updateStepTimerDisplay(recipeId, i);
+            });
+        }, 100);
     };
 
     // ============================================================
@@ -4045,10 +4544,10 @@ window.deleteRecipe = function(recipeId) {
             <div style="margin-bottom:10px;font-size:0.82rem;color:var(--text-muted);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;"><span id="mgrCountText">共 ${_mgrFinalImages.length} 张 · 拖拽排序 · 点击预览</span></div>
             <div class="final-images-manager-grid" id="mgrGrid" ondragover="event.preventDefault(); this.classList.add('mgr-grid-drag-over');" ondragleave="this.classList.remove('mgr-grid-drag-over');" ondrop="event.preventDefault(); this.classList.remove('mgr-grid-drag-over'); handleMgrImageDrop(event);">${imagesHTML}</div>
             <div class="upload-progress-wrap" id="mgrUploadProgress"><div class="upload-progress-spinner"></div><div class="upload-progress-text" id="mgrUploadProgressText">正在处理图片...</div></div>
-            <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
-                <button class="btn btn-outline" onclick="addFinalImageFromManager()">+ 添加成品图（可多选 / 拖拽）</button>
-                <button class="btn btn-primary" onclick="saveFinalImageManager()">💾 保存</button>
-                <button class="btn btn-ghost" onclick="closeFinalImageManager()">取消</button>
+            <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:nowrap;">
+                <button class="btn btn-outline" style="flex:1;padding:10px 8px;min-width:0;" onclick="addFinalImageFromManager()">+ 添加成品图</button>
+                <button class="btn btn-primary" style="flex:1;padding:10px 8px;min-width:0;" onclick="saveFinalImageManager()">保存</button>
+                <button class="btn btn-ghost" style="flex:1;padding:10px 8px;min-width:0;" onclick="closeFinalImageManager()">取消</button>
             </div>`;
         openModal(html, false, 'finalImageManager_' + recipeId);
         bindMgrDragSort();
@@ -4227,17 +4726,25 @@ window.deleteRecipe = function(recipeId) {
         if (!isLoggedIn || !githubToken) return;
         const recipe = recipes.find(r => r.id === recipeId);
         if (!recipe) return;
+        let uploadedCount = 0;
         try {
             if (recipe.finalImages && recipe.finalImages.length) {
-                recipe.finalImages = await uploadLocalImagesToRemote(recipe.finalImages);
+                const before = recipe.finalImages;
+                const after = await uploadLocalImagesToRemote(before);
+                uploadedCount += after.filter((u, i) => u !== before[i]).length;
+                recipe.finalImages = after;
             }
             for (const step of (recipe.steps || [])) {
                 if (step.images && step.images.length) {
-                    step.images = await uploadLocalImagesToRemote(step.images);
+                    const before = step.images;
+                    const after = await uploadLocalImagesToRemote(before);
+                    uploadedCount += after.filter((u, i) => u !== before[i]).length;
+                    step.images = after;
                 }
             }
             saveRecipesAndSync();
-        } catch (err) { console.error('图片后台上传失败:', err); }
+            showToast('✅ 图片上传完成' + (uploadedCount > 0 ? '（' + uploadedCount + ' 张）' : ''), 'success');
+        } catch (err) { console.error('图片后台上传失败:', err); showToast('⚠️ 部分图片上传失败', 'error'); }
     }
 
     async function refreshDetailFinalImages(recipeId) {
@@ -4252,7 +4759,7 @@ window.deleteRecipe = function(recipeId) {
             for (let i = 0; i < recipe.finalImages.length; i++) {
                 const url = await resolveImageUrl(recipe.finalImages[i]);
                 const label = recipe.finalImages.length > 1 ? `${i+1}/${recipe.finalImages.length}` : '';
-                html += `<div class="detail-thumb-item" onclick="previewFullImageByRecipe('${recipe.id}', ${i}, true)"><img src="${url}" loading="lazy">${label ? `<span class="thumb-counter">${label}</span>` : ''}<div class="thumb-overlay"><span>🔍</span></div></div>`;
+                html += `<div class="detail-thumb-item" onclick="previewFullImageByRecipe('${recipe.id}', ${i}, true)"><img src="${url}" loading="lazy">${label ? `<span class="thumb-counter">${label}</span>` : ''}</div>`;
             }
             html += `</div>`;
             area.innerHTML = html;
@@ -4389,8 +4896,6 @@ window.deleteRecipe = function(recipeId) {
     window.startStepTimer = startStepTimer;
     window.pauseStepTimer = pauseStepTimer;
     window.resetStepTimer = resetStepTimer;
-    window.navPreview = navPreview;
-    window.rotatePreview = rotatePreview;
     window.switchTab = switchTab;
     window.openAdjustRemainingModal = openAdjustRemainingModal;
     window.confirmAdjustRemaining = confirmAdjustRemaining;
@@ -4403,8 +4908,10 @@ window.deleteRecipe = function(recipeId) {
     window.sheepLogin = sheepLogin;
     window.openRecycleBin = openRecycleBin;
     window.restoreRecycleItem = restoreRecycleItem;
+    window.restoreAllRecycleItems = restoreAllRecycleItems;
     window.clearRecycleBin = clearRecycleBin;
     window.restoreLog = restoreLog;
+    window.restoreLogGroup = restoreLogGroup;
     window.uploadPendingImages = uploadPendingImages;
 
     // ============================================================
@@ -4429,7 +4936,7 @@ window.deleteRecipe = function(recipeId) {
         initApp();
     }
 
-    console.log('🥐 烘焙工作台 v8.8');
+    console.log('🥐 烘焙工作台 v8.80');
 })();
 </script>
 </body>
