@@ -688,7 +688,7 @@
         "sodium": 14,
         "calcium": null
       },
-      "remainingQuantity": 15
+      "remainingQuantity": 0
     },
     {
       "id": "mmsukbh1j2mnmu",
@@ -1706,6 +1706,18 @@
       "amountUsed": 5.430666666666665,
       "priceAtUse": 0.2715333333333333,
       "batchId": "bmtjdt8uh1s4g"
+    },
+    {
+      "materialId": "mmsvij4w3dcqi8",
+      "materialName": "天然可可粉 均衡大师",
+      "quantity": 15,
+      "unit": "g",
+      "recipeName": "大理石纹巧克力吐司",
+      "recipeId": "rmthcp3swlpnzx",
+      "timestamp": 1788310454617,
+      "amountUsed": 1.7325000000000002,
+      "priceAtUse": 0.1155,
+      "batchId": "bmtjdugffagi1"
     }
   ],
   "categories": [
