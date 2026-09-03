@@ -881,11 +881,6 @@
       "description": "",
       "ingredients": [
         {
-          "category": "盐",
-          "quantity": 6,
-          "unit": "g"
-        },
-        {
           "category": "马斯卡彭",
           "quantity": 250,
           "unit": "g"
@@ -894,6 +889,11 @@
           "category": "黑巧克力",
           "quantity": 70,
           "unit": "g"
+        },
+        {
+          "category": "盐",
+          "quantity": 6,
+          "unit": "g"
         }
       ],
       "steps": [
@@ -901,7 +901,9 @@
           "text": "搅拌",
           "images": [],
           "materials": [
-            1
+            0,
+            1,
+            2
           ],
           "timerMinutes": 0
         }
