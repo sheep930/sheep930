@@ -850,52 +850,6 @@
         "calcium": null
       },
       "remainingQuantity": 53
-    },
-    {
-      "id": "mmtk34366i50hj",
-      "name": "麦芽脆心巧克力球 (副本)",
-      "brand": "麦提莎",
-      "category": "黑巧克力",
-      "specification": "53",
-      "unit": "g",
-      "price": 3.7,
-      "packCount": 1,
-      "totalQuantity": 53,
-      "amount": 3.7,
-      "expiryDate": "2026-09-05",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 2095,
-        "protein": 6.3,
-        "fat": 22.9,
-        "carbs": 66.9,
-        "sodium": 129,
-        "calcium": null
-      },
-      "remainingQuantity": 53
-    },
-    {
-      "id": "mmtjegfwpggggc",
-      "name": "白巧克力32% (副本)",
-      "brand": "嘉利宝",
-      "category": "白巧克力",
-      "specification": "400",
-      "unit": "g",
-      "price": 44.72,
-      "packCount": 1,
-      "totalQuantity": 400,
-      "amount": 44.72,
-      "expiryDate": "2027-07-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2465,
-        "protein": 6.1,
-        "fat": 40,
-        "carbs": 51,
-        "sodium": 87,
-        "calcium": null
-      },
-      "remainingQuantity": 400
     }
   ],
   "recipes": [
