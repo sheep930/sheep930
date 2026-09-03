@@ -873,52 +873,6 @@
         "calcium": null
       },
       "remainingQuantity": 400
-    },
-    {
-      "id": "mmtlkpqgtx416x",
-      "name": "白巧克力32% (副本) (副本)",
-      "brand": "嘉利宝",
-      "category": "白巧克力",
-      "specification": "400",
-      "unit": "g",
-      "price": 44.72,
-      "packCount": 1,
-      "totalQuantity": 400,
-      "amount": 44.72,
-      "expiryDate": "2027-07-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2465,
-        "protein": 6.1,
-        "fat": 40,
-        "carbs": 51,
-        "sodium": 87,
-        "calcium": null
-      },
-      "remainingQuantity": 400
-    },
-    {
-      "id": "mmtlkpretmtgcy",
-      "name": "白巧克力32% (副本) (副本) (副本)",
-      "brand": "嘉利宝",
-      "category": "白巧克力",
-      "specification": "400",
-      "unit": "g",
-      "price": 44.72,
-      "packCount": 1,
-      "totalQuantity": 400,
-      "amount": 44.72,
-      "expiryDate": "2027-07-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2465,
-        "protein": 6.1,
-        "fat": 40,
-        "carbs": 51,
-        "sodium": 87,
-        "calcium": null
-      },
-      "remainingQuantity": 400
     }
   ],
   "recipes": [
