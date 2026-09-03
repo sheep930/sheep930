@@ -857,7 +857,7 @@
       "ingredients": [
         {
           "isTag": true,
-          "tag": "主面团"
+          "tag": "开心果吐司"
         },
         {
           "category": "高筋面粉",
@@ -921,7 +921,7 @@
         },
         {
           "isTag": true,
-          "tag": "开心果陷"
+          "tag": "开心果奶酪酱"
         },
         {
           "category": "开心果酱",
@@ -1028,7 +1028,7 @@
           "timerMinutes": 0
         },
         {
-          "text": "卷起来，放入吐司盒，发酵大约一个小时到一个半小时，发酵至9分满。",
+          "text": "卷起来，放入低糖吐司盒，发酵大约一个小时到一个半小时，发酵至9分满。",
           "images": [
             "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446833421_4ptlu9.jpg",
             "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446836477_xyts35.jpg",
@@ -1041,9 +1041,8 @@
           "text": "预热烤箱，上温190，下温180，最下层，烤26分钟左右。",
           "images": [
             "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446842228_q6n143.jpg",
-            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446845060_df0fow.jpg",
-            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446847552_hr7j8b.jpg",
-            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446850017_urhsnq.jpg"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446995473_dndvyr.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446847552_hr7j8b.jpg"
           ],
           "materials": [],
           "timerMinutes": 26
