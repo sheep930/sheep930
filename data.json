@@ -1309,18 +1309,6 @@
   ],
   "usageLogs": [
     {
-      "materialId": "mmsukrxi5ezon9",
-      "materialName": "天然三零食用盐 淮盐",
-      "quantity": 6,
-      "unit": "g",
-      "recipeName": "提拉米苏",
-      "recipeId": "rmsolj3o9ueh5b",
-      "timestamp": 1788442812179,
-      "amountUsed": 0.15234375,
-      "priceAtUse": 0.025390625,
-      "batchId": null
-    },
-    {
       "materialId": "mmsujjitjlezpg",
       "materialName": "黑巧克力爆谷米 嘉利宝",
       "quantity": 70,
@@ -1359,12 +1347,12 @@
     {
       "materialId": "mmsukrxi5ezon9",
       "materialName": "天然三零食用盐 淮盐",
-      "quantity": 6,
+      "quantity": 12,
       "unit": "g",
-      "recipeName": "大理石纹巧克力吐司",
+      "recipeName": "提拉米苏",
       "recipeId": "rmthcp3swlpnzx",
-      "timestamp": 1788442827551,
-      "amountUsed": 0.15234375,
+      "timestamp": 1788442812179,
+      "amountUsed": 0.3046875,
       "priceAtUse": 0.025390625,
       "batchId": null
     },
