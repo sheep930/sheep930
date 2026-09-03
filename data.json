@@ -812,30 +812,121 @@
       "description": "",
       "ingredients": [
         {
-          "category": "盐",
-          "quantity": 6,
-          "unit": "g",
-          "tag": ""
-        },
-        {
           "category": "马斯卡彭",
-          "quantity": 250,
+          "quantity": 100,
           "unit": "g",
           "tag": ""
         },
         {
-          "category": "巧克力",
-          "quantity": 70,
+          "category": "奶油奶酪",
+          "quantity": 35,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "蛋黄",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 13,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "水",
+          "quantity": 7,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "糖粉",
+          "quantity": 10,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "淡奶油",
+          "quantity": 130,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "可可粉",
+          "quantity": 3,
           "unit": "g",
           "tag": ""
         }
       ],
       "steps": [
         {
-          "text": "搅拌",
-          "images": [],
+          "text": "软化混合：软化的马斯卡彭和奶酪芝士混合均匀。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477000287_r6v00m.jpg"
+          ],
           "materials": [
+            0,
             1
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "蛋黄打发：将细砂糖和水烧开，倒入蛋中，快速搅拌到蛋黄乳化打发。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477002789_r9p7ri.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477005317_ctun65.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477007372_ncokd1.jpg"
+          ],
+          "materials": [
+            3,
+            4,
+            2
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "打发好的蛋黄，导入芝士内，混合均匀。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477010466_46ks7l.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477012562_5ikzd8.jpg"
+          ],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "奶油打发：淡奶油加入糖粉，搅拌到蛋糕抹面的程度。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477014634_opbupg.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477016742_2biel0.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477018743_i50odw.jpg"
+          ],
+          "materials": [
+            6,
+            5
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "把打发的奶油加入之前的芝士糊内，轻轻的搅拌。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477020851_31pb6a.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477023568_d3nqlf.jpg"
+          ],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "组装蛋糕：把手指饼干蘸一下咖啡液，一层饼干，一层芝士，面上撒一层糖粉，然后再撒可可粉，可可粉可以等到吃的时候再撒。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477025628_6om937.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477027562_nwjjjz.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477029637_9flwja.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477031981_q5aknc.jpg"
+          ],
+          "materials": [
+            7
           ],
           "timerMinutes": 0
         }
@@ -1132,6 +1223,8 @@
     "香草荚",
     "手指饼干",
     "测试2",
-    "测试"
+    "测试",
+    "蛋黄",
+    "淡奶油"
   ]
 }
