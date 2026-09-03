@@ -812,10 +812,6 @@
       "description": "",
       "ingredients": [
         {
-          "isTag": true,
-          "tag": "原来"
-        },
-        {
           "category": "盐",
           "quantity": 6,
           "unit": "g",
@@ -839,7 +835,7 @@
           "text": "搅拌",
           "images": [],
           "materials": [
-            2
+            1
           ],
           "timerMinutes": 0
         }
