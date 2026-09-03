@@ -481,7 +481,7 @@
         "sodium": 38983,
         "calcium": null
       },
-      "remainingQuantity": 256
+      "remainingQuantity": 250
     },
     {
       "id": "mmsvisc32gifcg",
@@ -550,7 +550,7 @@
         "sodium": 167,
         "calcium": null
       },
-      "remainingQuantity": 780
+      "remainingQuantity": 710
     },
     {
       "id": "mmsujfuqop86lx",
@@ -1307,7 +1307,32 @@
       "id": "rmthcp3swlpnzx"
     }
   ],
-  "usageLogs": [],
+  "usageLogs": [
+    {
+      "materialId": "mmsukrxi5ezon9",
+      "materialName": "天然三零食用盐 淮盐",
+      "quantity": 6,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788442812179,
+      "amountUsed": 0.15234375,
+      "priceAtUse": 0.025390625,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsujjitjlezpg",
+      "materialName": "黑巧克力爆谷米 嘉利宝",
+      "quantity": 70,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788442812179,
+      "amountUsed": 10.53675,
+      "priceAtUse": 0.150525,
+      "batchId": null
+    }
+  ],
   "categories": [
     "高筋面粉",
     "低筋面粉",
