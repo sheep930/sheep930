@@ -927,10 +927,6 @@
       "description": "",
       "ingredients": [
         {
-          "isTag": true,
-          "tag": "标题"
-        },
-        {
           "category": "马斯卡彭",
           "quantity": 250,
           "unit": "g",
@@ -954,9 +950,9 @@
           "text": "搅拌",
           "images": [],
           "materials": [
+            0,
             1,
-            2,
-            3
+            2
           ],
           "timerMinutes": 0
         }
