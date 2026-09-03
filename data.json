@@ -812,19 +812,26 @@
       "description": "",
       "ingredients": [
         {
+          "isTag": true,
+          "tag": "原来"
+        },
+        {
           "category": "盐",
           "quantity": 6,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "马斯卡彭",
           "quantity": 250,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "巧克力",
           "quantity": 70,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         }
       ],
       "steps": [
@@ -832,7 +839,7 @@
           "text": "搅拌",
           "images": [],
           "materials": [
-            1
+            2
           ],
           "timerMinutes": 0
         }
