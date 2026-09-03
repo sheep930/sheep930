@@ -44,7 +44,7 @@
         "sodium": 12,
         "calcium": null
       },
-      "remainingQuantity": 670
+      "remainingQuantity": 620
     },
     {
       "id": "mmsuiwz1gni92u",
@@ -113,7 +113,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 2
+      "remainingQuantity": 1.5
     },
     {
       "id": "mmsvhk8cwc841a",
@@ -251,7 +251,7 @@
         "sodium": 70,
         "calcium": 125
       },
-      "remainingQuantity": 4740
+      "remainingQuantity": 4600
     },
     {
       "id": "mmsvjslujce5t6",
@@ -297,7 +297,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 9780
+      "remainingQuantity": 9640
     },
     {
       "id": "mmsuj0qj256832",
@@ -389,7 +389,7 @@
         "sodium": null,
         "calcium": 106
       },
-      "remainingQuantity": 40
+      "remainingQuantity": 35
     },
     {
       "id": "mmsukuiqirgrds",
@@ -412,7 +412,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 900
+      "remainingQuantity": 860
     },
     {
       "id": "mmsvhv3o54o97g",
@@ -481,7 +481,7 @@
         "sodium": 38983,
         "calcium": null
       },
-      "remainingQuantity": 250
+      "remainingQuantity": 247
     },
     {
       "id": "mmsvisc32gifcg",
@@ -504,7 +504,7 @@
         "sodium": 131.5,
         "calcium": 56
       },
-      "remainingQuantity": 14
+      "remainingQuantity": 13
     },
     {
       "id": "mmsujats72z2iw",
@@ -831,29 +831,6 @@
     {
       "id": "mmsukothz2u5se",
       "name": "麦芽脆心巧克力球",
-      "brand": "麦提莎",
-      "category": "黑巧克力",
-      "specification": "53",
-      "unit": "g",
-      "price": 3.7,
-      "packCount": 1,
-      "totalQuantity": 53,
-      "amount": 3.7,
-      "expiryDate": "2026-09-05",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 2095,
-        "protein": 6.3,
-        "fat": 22.9,
-        "carbs": 66.9,
-        "sodium": 129,
-        "calcium": null
-      },
-      "remainingQuantity": 53
-    },
-    {
-      "id": "mmtk34366i50hj",
-      "name": "麦芽脆心巧克力球 (副本)",
       "brand": "麦提莎",
       "category": "黑巧克力",
       "specification": "53",
@@ -1347,6 +1324,114 @@
     }
   ],
   "usageLogs": [
+    {
+      "materialId": "mmsukuiqirgrds",
+      "materialName": "精制白砂糖 红棉",
+      "quantity": 30,
+      "unit": "g",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818195,
+      "amountUsed": 0.3603,
+      "priceAtUse": 0.01201,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsujxzm4yw6tp",
+      "materialName": "高活性干酵母耐高糖型 燕子",
+      "quantity": 5,
+      "unit": "g",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818196,
+      "amountUsed": 1.1775,
+      "priceAtUse": 0.2355,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsvisc32gifcg",
+      "materialName": "普通鸡蛋",
+      "quantity": 1,
+      "unit": "个",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818196,
+      "amountUsed": 0.59375,
+      "priceAtUse": 0.59375,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsukrxi5ezon9",
+      "materialName": "天然三零食用盐 淮盐",
+      "quantity": 3,
+      "unit": "g",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818196,
+      "amountUsed": 0.076171875,
+      "priceAtUse": 0.025390625,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsvireddht9la",
+      "materialName": "优加高钙纯牛奶 光明",
+      "quantity": 140,
+      "unit": "ml",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818196,
+      "amountUsed": 1.5274583333333331,
+      "priceAtUse": 0.010910416666666665,
+      "batchId": null
+    },
+    {
+      "materialId": "mmthkucr9qshgp",
+      "materialName": "矿泉水 昆仑山",
+      "quantity": 140,
+      "unit": "ml",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818196,
+      "amountUsed": 0.77784,
+      "priceAtUse": 0.005556,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsukuiqirgrds",
+      "materialName": "精制白砂糖 红棉",
+      "quantity": 10,
+      "unit": "g",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818196,
+      "amountUsed": 0.1201,
+      "priceAtUse": 0.01201,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsv0dwunqh6uv",
+      "materialName": "柔风樱花吐司粉 王后",
+      "quantity": 0.5,
+      "unit": "kg",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818197,
+      "amountUsed": 11.462,
+      "priceAtUse": 22.924,
+      "batchId": null
+    },
+    {
+      "materialId": "mmsuitlaxonrtg",
+      "materialName": "淡味黄油块 总统",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "开心果奶酪吐司",
+      "recipeId": "rmsv0tsmlmwm9j",
+      "timestamp": 1788406818197,
+      "amountUsed": 4.589,
+      "priceAtUse": 0.09178,
+      "batchId": null
+    },
     {
       "materialId": "mmsukuiqirgrds",
       "materialName": "精制白砂糖 红棉",
