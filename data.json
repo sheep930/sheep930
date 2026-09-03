@@ -389,7 +389,7 @@
         "sodium": null,
         "calcium": 106
       },
-      "remainingQuantity": 25
+      "remainingQuantity": 35
     },
     {
       "id": "mmsukuiqirgrds",
@@ -1453,18 +1453,6 @@
       "timestamp": 1788406818197,
       "amountUsed": 4.589,
       "priceAtUse": 0.09178,
-      "batchId": null
-    },
-    {
-      "materialId": "mmsujxzm4yw6tp",
-      "materialName": "高活性干酵母耐高糖型 燕子",
-      "quantity": 10,
-      "unit": "g",
-      "recipeName": "大理石纹巧克力吐司",
-      "recipeId": "rmthcp3swlpnzx",
-      "timestamp": 1788407715594,
-      "amountUsed": 2.355,
-      "priceAtUse": 0.2355,
       "batchId": null
     },
     {
