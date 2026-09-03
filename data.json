@@ -1163,19 +1163,35 @@
         {
           "category": "开心果",
           "quantity": 309,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         }
       ],
       "steps": [
         {
-          "text": "用破壁机搅拌顺滑",
-          "images": [],
+          "text": "把开心果用180度烤3分钟左右，让它烤软一点。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477421371_tl4q64.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477423934_orl4yc.jpg"
+          ],
+          "materials": [
+            0
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "用破壁机搅拌顺滑，什么都不需要加。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477426261_2m8t18.jpg"
+          ],
           "materials": [],
           "timerMinutes": 0
         },
         {
           "text": "309g开心果出158g开心果酱",
-          "images": [],
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477428304_3b7xus.jpg"
+          ],
           "materials": [],
           "timerMinutes": 0
         }
