@@ -896,6 +896,29 @@
         "calcium": null
       },
       "remainingQuantity": 400
+    },
+    {
+      "id": "mmtk349bfq9uiw",
+      "name": "麦芽脆心巧克力球 (副本) (副本)",
+      "brand": "麦提莎",
+      "category": "黑巧克力",
+      "specification": "53",
+      "unit": "g",
+      "price": 3.7,
+      "packCount": 1,
+      "totalQuantity": 53,
+      "amount": 3.7,
+      "expiryDate": "2026-09-05",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 2095,
+        "protein": 6.3,
+        "fat": 22.9,
+        "carbs": 66.9,
+        "sodium": 129,
+        "calcium": null
+      },
+      "remainingQuantity": 53
     }
   ],
   "recipes": [
