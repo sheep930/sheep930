@@ -814,7 +814,7 @@
       "unit": "g",
       "price": 13.07,
       "packCount": 1,
-      "totalQuantity": 120,
+      "totalQuantity": 180,
       "amount": 13.07,
       "expiryDate": "2026-10-19",
       "openingDate": "",
@@ -826,7 +826,7 @@
         "sodium": 12,
         "calcium": null
       },
-      "remainingQuantity": 119
+      "remainingQuantity": 179
     }
   ],
   "recipes": [
@@ -1710,6 +1710,23 @@
       "delta": -1,
       "remaining": 119,
       "note": ""
+    },
+    {
+      "id": "logmtn6ulm7sx7w8",
+      "materialId": "mmtn6txzjeuh9k",
+      "materialName": "淡味份装黄油 (副本) 总统",
+      "quantity": 60,
+      "unit": "g",
+      "recipeName": "购入",
+      "recipeId": "",
+      "timestamp": 1788480000000,
+      "amountUsed": 0,
+      "priceAtUse": 13.07,
+      "batchId": null,
+      "action": "购入",
+      "delta": 60,
+      "remaining": 179,
+      "note": "件数 1 · 单价 ¥13.07"
     }
   ],
   "categories": [
