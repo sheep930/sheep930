@@ -21,7 +21,7 @@
         "sodium": 4,
         "calcium": null
       },
-      "remainingQuantity": 1300
+      "remainingQuantity": 1400
     },
     {
       "id": "mmsuitlaxonrtg",
@@ -1550,6 +1550,23 @@
       "action": "补充",
       "delta": 100,
       "remaining": 1300,
+      "note": ""
+    },
+    {
+      "id": "logmtn6flsihavvp",
+      "materialId": "mmsul602aajg1s",
+      "materialName": "恩喜村淡味黄油片 艾许",
+      "quantity": 100,
+      "unit": "g",
+      "recipeName": "补充",
+      "recipeId": "",
+      "timestamp": 1788480000000,
+      "amountUsed": 0,
+      "priceAtUse": 253.96,
+      "batchId": null,
+      "action": "补充",
+      "delta": 100,
+      "remaining": 1400,
       "note": ""
     }
   ],
