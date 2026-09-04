@@ -12,7 +12,7 @@
       "totalQuantity": 2000,
       "amount": 253.96,
       "expiryDate": "2027-03-12",
-      "openingDate": "2025-12-31",
+      "openingDate": "2026-09-04",
       "nutrition": {
         "calories": 3159,
         "protein": 0.8,
@@ -1211,7 +1211,25 @@
       "id": "rmsv123s5y0ses"
     }
   ],
-  "usageLogs": [],
+  "usageLogs": [
+    {
+      "id": "logmtmzyx9ot1yni",
+      "materialId": "mmsul602aajg1s",
+      "materialName": "恩喜村淡味黄油片 艾许",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1788480000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 1300,
+      "note": ""
+    }
+  ],
   "categories": [
     "高筋面粉",
     "低筋面粉",
