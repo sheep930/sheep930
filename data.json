@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsul602aajg1s",
-      "name": "恩喜村淡味黄油片",
-      "brand": "艾许",
-      "category": "黄油",
-      "specification": "2000",
-      "unit": "g",
-      "price": 253.96,
-      "packCount": 1,
-      "totalQuantity": 2000,
-      "amount": 253.96,
-      "expiryDate": "2027-03-12",
-      "openingDate": "2026-09-04",
-      "nutrition": {
-        "calories": 3159,
-        "protein": 0.8,
-        "fat": 85,
-        "carbs": null,
-        "sodium": 4,
-        "calcium": null
-      },
-      "remainingQuantity": 1199
-    },
-    {
       "id": "mmsuitlaxonrtg",
       "name": "淡味黄油块",
       "brand": "总统",
@@ -45,6 +22,29 @@
         "calcium": null
       },
       "remainingQuantity": 720
+    },
+    {
+      "id": "mmsul602aajg1s",
+      "name": "恩喜村淡味黄油片",
+      "brand": "艾许",
+      "category": "黄油",
+      "specification": "2000",
+      "unit": "g",
+      "price": 253.96,
+      "packCount": 1,
+      "totalQuantity": 2000,
+      "amount": 253.96,
+      "expiryDate": "2027-03-12",
+      "openingDate": "2026-09-04",
+      "nutrition": {
+        "calories": 3159,
+        "protein": 0.8,
+        "fat": 85,
+        "carbs": null,
+        "sodium": 4,
+        "calcium": null
+      },
+      "remainingQuantity": 1199
     },
     {
       "id": "mmsuiwz1gni92u",
@@ -827,6 +827,29 @@
         "calcium": null
       },
       "remainingQuantity": 179
+    },
+    {
+      "id": "mmtn7q79x887di",
+      "name": "淡味份装黄油 (副本)",
+      "brand": "总统",
+      "category": "黄油",
+      "specification": "60",
+      "unit": "g",
+      "price": 13.07,
+      "packCount": 1,
+      "totalQuantity": 60,
+      "amount": 13.07,
+      "expiryDate": "2026-10-19",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 3063,
+        "protein": 0.7,
+        "fat": 82,
+        "carbs": 1,
+        "sodium": 12,
+        "calcium": null
+      },
+      "remainingQuantity": 60
     }
   ],
   "recipes": [
