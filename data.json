@@ -1483,6 +1483,23 @@
       "delta": 0,
       "remaining": 1100,
       "note": ""
+    },
+    {
+      "id": "logmtn6a6igjm6d1",
+      "materialId": "mmsul602aajg1s",
+      "materialName": "恩喜村淡味黄油片 艾许",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1788480000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 1100,
+      "note": ""
     }
   ],
   "categories": [
