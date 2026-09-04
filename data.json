@@ -826,7 +826,7 @@
         "sodium": 12,
         "calcium": null
       },
-      "remainingQuantity": 120
+      "remainingQuantity": 119
     }
   ],
   "recipes": [
@@ -1693,6 +1693,23 @@
       "delta": 60,
       "remaining": 120,
       "note": "件数 1 · 单价 ¥13.07"
+    },
+    {
+      "id": "logmtn6udz2soigz",
+      "materialId": "mmtn6txzjeuh9k",
+      "materialName": "淡味份装黄油 (副本) 总统",
+      "quantity": -1,
+      "unit": "g",
+      "recipeName": "丢弃",
+      "recipeId": "",
+      "timestamp": 1788480000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "丢弃",
+      "delta": -1,
+      "remaining": 119,
+      "note": ""
     }
   ],
   "categories": [
