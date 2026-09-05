@@ -446,7 +446,30 @@
       "unit": "g",
       "price": 13.07,
       "packCount": 1,
-      "totalQuantity": 120,
+      "totalQuantity": 60,
+      "amount": 13.07,
+      "expiryDate": "2026-11-19",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 3063,
+        "protein": 0.7,
+        "fat": 82,
+        "carbs": 1,
+        "sodium": 12,
+        "calcium": null
+      },
+      "remainingQuantity": 120
+    },
+    {
+      "id": "mmtnz23vv20o9v",
+      "name": "淡味份装黄油",
+      "brand": "总统",
+      "category": "黄油",
+      "specification": "60",
+      "unit": "g",
+      "price": 13.07,
+      "packCount": 1,
+      "totalQuantity": 60,
       "amount": 13.07,
       "expiryDate": "2026-10-19",
       "openingDate": "",
@@ -458,7 +481,7 @@
         "sodium": 12,
         "calcium": null
       },
-      "remainingQuantity": 120
+      "remainingQuantity": 60
     },
     {
       "id": "mmsuitlaxonrtg",
@@ -850,29 +873,6 @@
         "calcium": null
       },
       "remainingQuantity": 780
-    },
-    {
-      "id": "mmtnz23vv20o9v",
-      "name": "淡味份装黄油",
-      "brand": "总统",
-      "category": "黄油",
-      "specification": "60",
-      "unit": "g",
-      "price": 13.07,
-      "packCount": 1,
-      "totalQuantity": 60,
-      "amount": 13.07,
-      "expiryDate": "2026-10-19",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 3063,
-        "protein": 0.7,
-        "fat": 82,
-        "carbs": 1,
-        "sodium": 12,
-        "calcium": null
-      },
-      "remainingQuantity": 60
     }
   ],
   "recipes": [
