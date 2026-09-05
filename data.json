@@ -113,7 +113,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 0
+      "remainingQuantity": 100
     },
     {
       "id": "mmsvk3y6xp2lhq",
@@ -1769,6 +1769,23 @@
       "amountUsed": 40.755,
       "priceAtUse": 0.13189320388349515,
       "batchId": null
+    },
+    {
+      "id": "logmto1m8vsm23z5",
+      "materialId": "mmsolb7jzbmek7",
+      "materialName": "原味大颗开心果 天虹牌",
+      "quantity": 100,
+      "unit": "g",
+      "recipeName": "补充",
+      "recipeId": "",
+      "timestamp": 1788592140000,
+      "amountUsed": 0,
+      "priceAtUse": 81.51,
+      "batchId": null,
+      "action": "补充",
+      "delta": 100,
+      "remaining": 100,
+      "note": ""
     }
   ],
   "categories": [
