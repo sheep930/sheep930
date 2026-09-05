@@ -423,9 +423,9 @@
       "unit": "g",
       "price": 13.07,
       "packCount": 1,
-      "totalQuantity": 120,
+      "totalQuantity": 60,
       "amount": 13.07,
-      "expiryDate": "2026-10-19",
+      "expiryDate": "2026-12-19",
       "openingDate": "",
       "nutrition": {
         "calories": 3063,
