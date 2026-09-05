@@ -113,7 +113,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 309
+      "remainingQuantity": 0
     },
     {
       "id": "mmsvk3y6xp2lhq",
@@ -1756,6 +1756,19 @@
       "delta": 60,
       "remaining": 120,
       "note": "件数 1 · 单价 ¥13.07"
+    },
+    {
+      "id": "logmtnzgwdar3eqk",
+      "materialId": "mmsolb7jzbmek7",
+      "materialName": "原味大颗开心果 天虹牌",
+      "quantity": 309,
+      "unit": "g",
+      "recipeName": "开心果酱",
+      "recipeId": "rmsv123s5y0ses",
+      "timestamp": 1788588594910,
+      "amountUsed": 40.755,
+      "priceAtUse": 0.13189320388349515,
+      "batchId": null
     }
   ],
   "categories": [
