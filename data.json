@@ -113,7 +113,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 100
+      "remainingQuantity": 90
     },
     {
       "id": "mmsvk3y6xp2lhq",
@@ -1785,6 +1785,23 @@
       "action": "补充",
       "delta": 100,
       "remaining": 100,
+      "note": ""
+    },
+    {
+      "id": "logmto1mel8bj57u",
+      "materialId": "mmsolb7jzbmek7",
+      "materialName": "原味大颗开心果 天虹牌",
+      "quantity": -10,
+      "unit": "g",
+      "recipeName": "丢弃",
+      "recipeId": "",
+      "timestamp": 1788592200000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "丢弃",
+      "delta": -10,
+      "remaining": 90,
       "note": ""
     }
   ],
