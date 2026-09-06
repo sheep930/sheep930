@@ -505,6 +505,29 @@
         "calcium": null
       },
       "remainingQuantity": 20
+    },
+    {
+      "id": "mmtpcmlyo6gzej",
+      "name": "黑巧克力54.5% (副本)",
+      "brand": "嘉利宝",
+      "category": "巧克力",
+      "specification": "500",
+      "unit": "g",
+      "price": 78.22,
+      "packCount": 1,
+      "totalQuantity": 500,
+      "amount": 78.22,
+      "expiryDate": "2027-01-31",
+      "openingDate": "2026-06-01",
+      "nutrition": {
+        "calories": 2307,
+        "protein": 5.1,
+        "fat": 36.6,
+        "carbs": 45.8,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 500
     }
   ],
   "recipes": [
