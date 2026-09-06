@@ -551,6 +551,30 @@
       },
       "remainingQuantity": 0.2,
       "image": null
+    },
+    {
+      "id": "mmtprexx8ywrfr",
+      "name": "王后硬红高筋粉",
+      "brand": "王后",
+      "category": "高筋面粉",
+      "specification": "1.5",
+      "unit": "kg",
+      "price": 23.4,
+      "packCount": 1,
+      "totalQuantity": 1.5,
+      "amount": 23.4,
+      "expiryDate": "2027-03-08",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1481,
+        "protein": 12.5,
+        "fat": 1.2,
+        "carbs": 72,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 1.5,
+      "image": null
     }
   ],
   "recipes": [
@@ -2245,6 +2269,23 @@
       "action": "用完",
       "delta": -0.3,
       "remaining": 0.2,
+      "note": ""
+    },
+    {
+      "id": "logmtprexx9y2ene",
+      "materialId": "mmtprexx8ywrfr",
+      "materialName": "王后硬红高筋粉 王后",
+      "quantity": 1.5,
+      "unit": "kg",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788695999037,
+      "amountUsed": 0,
+      "priceAtUse": 23.4,
+      "batchId": null,
+      "action": "添加",
+      "delta": 1.5,
+      "remaining": 1.5,
       "note": ""
     }
   ],
