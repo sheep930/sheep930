@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsvifbeqx1zpv",
-      "name": "昔绿展绿",
-      "brand": "贵茶",
-      "category": "抹茶粉",
-      "specification": "1.5",
-      "unit": "g",
-      "price": 0.01,
-      "packCount": 3,
-      "totalQuantity": 4.5,
-      "amount": 0.03,
-      "expiryDate": "2026-01-01",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 4.5
-    },
-    {
       "id": "mmsvisc32gifcg",
       "name": "普通鸡蛋",
       "brand": "",
