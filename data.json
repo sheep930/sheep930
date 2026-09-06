@@ -277,29 +277,6 @@
       "remainingQuantity": 1000
     },
     {
-      "id": "mmsoxgypl0kq0n",
-      "name": "纯正红糖",
-      "brand": "京糖",
-      "category": "红糖",
-      "specification": "408",
-      "unit": "g",
-      "price": 12.2,
-      "packCount": 1,
-      "totalQuantity": 408,
-      "amount": 12.2,
-      "expiryDate": "2028-03-23",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 1608,
-        "protein": null,
-        "fat": null,
-        "carbs": 94.6,
-        "sodium": null,
-        "calcium": 128
-      },
-      "remainingQuantity": 360
-    },
-    {
       "id": "mmsulgiuhx3tfh",
       "name": "莫兹瑞拉干酪碎",
       "brand": "瑞慕",
