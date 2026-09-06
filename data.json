@@ -527,6 +527,30 @@
       },
       "remainingQuantity": 100,
       "image": null
+    },
+    {
+      "id": "mmtpqpw1m78b0s",
+      "name": "山姆硬红高筋小麦粉",
+      "brand": "山姆",
+      "category": "高筋面粉",
+      "specification": "2000",
+      "unit": "kg",
+      "price": 16.8,
+      "packCount": 1,
+      "totalQuantity": 2000,
+      "amount": 16.8,
+      "expiryDate": "",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1496,
+        "protein": 12.2,
+        "fat": 1.6,
+        "carbs": 72.3,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 2000,
+      "image": null
     }
   ],
   "recipes": [
@@ -2047,6 +2071,23 @@
       "action": "用完",
       "delta": -300,
       "remaining": 100,
+      "note": ""
+    },
+    {
+      "id": "logmtpqpw1mdhfzg",
+      "materialId": "mmtpqpw1m78b0s",
+      "materialName": "山姆硬红高筋小麦粉 山姆",
+      "quantity": 2000,
+      "unit": "kg",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788694830202,
+      "amountUsed": 0,
+      "priceAtUse": 16.8,
+      "batchId": null,
+      "action": "添加",
+      "delta": 2000,
+      "remaining": 2000,
       "note": ""
     }
   ],
