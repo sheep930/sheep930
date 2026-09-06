@@ -588,7 +588,7 @@
       "totalQuantity": 408,
       "amount": 12.2,
       "expiryDate": "2028-03-23",
-      "openingDate": "",
+      "openingDate": "2026-08-06",
       "nutrition": {
         "calories": 1608,
         "protein": null,
@@ -2630,6 +2630,24 @@
       "action": "开封",
       "delta": 0,
       "remaining": 0,
+      "note": "",
+      "packIndex": 1
+    },
+    {
+      "id": "logmtps48e7ebiio",
+      "materialId": "mmtpriaynel46g",
+      "materialName": "京糖纯正红糖 京糖",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1786018740000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 408,
       "note": "",
       "packIndex": 1
     }
