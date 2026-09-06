@@ -1526,24 +1526,6 @@
       "delta": -10,
       "remaining": 15,
       "note": ""
-    },
-    {
-      "id": "logmtpnbezga5lem",
-      "materialId": "mmtpdnd29mhtae",
-      "materialName": "法芙娜加勒比黑巧克力豆66％ 法芙娜",
-      "quantity": 0,
-      "unit": "g",
-      "recipeName": "开封",
-      "recipeId": "",
-      "timestamp": 1785628800000,
-      "amountUsed": 0,
-      "priceAtUse": 0,
-      "batchId": null,
-      "action": "开封",
-      "delta": 0,
-      "remaining": 50,
-      "note": "",
-      "packIndex": 1
     }
   ],
   "categories": [
