@@ -575,6 +575,30 @@
       },
       "remainingQuantity": 1.5,
       "image": null
+    },
+    {
+      "id": "mmtpriaynel46g",
+      "name": "京糖纯正红糖",
+      "brand": "京糖",
+      "category": "红糖",
+      "specification": "408",
+      "unit": "g",
+      "price": 12.2,
+      "packCount": 1,
+      "totalQuantity": 408,
+      "amount": 12.2,
+      "expiryDate": "2028-03-23",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1608,
+        "protein": null,
+        "fat": null,
+        "carbs": 94.6,
+        "sodium": null,
+        "calcium": 128
+      },
+      "remainingQuantity": 408,
+      "image": null
     }
   ],
   "recipes": [
@@ -2286,6 +2310,23 @@
       "action": "添加",
       "delta": 1.5,
       "remaining": 1.5,
+      "note": ""
+    },
+    {
+      "id": "logmtpriayo1pwlp",
+      "materialId": "mmtpriaynel46g",
+      "materialName": "京糖纯正红糖 京糖",
+      "quantity": 408,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788696155904,
+      "amountUsed": 0,
+      "priceAtUse": 12.2,
+      "batchId": null,
+      "action": "添加",
+      "delta": 408,
+      "remaining": 408,
       "note": ""
     }
   ],
