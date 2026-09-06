@@ -359,6 +359,30 @@
       },
       "remainingQuantity": 2,
       "image": null
+    },
+    {
+      "id": "mmtpmr047hcq9a",
+      "name": "红棉精制白砂糖",
+      "brand": "红棉",
+      "category": "高筋面粉",
+      "specification": "1",
+      "unit": "kg",
+      "price": 12.01,
+      "packCount": 1,
+      "totalQuantity": 1,
+      "amount": 12.01,
+      "expiryDate": "2029-01-06",
+      "openingDate": "2026-08-02",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": 99.9,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 1,
+      "image": null
     }
   ],
   "recipes": [
@@ -1355,6 +1379,23 @@
       "action": "用完",
       "delta": -0.5,
       "remaining": 2,
+      "note": ""
+    },
+    {
+      "id": "logmtpmr0472kd7q",
+      "materialId": "mmtpmr047hcq9a",
+      "materialName": "红棉精制白砂糖 红棉",
+      "quantity": 1,
+      "unit": "kg",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788688163671,
+      "amountUsed": 0,
+      "priceAtUse": 12.01,
+      "batchId": null,
+      "action": "添加",
+      "delta": 1,
+      "remaining": 1,
       "note": ""
     }
   ],
