@@ -22,6 +22,31 @@
         "calcium": null
       },
       "remainingQuantity": 800
+    },
+    {
+      "id": "mmtpcp9bw0820b",
+      "name": "水磨糯米粉",
+      "brand": "三象牌",
+      "category": "糯米粉",
+      "specification": "500",
+      "unit": "g",
+      "price": 9.9,
+      "packCount": 2,
+      "totalQuantity": 500,
+      "amount": 19.28,
+      "expiryDate": "2026-12-31",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1462,
+        "protein": 6,
+        "fat": null,
+        "carbs": 80,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 500,
+      "purchaseDate": 1788671220000,
+      "createdAt": 1788671220000
     }
   ],
   "recipes": [
@@ -560,7 +585,25 @@
       "id": "rmtp88nb59pzab"
     }
   ],
-  "usageLogs": [],
+  "usageLogs": [
+    {
+      "id": "logmtpcp9bwso2xa",
+      "materialId": "mmtpcp9bw0820b",
+      "materialName": "水磨糯米粉 三象牌",
+      "quantity": 500,
+      "unit": "g",
+      "recipeName": "购入",
+      "recipeId": "",
+      "timestamp": 1788671220000,
+      "amountUsed": 0,
+      "priceAtUse": 9.9,
+      "batchId": null,
+      "action": "购入",
+      "delta": 500,
+      "remaining": 500,
+      "note": "件数 1 · 单价 ¥9.90"
+    }
+  ],
   "categories": [
     "高筋面粉",
     "低筋面粉",
