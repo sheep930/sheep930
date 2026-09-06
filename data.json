@@ -789,7 +789,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 500,
+      "remainingQuantity": 50,
       "image": null
     }
   ],
@@ -2866,6 +2866,23 @@
       "remaining": 500,
       "note": "",
       "packIndex": 1
+    },
+    {
+      "id": "logmtpshlow0f4ol",
+      "materialId": "mmtpsgushnnuu0",
+      "materialName": "嘉利宝黑巧克力54.5% 嘉利宝",
+      "quantity": -450,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788697740000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -450,
+      "remaining": 50,
+      "note": ""
     }
   ],
   "categories": [
