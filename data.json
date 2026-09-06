@@ -1,5 +1,30 @@
 {
-  "materials": [],
+  "materials": [
+    {
+      "id": "mmtpcteshiwj8r",
+      "name": "吉利丁片",
+      "brand": "",
+      "category": "吉利丁片",
+      "specification": "25",
+      "unit": "g",
+      "price": 2.26,
+      "packCount": 1,
+      "totalQuantity": 25,
+      "amount": 2.26,
+      "expiryDate": "2029-05-16",
+      "openingDate": "2026-08-02",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 25,
+      "image": null
+    }
+  ],
   "recipes": [
     {
       "name": "提拉米苏",
@@ -570,6 +595,23 @@
       "delta": 500,
       "remaining": 500,
       "note": "件数 1 · 单价 ¥9.90"
+    },
+    {
+      "id": "logmtpcteshp2wy8",
+      "materialId": "mmtpcteshiwj8r",
+      "materialName": "吉利丁片",
+      "quantity": 25,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788671479841,
+      "amountUsed": 0,
+      "priceAtUse": 2.26,
+      "batchId": null,
+      "action": "添加",
+      "delta": 25,
+      "remaining": 25,
+      "note": ""
     }
   ],
   "categories": [
