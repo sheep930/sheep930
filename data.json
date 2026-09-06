@@ -100,7 +100,7 @@
       "id": "mmtpdnd29mhtae",
       "name": "法芙娜加勒比黑巧克力豆66％",
       "brand": "法芙娜",
-      "category": "巧克力",
+      "category": "黑巧克力",
       "specification": "250",
       "unit": "g",
       "price": 91.85,
@@ -142,6 +142,30 @@
         "calcium": null
       },
       "remainingQuantity": 309,
+      "image": null
+    },
+    {
+      "id": "mmtpdwxpj6wykq",
+      "name": "淮盐天然三零食用盐",
+      "brand": "淮盐",
+      "category": "盐",
+      "specification": "256",
+      "unit": "g",
+      "price": 6.5,
+      "packCount": 1,
+      "totalQuantity": 256,
+      "amount": 6.5,
+      "expiryDate": "2031-06-23",
+      "openingDate": "",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": 38983,
+        "calcium": null
+      },
+      "remainingQuantity": 256,
       "image": null
     }
   ],
@@ -616,7 +640,7 @@
           "tag": "巧克力馅"
         },
         {
-          "category": "巧克力",
+          "category": "黑巧克力",
           "quantity": 60,
           "unit": "g",
           "tag": ""
@@ -902,6 +926,23 @@
       "delta": -309,
       "remaining": 309,
       "note": ""
+    },
+    {
+      "id": "logmtpdwxpjdi02g",
+      "materialId": "mmtpdwxpj6wykq",
+      "materialName": "淮盐天然三零食用盐 淮盐",
+      "quantity": 256,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788673323943,
+      "amountUsed": 0,
+      "priceAtUse": 6.5,
+      "batchId": null,
+      "action": "添加",
+      "delta": 256,
+      "remaining": 256,
+      "note": ""
     }
   ],
   "categories": [
@@ -916,24 +957,24 @@
     "酵母",
     "盐",
     "水",
+    "淡奶油",
     "奶油奶酪",
     "马斯卡彭",
     "马苏里拉",
+    "黑巧克力",
     "抹茶粉",
     "可可粉",
     "糖粉",
     "奶粉",
-    "巧克力",
     "糯米粉",
     "开心果酱",
     "开心果",
-    "吉利丁片",
-    "香草荚",
-    "手指饼干",
-    "测试2",
-    "测试",
+    "蛋白",
     "蛋黄",
-    "淡奶油",
-    "炼乳"
+    "炼乳",
+    "香草荚",
+    "吉利丁片",
+    "手指饼干",
+    "测试"
   ]
 }
