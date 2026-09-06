@@ -717,7 +717,7 @@
         "sodium": 590,
         "calcium": 678
       },
-      "remainingQuantity": 200,
+      "remainingQuantity": 100,
       "image": null
     }
   ],
@@ -2707,6 +2707,23 @@
       "action": "添加",
       "delta": 200,
       "remaining": 200,
+      "note": ""
+    },
+    {
+      "id": "logmtps7j2tvmwh5",
+      "materialId": "mmtps72b7jhgjh",
+      "materialName": "妙可蓝多马苏里拉 妙可蓝多",
+      "quantity": -100,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788697320000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -100,
+      "remaining": 100,
       "note": ""
     }
   ],
