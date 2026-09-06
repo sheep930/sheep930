@@ -505,29 +505,6 @@
         "calcium": null
       },
       "remainingQuantity": 20
-    },
-    {
-      "id": "mmsujjitjlezpg",
-      "name": "黑巧克力爆谷米",
-      "brand": "嘉利宝",
-      "category": "巧克力",
-      "specification": "800",
-      "unit": "g",
-      "price": 120.42,
-      "packCount": 1,
-      "totalQuantity": 800,
-      "amount": 120.42,
-      "expiryDate": "2027-03-09",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2120,
-        "protein": 6.3,
-        "fat": 28.3,
-        "carbs": 52.2,
-        "sodium": 167,
-        "calcium": null
-      },
-      "remainingQuantity": 780
     }
   ],
   "recipes": [
