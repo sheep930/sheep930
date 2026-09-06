@@ -1,247 +1,17 @@
 {
   "materials": [
     {
-      "id": "mmsuzyl99tk9zy",
-      "name": "T45法式糕点专用粉",
-      "brand": "王后",
-      "category": "T45面粉",
-      "specification": "1",
-      "unit": "kg",
-      "price": 25.41,
-      "packCount": 3,
-      "totalQuantity": 3,
-      "amount": 76.23,
-      "expiryDate": "2027-05-27",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1522,
-        "protein": 11.2,
-        "fat": 1.7,
-        "carbs": 74.6,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 7
-    },
-    {
-      "id": "mmsvhv3o54o97g",
-      "name": "一级糖霜",
-      "brand": "红棉",
-      "category": "糖粉",
-      "specification": "500",
-      "unit": "g",
-      "price": 11.11,
-      "packCount": 1,
-      "totalQuantity": 500,
-      "amount": 11.11,
-      "expiryDate": "2026-08-16",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 500
-    },
-    {
-      "id": "mmsvireddht9la",
-      "name": "优加高钙纯牛奶",
-      "brand": "光明",
-      "category": "全脂牛奶",
-      "specification": "4800",
-      "unit": "ml",
-      "price": 52.37,
-      "packCount": 1,
-      "totalQuantity": 4800,
-      "amount": 52.37,
-      "expiryDate": "2026-12-16",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 317,
-        "protein": 3.8,
-        "fat": 4.3,
-        "carbs": 5.5,
-        "sodium": 70,
-        "calcium": 125
-      },
-      "remainingQuantity": 4800
-    },
-    {
-      "id": "mmsujfuqop86lx",
-      "name": "加勒比黑巧克力豆66％",
-      "brand": "法芙娜",
-      "category": "巧克力",
-      "specification": "250",
-      "unit": "g",
-      "price": 91.85,
-      "packCount": 1,
-      "totalQuantity": 250,
-      "amount": 91.85,
-      "expiryDate": "2027-01-31",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 2245,
-        "protein": 8,
-        "fat": 40,
-        "carbs": 37,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 50
-    },
-    {
-      "id": "mmsolb7jzbmek7",
-      "name": "原味大颗开心果",
-      "brand": "天虹牌",
-      "category": "开心果",
-      "specification": "618",
-      "unit": "g",
-      "price": 81.51,
-      "packCount": 1,
-      "totalQuantity": 618,
-      "amount": 81.51,
-      "expiryDate": "2027-04-04",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2621,
-        "protein": 19.4,
-        "fat": 53.1,
-        "carbs": 19.2,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 309
-    },
-    {
-      "id": "mmsvk3y6xp2lhq",
+      "id": "mmtpctzs4qf44x",
       "name": "吉利丁片",
       "brand": "",
       "category": "吉利丁片",
       "specification": "25",
       "unit": "g",
-      "price": 5.26,
+      "price": 6,
       "packCount": 1,
       "totalQuantity": 25,
-      "amount": 5.26,
+      "amount": 2.26,
       "expiryDate": "2029-05-16",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 25
-    },
-    {
-      "id": "mmsukrxi5ezon9",
-      "name": "天然三零食用盐",
-      "brand": "淮盐",
-      "category": "盐",
-      "specification": "256",
-      "unit": "g",
-      "price": 6.5,
-      "packCount": 1,
-      "totalQuantity": 256,
-      "amount": 6.5,
-      "expiryDate": "2031-06-23",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": 38983,
-        "calcium": null
-      },
-      "remainingQuantity": 256
-    },
-    {
-      "id": "mmsvij4w3dcqi8",
-      "name": "天然可可粉",
-      "brand": "均衡大师",
-      "category": "可可粉",
-      "specification": "100",
-      "unit": "g",
-      "price": 11.55,
-      "packCount": 1,
-      "totalQuantity": 100,
-      "amount": 11.55,
-      "expiryDate": "2026-12-05",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1748,
-        "protein": 27.3,
-        "fat": 11.2,
-        "carbs": 51.2,
-        "sodium": 14,
-        "calcium": null
-      },
-      "remainingQuantity": 15
-    },
-    {
-      "id": "mmsul602aajg1s",
-      "name": "恩喜村淡味黄油片",
-      "brand": "艾许",
-      "category": "黄油",
-      "specification": "2000",
-      "unit": "g",
-      "price": 253.96,
-      "packCount": 1,
-      "totalQuantity": 2000,
-      "amount": 253.96,
-      "expiryDate": "2027-03-12",
-      "openingDate": "2025-12-31",
-      "nutrition": {
-        "calories": 3159,
-        "protein": 0.8,
-        "fat": 85,
-        "carbs": null,
-        "sodium": 4,
-        "calcium": null
-      },
-      "remainingQuantity": 1300
-    },
-    {
-      "id": "mmsujo1qjgjdyp",
-      "name": "无糖巧克力70%",
-      "brand": "奥乐齐",
-      "category": "巧克力",
-      "specification": "250",
-      "unit": "g",
-      "price": 39.9,
-      "packCount": 1,
-      "totalQuantity": 250,
-      "amount": 39.9,
-      "expiryDate": "2027-06-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2608,
-        "protein": 7,
-        "fat": 47.8,
-        "carbs": 42.4,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 230
-    },
-    {
-      "id": "mmsvifbeqx1zpv",
-      "name": "昔绿展绿",
-      "brand": "贵茶",
-      "category": "抹茶粉",
-      "specification": "1.5",
-      "unit": "g",
-      "price": 0.01,
-      "packCount": 3,
-      "totalQuantity": 4.5,
-      "amount": 0.03,
-      "expiryDate": "2026-01-01",
       "openingDate": "",
       "nutrition": {
         "calories": null,
@@ -251,457 +21,23 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 4.5
+      "remainingQuantity": 25,
+      "image": null,
+      "purchaseDate": 1788671460000,
+      "createdAt": 1788671460000
     },
     {
-      "id": "mmsvisc32gifcg",
-      "name": "普通鸡蛋",
+      "id": "mmtpcugcyiw9md",
+      "name": "吉利丁片",
       "brand": "",
-      "category": "鸡蛋",
-      "specification": "16",
-      "unit": "个",
-      "price": 9.5,
-      "packCount": 1,
-      "totalQuantity": 16,
-      "amount": 9.5,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 16
-    },
-    {
-      "id": "mmsukbh1j2mnmu",
-      "name": "有机抹茶",
-      "brand": "贵茶",
-      "category": "抹茶粉",
-      "specification": "40",
+      "category": "吉利丁片",
+      "specification": "25",
       "unit": "g",
-      "price": 39.76,
-      "packCount": 1,
-      "totalQuantity": 40,
-      "amount": 39.76,
-      "expiryDate": "2026-11-25",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1333,
-        "protein": 29.9,
-        "fat": 5.2,
-        "carbs": 20.9,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 8
-    },
-    {
-      "id": "mmsvhk8cwc841a",
-      "name": "柔风吐司粉",
-      "brand": "王后",
-      "category": "高筋面粉",
-      "specification": "2.5",
-      "unit": "kg",
-      "price": 46.88,
-      "packCount": 1,
-      "totalQuantity": 2.5,
-      "amount": 46.88,
-      "expiryDate": "2027-03-17",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1498,
-        "protein": 13.2,
-        "fat": 1.8,
-        "carbs": 71,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 2.5
-    },
-    {
-      "id": "mmsv0dwunqh6uv",
-      "name": "柔风樱花吐司粉",
-      "brand": "王后",
-      "category": "高筋面粉",
-      "specification": "2.5",
-      "unit": "kg",
-      "price": 57.31,
-      "packCount": 1,
-      "totalQuantity": 2.5,
-      "amount": 57.31,
-      "expiryDate": "2027-04-05",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 1476,
-        "protein": 12.2,
-        "fat": 0.8,
-        "carbs": 72.9,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 2
-    },
-    {
-      "id": "mmsvh6zdi5gsr3",
-      "name": "水磨糯米粉",
-      "brand": "三象牌",
-      "category": "糯米粉",
-      "specification": "500",
-      "unit": "g",
-      "price": 9.64,
+      "price": 20,
       "packCount": 2,
-      "totalQuantity": 1000,
-      "amount": 19.28,
-      "expiryDate": "2028-02-23",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 1462,
-        "protein": 6,
-        "fat": null,
-        "carbs": 80,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 800
-    },
-    {
-      "id": "mmsvjslujce5t6",
-      "name": "河套奶粉",
-      "brand": "河套",
-      "category": "奶粉",
-      "specification": "600",
-      "unit": "g",
-      "price": 22.85,
-      "packCount": 1,
-      "totalQuantity": 600,
-      "amount": 22.85,
-      "expiryDate": "2027-05-09",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 2169,
-        "protein": 23.8,
-        "fat": 27,
-        "carbs": 45,
-        "sodium": 380,
-        "calcium": 800
-      },
-      "remainingQuantity": 600
-    },
-    {
-      "id": "mmsuiwz1gni92u",
-      "name": "淡味份装黄油",
-      "brand": "总统",
-      "category": "黄油",
-      "specification": "60",
-      "unit": "g",
-      "price": 13.07,
-      "packCount": 1,
-      "totalQuantity": 60,
-      "amount": 13.07,
-      "expiryDate": "2026-10-19",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 3063,
-        "protein": 0.7,
-        "fat": 82,
-        "carbs": 1,
-        "sodium": 12,
-        "calcium": null
-      },
-      "remainingQuantity": 60
-    },
-    {
-      "id": "mmsuitlaxonrtg",
-      "name": "淡味黄油块",
-      "brand": "总统",
-      "category": "黄油",
-      "specification": "500",
-      "unit": "g",
-      "price": 45.89,
-      "packCount": 2,
-      "totalQuantity": 1000,
-      "amount": 91.78,
-      "expiryDate": "2027-03-23",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 3063,
-        "protein": 0.7,
-        "fat": 82,
-        "carbs": 1,
-        "sodium": 12,
-        "calcium": null
-      },
-      "remainingQuantity": 720
-    },
-    {
-      "id": "mmsukj475ovvwu",
-      "name": "生可可粉 未碱化",
-      "brand": "Soileta",
-      "category": "可可粉",
-      "specification": "150",
-      "unit": "g",
-      "price": 40.73,
-      "packCount": 1,
-      "totalQuantity": 150,
-      "amount": 40.73,
-      "expiryDate": "2027-12-23",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1312,
-        "protein": 24.2,
-        "fat": 10.9,
-        "carbs": 13.1,
-        "sodium": 21,
-        "calcium": null
-      },
-      "remainingQuantity": 80
-    },
-    {
-      "id": "mmsokw4i1je1xp",
-      "name": "白巧克力32%",
-      "brand": "嘉利宝",
-      "category": "巧克力",
-      "specification": "400",
-      "unit": "g",
-      "price": 44.72,
-      "packCount": 1,
-      "totalQuantity": 400,
-      "amount": 44.72,
-      "expiryDate": "2027-07-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2465,
-        "protein": 6.1,
-        "fat": 40,
-        "carbs": 51,
-        "sodium": 87,
-        "calcium": null
-      },
-      "remainingQuantity": 100
-    },
-    {
-      "id": "mmsuh8ngi9bz4y",
-      "name": "硬红高筋小麦粉",
-      "brand": "山姆",
-      "category": "高筋面粉",
-      "specification": "2000",
-      "unit": "g",
-      "price": 16.8,
-      "packCount": 1,
-      "totalQuantity": 2000,
-      "amount": 16.8,
-      "expiryDate": "2026-12-31",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1496,
-        "protein": 12.2,
-        "fat": 1.6,
-        "carbs": 72.3,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 200
-    },
-    {
-      "id": "mmsvhakmmu7ppe",
-      "name": "硬红高筋粉",
-      "brand": "王后",
-      "category": "高筋面粉",
-      "specification": "1.2",
-      "unit": "kg",
-      "price": 23.4,
-      "packCount": 1,
-      "totalQuantity": 1.2,
-      "amount": 23.4,
-      "expiryDate": "2027-03-08",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1481,
-        "protein": 12.5,
-        "fat": 1.2,
-        "carbs": 72,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 1.5
-    },
-    {
-      "id": "mmsukuiqirgrds",
-      "name": "精制白砂糖",
-      "brand": "红棉",
-      "category": "白砂糖",
-      "specification": "1000",
-      "unit": "g",
-      "price": 12.01,
-      "packCount": 1,
-      "totalQuantity": 1000,
-      "amount": 12.01,
-      "expiryDate": "2029-01-06",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 1000
-    },
-    {
-      "id": "mmsoxgypl0kq0n",
-      "name": "纯正红糖",
-      "brand": "京糖",
-      "category": "红糖",
-      "specification": "408",
-      "unit": "g",
-      "price": 12.2,
-      "packCount": 1,
-      "totalQuantity": 408,
-      "amount": 12.2,
-      "expiryDate": "2028-03-23",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 1608,
-        "protein": null,
-        "fat": null,
-        "carbs": 94.6,
-        "sodium": null,
-        "calcium": 128
-      },
-      "remainingQuantity": 360
-    },
-    {
-      "id": "mmsulgiuhx3tfh",
-      "name": "莫兹瑞拉干酪碎",
-      "brand": "瑞慕",
-      "category": "马苏里拉",
-      "specification": "120",
-      "unit": "g",
-      "price": 23.02,
-      "packCount": 1,
-      "totalQuantity": 120,
-      "amount": 23.02,
-      "expiryDate": "2027-05-05",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1285,
-        "protein": 27.8,
-        "fat": 21.5,
-        "carbs": 1,
-        "sodium": 480,
-        "calcium": 767
-      },
-      "remainingQuantity": 120
-    },
-    {
-      "id": "mmsvhq448l6n8p",
-      "name": "软白低筋粉",
-      "brand": "王后",
-      "category": "低筋面粉",
-      "specification": "1500",
-      "unit": "g",
-      "price": 35.74,
-      "packCount": 1,
-      "totalQuantity": 1500,
-      "amount": 35.74,
-      "expiryDate": "2026-09-30",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1469,
-        "protein": 8,
-        "fat": 1.2,
-        "carbs": 75.8,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 320
-    },
-    {
-      "id": "mmsol6vo80ysec",
-      "name": "香草荚",
-      "brand": "",
-      "category": "香草荚",
-      "specification": "20",
-      "unit": "g",
-      "price": 26.8,
-      "packCount": 1,
-      "totalQuantity": 20,
-      "amount": 26.8,
-      "expiryDate": "2026-05-09",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 20
-    },
-    {
-      "id": "mmsol0qzqb6tua",
-      "name": "马斯卡彭",
-      "brand": "琪雷萨",
-      "category": "马斯卡彭",
-      "specification": "250",
-      "unit": "g",
-      "price": 31.92,
-      "packCount": 1,
-      "totalQuantity": 0,
-      "amount": 31.92,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1463,
-        "protein": 5.8,
-        "fat": 35.5,
-        "carbs": 3,
-        "sodium": 30,
-        "calcium": null
-      },
-      "remainingQuantity": 0
-    },
-    {
-      "id": "mmsuj0qj256832",
-      "name": "马苏里拉奶酪",
-      "brand": "妙可蓝多",
-      "category": "马苏里拉",
-      "specification": "200",
-      "unit": "g",
-      "price": 23.27,
-      "packCount": 1,
-      "totalQuantity": 200,
-      "amount": 23.27,
-      "expiryDate": "2026-11-17",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1339,
-        "protein": 24.1,
-        "fat": 23.5,
-        "carbs": 3.5,
-        "sodium": 590,
-        "calcium": 678
-      },
-      "remainingQuantity": 100
-    },
-    {
-      "id": "mmsujxzm4yw6tp",
-      "name": "高活性干酵母耐高糖型",
-      "brand": "燕子",
-      "category": "酵母",
-      "specification": "40",
-      "unit": "g",
-      "price": 9.42,
-      "packCount": 1,
-      "totalQuantity": 40,
-      "amount": 9.42,
-      "expiryDate": "2027-10-18",
+      "totalQuantity": 50,
+      "amount": 40,
+      "expiryDate": "2029-12-31",
       "openingDate": "",
       "nutrition": {
         "calories": null,
@@ -711,128 +47,133 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 40
-    },
-    {
-      "id": "mmsukothz2u5se",
-      "name": "麦芽脆心巧克力球",
-      "brand": "麦提莎",
-      "category": "巧克力",
-      "specification": "53",
-      "unit": "g",
-      "price": 3.7,
-      "packCount": 1,
-      "totalQuantity": 53,
-      "amount": 3.7,
-      "expiryDate": "2026-09-05",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 2095,
-        "protein": 6.3,
-        "fat": 22.9,
-        "carbs": 66.9,
-        "sodium": 129,
-        "calcium": null
-      },
-      "remainingQuantity": 53
-    },
-    {
-      "id": "mmsujats72z2iw",
-      "name": "黑巧克力54.5%",
-      "brand": "嘉利宝",
-      "category": "巧克力",
-      "specification": "500",
-      "unit": "g",
-      "price": 78.22,
-      "packCount": 1,
-      "totalQuantity": 500,
-      "amount": 78.22,
-      "expiryDate": "2027-01-31",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 2307,
-        "protein": 5.1,
-        "fat": 36.6,
-        "carbs": 45.8,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 50
-    },
-    {
-      "id": "mmsuk531clnjbw",
-      "name": "黑巧克力90%",
-      "brand": "瑞士莲",
-      "category": "巧克力",
-      "specification": "100",
-      "unit": "g",
-      "price": 49,
-      "packCount": 1,
-      "totalQuantity": 100,
-      "amount": 49,
-      "expiryDate": "2026-11-30",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 2622,
-        "protein": 10,
-        "fat": 55,
-        "carbs": 24.5,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 20
-    },
-    {
-      "id": "mmsujjitjlezpg",
-      "name": "黑巧克力爆谷米",
-      "brand": "嘉利宝",
-      "category": "巧克力",
-      "specification": "800",
-      "unit": "g",
-      "price": 120.42,
-      "packCount": 1,
-      "totalQuantity": 800,
-      "amount": 120.42,
-      "expiryDate": "2027-03-09",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2120,
-        "protein": 6.3,
-        "fat": 28.3,
-        "carbs": 52.2,
-        "sodium": 167,
-        "calcium": null
-      },
-      "remainingQuantity": 780
+      "remainingQuantity": 50,
+      "image": null,
+      "purchaseDate": 1788671460000,
+      "createdAt": 1788671460000
     }
   ],
   "recipes": [
     {
       "name": "提拉米苏",
-      "description": "",
+      "description": "3个小碗",
       "ingredients": [
         {
-          "category": "盐",
-          "quantity": 6,
-          "unit": "g"
-        },
-        {
           "category": "马斯卡彭",
-          "quantity": 250,
-          "unit": "g"
+          "quantity": 100,
+          "unit": "g",
+          "tag": ""
         },
         {
-          "category": "巧克力",
-          "quantity": 70,
-          "unit": "g"
+          "category": "奶油奶酪",
+          "quantity": 35,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "蛋黄",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 13,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "水",
+          "quantity": 7,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "糖粉",
+          "quantity": 10,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "淡奶油",
+          "quantity": 130,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "可可粉",
+          "quantity": 3,
+          "unit": "g",
+          "tag": ""
         }
       ],
       "steps": [
         {
-          "text": "搅拌",
-          "images": [],
+          "text": "软化混合：软化的马斯卡彭和奶酪芝士混合均匀。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477000287_r6v00m.jpg"
+          ],
           "materials": [
+            0,
             1
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "蛋黄打发：将细砂糖和水烧开，倒入蛋中，快速搅拌到蛋黄乳化打发。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477002789_r9p7ri.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477005317_ctun65.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477007372_ncokd1.jpg"
+          ],
+          "materials": [
+            3,
+            4,
+            2
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "打发好的蛋黄，导入芝士内，混合均匀。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477010466_46ks7l.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477012562_5ikzd8.jpg"
+          ],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "奶油打发：淡奶油加入糖粉，搅拌到蛋糕抹面的程度。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477014634_opbupg.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477016742_2biel0.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477018743_i50odw.jpg"
+          ],
+          "materials": [
+            6,
+            5
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "把打发的奶油加入之前的芝士糊内，轻轻的搅拌。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477020851_31pb6a.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477023568_d3nqlf.jpg"
+          ],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "组装蛋糕：把手指饼干蘸一下咖啡液，一层饼干，一层芝士，面上撒一层糖粉，然后再撒可可粉，可可粉可以等到吃的时候再撒。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477025628_6om937.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477027562_nwjjjz.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477029637_9flwja.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477031981_q5aknc.jpg"
+          ],
+          "materials": [
+            7
           ],
           "timerMinutes": 0
         }
@@ -856,80 +197,100 @@
       "description": "450g*2",
       "ingredients": [
         {
+          "isTag": true,
+          "tag": "开心果吐司"
+        },
+        {
           "category": "高筋面粉",
           "quantity": 500,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "白砂糖",
           "quantity": 30,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "酵母",
           "quantity": 5,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "奶油奶酪",
           "quantity": 100,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "鸡蛋",
           "quantity": 1,
-          "unit": "个"
+          "unit": "个",
+          "tag": ""
         },
         {
           "category": "盐",
           "quantity": 3,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "开心果酱",
           "quantity": 50,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "全脂牛奶",
           "quantity": 140,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "水",
           "quantity": 140,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "黄油",
           "quantity": 50,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "开心果奶酪酱"
         },
         {
           "category": "开心果酱",
           "quantity": 30,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "奶油奶酪",
           "quantity": 50,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         },
         {
           "category": "白砂糖",
           "quantity": 10,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         }
       ],
       "steps": [
         {
           "text": "把材料放入放入厨师机，搅拌出厚膜。",
           "images": [
-            "img_1786836811666_wp0oob",
-            "img_1786837255714_9pilsc"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446799869_l2l6f4.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446803507_xqmt4z.jpg"
           ],
           "materials": [
-            0,
             1,
             2,
             3,
@@ -937,26 +298,26 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "timerMinutes": 0
         },
         {
           "text": "加入软化的黄油，搅拌出手套膜。",
           "images": [
-            "img_1786837348824_pvu685",
-            "img_1786838370755_yy5jyt"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446805544_fiycux.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446807911_udda7q.jpg"
           ],
           "materials": [
-            9
+            10
           ],
           "timerMinutes": 0
         },
         {
           "text": "揉好的面团，温度30度，发酵40-60分钟。",
           "images": [
-            "img_1786838395281_11cmkk",
-            "img_1786838395310_kljp2j"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446809967_rgbasb.jpg"
           ],
           "materials": [],
           "timerMinutes": 40
@@ -964,7 +325,8 @@
         {
           "text": "分成2份，分好之后揉圆松弛20分钟。",
           "images": [
-            "img_1786838587700_nnypbo"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446812520_yq2qmd.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446815300_nipb6i.jpg"
           ],
           "materials": [],
           "timerMinutes": 20
@@ -972,19 +334,19 @@
         {
           "text": "做开心果奶酪夹心",
           "images": [
-            "img_1786838668856_8zm0fc"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446818256_g1w799.jpg"
           ],
           "materials": [
-            10,
-            11,
-            12
+            12,
+            13,
+            14
           ],
           "timerMinutes": 0
         },
         {
           "text": "把松弛好的面团，擀的尽量长一点。",
           "images": [
-            "img_1786838750655_o6gysm"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446821540_0l4r80.jpg"
           ],
           "materials": [],
           "timerMinutes": 0
@@ -992,7 +354,7 @@
         {
           "text": "涂抹开心果夹心，越薄越好。",
           "images": [
-            "img_1786838803389_klqkxg"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446824057_vhv161.jpg"
           ],
           "materials": [],
           "timerMinutes": 0
@@ -1000,18 +362,18 @@
         {
           "text": "卷的稍微紧一点，从中间隔开",
           "images": [
-            "img_1786838861720_wp127p",
-            "img_1786838861783_uno93z"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446826866_ouj7oq.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446829846_7zr2et.jpg"
           ],
           "materials": [],
           "timerMinutes": 0
         },
         {
-          "text": "卷起来，放入吐司盒，发酵大约一个小时到一个半小时，发酵至9分满。",
+          "text": "卷起来，放入低糖吐司盒，发酵大约一个小时到一个半小时，发酵至9分满。",
           "images": [
-            "img_1786839090235_jieine",
-            "img_1786839090294_fdjuh7",
-            "img_1786839090349_0zxd5t"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446833421_4ptlu9.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446836477_xyts35.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446839655_wog1cp.jpg"
           ],
           "materials": [],
           "timerMinutes": 80
@@ -1019,8 +381,9 @@
         {
           "text": "预热烤箱，上温190，下温180，最下层，烤26分钟左右。",
           "images": [
-            "img_1786839449324_xvox50",
-            "img_1786839565970_hbxoii"
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446842228_q6n143.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446995473_dndvyr.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788446847552_hr7j8b.jpg"
           ],
           "materials": [],
           "timerMinutes": 26
@@ -1047,19 +410,35 @@
         {
           "category": "开心果",
           "quantity": 309,
-          "unit": "g"
+          "unit": "g",
+          "tag": ""
         }
       ],
       "steps": [
         {
-          "text": "用破壁机搅拌顺滑",
-          "images": [],
+          "text": "把开心果用180度烤3分钟左右，让它烤软一点。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477421371_tl4q64.jpg",
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477423934_orl4yc.jpg"
+          ],
+          "materials": [
+            0
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "用破壁机搅拌顺滑，什么都不需要加。",
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477426261_2m8t18.jpg"
+          ],
           "materials": [],
           "timerMinutes": 0
         },
         {
           "text": "309g开心果出158g开心果酱",
-          "images": [],
+          "images": [
+            "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788477428304_3b7xus.jpg"
+          ],
           "materials": [],
           "timerMinutes": 0
         }
@@ -1077,59 +456,224 @@
       "createdAt": 1786837744805,
       "order": 1786837744805,
       "id": "rmsv123s5y0ses"
+    },
+    {
+      "name": "大理石纹巧克力吐司",
+      "description": "",
+      "ingredients": [
+        {
+          "isTag": true,
+          "tag": "面团"
+        },
+        {
+          "category": "高筋面粉",
+          "quantity": 510,
+          "unit": "kg",
+          "tag": ""
+        },
+        {
+          "category": "酵母",
+          "quantity": 10,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "盐",
+          "quantity": 6,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "奶粉",
+          "quantity": 20,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "炼乳",
+          "quantity": 25,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "水",
+          "quantity": 220,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 40,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "巧克力馅"
+        },
+        {
+          "category": "巧克力",
+          "quantity": 60,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "全脂牛奶",
+          "quantity": 60,
+          "unit": "ml",
+          "tag": ""
+        },
+        {
+          "category": "低筋面粉",
+          "quantity": 40,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "可可粉",
+          "quantity": 20,
+          "unit": "g",
+          "tag": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "混合材料",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        }
+      ],
+      "emoji": "🍪",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1788663792641,
+      "order": 1788663792641,
+      "id": "rmtp88nb59pzab"
     }
   ],
   "usageLogs": [
     {
-      "id": "logmtpd8mx6rtd0c",
-      "materialId": "mmsuzyl99tk9zy",
-      "materialName": "T45法式糕点专用粉 王后",
-      "quantity": -1,
-      "unit": "kg",
-      "recipeName": "丢弃",
+      "id": "logmtpcp9bwso2xa",
+      "materialId": "mmtpcp9bw0820b",
+      "materialName": "水磨糯米粉 三象牌",
+      "quantity": 500,
+      "unit": "g",
+      "recipeName": "购入",
       "recipeId": "",
-      "timestamp": 1788672180000,
+      "timestamp": 1788671220000,
       "amountUsed": 0,
-      "priceAtUse": 0,
+      "priceAtUse": 9.9,
       "batchId": null,
-      "action": "丢弃",
-      "delta": -1,
-      "remaining": 0,
+      "action": "购入",
+      "delta": 500,
+      "remaining": 500,
+      "note": "件数 1 · 单价 ¥9.90"
+    },
+    {
+      "id": "logmtpcqaxqu1afm",
+      "materialId": "mmtpcqaxq00ury",
+      "materialName": "水磨糯米粉 三象牌",
+      "quantity": 500,
+      "unit": "g",
+      "recipeName": "购入",
+      "recipeId": "",
+      "timestamp": 1788671280000,
+      "amountUsed": 0,
+      "priceAtUse": 9.9,
+      "batchId": null,
+      "action": "购入",
+      "delta": 500,
+      "remaining": 500,
+      "note": "件数 1 · 单价 ¥9.90"
+    },
+    {
+      "id": "logmtpcteshp2wy8",
+      "materialId": "mmtpcteshiwj8r",
+      "materialName": "吉利丁片",
+      "quantity": 25,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788671479841,
+      "amountUsed": 0,
+      "priceAtUse": 2.26,
+      "batchId": null,
+      "action": "添加",
+      "delta": 25,
+      "remaining": 25,
       "note": ""
     },
     {
-      "id": "logmtpd8r72ieo87",
-      "materialId": "mmsuzyl99tk9zy",
-      "materialName": "T45法式糕点专用粉 王后",
-      "quantity": 1,
-      "unit": "kg",
-      "recipeName": "补充",
+      "id": "logmtpctzs4h2di0",
+      "materialId": "mmtpctzs4qf44x",
+      "materialName": "吉利丁片",
+      "quantity": 25,
+      "unit": "g",
+      "recipeName": "购入",
       "recipeId": "",
-      "timestamp": 1788672180000,
+      "timestamp": 1788671460000,
       "amountUsed": 0,
-      "priceAtUse": 25.41,
+      "priceAtUse": 6,
       "batchId": null,
-      "action": "补充",
-      "delta": 1,
-      "remaining": 1,
-      "note": ""
+      "action": "购入",
+      "delta": 25,
+      "remaining": 25,
+      "note": "件数 1 · 单价 ¥6.00"
     },
     {
-      "id": "logmtpd8vl4tiz2a",
-      "materialId": "mmsuzyl99tk9zy",
-      "materialName": "T45法式糕点专用粉 王后",
-      "quantity": 6,
-      "unit": "kg",
-      "recipeName": "补充",
+      "id": "logmtpcugcy7e8hz",
+      "materialId": "mmtpcugcyiw9md",
+      "materialName": "吉利丁片",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "购入",
       "recipeId": "",
-      "timestamp": 1788672180000,
+      "timestamp": 1788671460000,
       "amountUsed": 0,
-      "priceAtUse": 25.41,
+      "priceAtUse": 20,
       "batchId": null,
-      "action": "补充",
-      "delta": 6,
-      "remaining": 7,
-      "note": ""
+      "action": "购入",
+      "delta": 50,
+      "remaining": 50,
+      "note": "件数 2 · 单价 ¥20.00"
     }
   ],
   "categories": [
@@ -1159,6 +703,9 @@
     "香草荚",
     "手指饼干",
     "测试2",
-    "测试"
+    "测试",
+    "蛋黄",
+    "淡奶油",
+    "炼乳"
   ]
 }
