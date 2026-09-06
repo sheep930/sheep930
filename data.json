@@ -60,7 +60,7 @@
       "totalQuantity": 500,
       "amount": 11.11,
       "expiryDate": "2026-08-16",
-      "openingDate": "2026-01-01",
+      "openingDate": "",
       "nutrition": {
         "calories": null,
         "protein": null,
