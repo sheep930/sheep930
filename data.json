@@ -828,7 +828,7 @@
       "totalQuantity": 800,
       "amount": 120.42,
       "expiryDate": "2027-03-09",
-      "openingDate": "",
+      "openingDate": "2026-08-06",
       "nutrition": {
         "calories": 2120,
         "protein": 6.3,
@@ -3000,6 +3000,24 @@
       "delta": 800,
       "remaining": 800,
       "note": ""
+    },
+    {
+      "id": "logmtpsnr8fg57y8",
+      "materialId": "mmtpsncscpwcsn",
+      "materialName": "嘉利宝黑巧克力爆谷米 嘉利宝",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1786019640000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 800,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
