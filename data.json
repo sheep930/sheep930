@@ -189,7 +189,7 @@
         "sodium": 14,
         "calcium": null
       },
-      "remainingQuantity": 100,
+      "remainingQuantity": 15,
       "image": null
     }
   ],
@@ -983,6 +983,23 @@
       "action": "添加",
       "delta": 100,
       "remaining": 100,
+      "note": ""
+    },
+    {
+      "id": "logmtpf8sn3avier",
+      "materialId": "mmtpf8g8tujbtb",
+      "materialName": "均衡大师天然可可粉 均衡大师",
+      "quantity": -85,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788675540000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -85,
+      "remaining": 15,
       "note": ""
     }
   ],
