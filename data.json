@@ -23,6 +23,30 @@
       },
       "remainingQuantity": 25,
       "image": null
+    },
+    {
+      "id": "mmtpddynztzja5",
+      "name": "T45法式糕点专用粉",
+      "brand": "T45面粉",
+      "category": "T45面粉",
+      "specification": "1",
+      "unit": "kg",
+      "price": 25.41,
+      "packCount": 1,
+      "totalQuantity": 1,
+      "amount": 25.41,
+      "expiryDate": "2027-05-27",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1522,
+        "protein": 11.2,
+        "fat": 1.7,
+        "carbs": 74.6,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 1,
+      "image": null
     }
   ],
   "recipes": [
@@ -662,6 +686,23 @@
       "action": "添加",
       "delta": 25,
       "remaining": 25,
+      "note": ""
+    },
+    {
+      "id": "logmtpddynz1kn0h",
+      "materialId": "mmtpddynztzja5",
+      "materialName": "T45法式糕点专用粉 T45面粉",
+      "quantity": 1,
+      "unit": "kg",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788672438719,
+      "amountUsed": 0,
+      "priceAtUse": 25.41,
+      "batchId": null,
+      "action": "添加",
+      "delta": 1,
+      "remaining": 1,
       "note": ""
     }
   ],
