@@ -693,7 +693,7 @@
         "sodium": 30,
         "calcium": null
       },
-      "remainingQuantity": 250,
+      "remainingQuantity": 0,
       "image": null
     }
   ],
@@ -2597,6 +2597,23 @@
       "remaining": 250,
       "note": "",
       "packIndex": 1
+    },
+    {
+      "id": "logmtps1ppzxo4ci",
+      "materialId": "mmtps1cnpubenw",
+      "materialName": "琪雷萨马斯卡彭 琪雷萨",
+      "quantity": -250,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788697020000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -250,
+      "remaining": 0,
+      "note": ""
     }
   ],
   "categories": [
