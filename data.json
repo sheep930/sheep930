@@ -47,29 +47,6 @@
       "remainingQuantity": 600
     },
     {
-      "id": "mmsukj475ovvwu",
-      "name": "生可可粉 未碱化",
-      "brand": "Soileta",
-      "category": "可可粉",
-      "specification": "150",
-      "unit": "g",
-      "price": 40.73,
-      "packCount": 1,
-      "totalQuantity": 150,
-      "amount": 40.73,
-      "expiryDate": "2027-12-23",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1312,
-        "protein": 24.2,
-        "fat": 10.9,
-        "carbs": 13.1,
-        "sodium": 21,
-        "calcium": null
-      },
-      "remainingQuantity": 80
-    },
-    {
       "id": "mmsulgiuhx3tfh",
       "name": "莫兹瑞拉干酪碎",
       "brand": "瑞慕",
