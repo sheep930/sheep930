@@ -323,29 +323,6 @@
       "remainingQuantity": 120
     },
     {
-      "id": "mmsvhq448l6n8p",
-      "name": "软白低筋粉",
-      "brand": "王后",
-      "category": "低筋面粉",
-      "specification": "1500",
-      "unit": "g",
-      "price": 35.74,
-      "packCount": 1,
-      "totalQuantity": 1500,
-      "amount": 35.74,
-      "expiryDate": "2026-09-30",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1469,
-        "protein": 8,
-        "fat": 1.2,
-        "carbs": 75.8,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 320
-    },
-    {
       "id": "mmsujxzm4yw6tp",
       "name": "高活性干酵母耐高糖型",
       "brand": "燕子",
