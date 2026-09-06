@@ -323,29 +323,6 @@
       "remainingQuantity": 120
     },
     {
-      "id": "mmsujxzm4yw6tp",
-      "name": "高活性干酵母耐高糖型",
-      "brand": "燕子",
-      "category": "酵母",
-      "specification": "40",
-      "unit": "g",
-      "price": 9.42,
-      "packCount": 1,
-      "totalQuantity": 40,
-      "amount": 9.42,
-      "expiryDate": "2027-10-18",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 40
-    },
-    {
       "id": "mmsujats72z2iw",
       "name": "黑巧克力54.5%",
       "brand": "嘉利宝",
