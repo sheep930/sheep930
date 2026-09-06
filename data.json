@@ -357,7 +357,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 2.5,
+      "remainingQuantity": 2,
       "image": null
     }
   ],
@@ -1338,6 +1338,23 @@
       "action": "用完",
       "delta": -32,
       "remaining": 8,
+      "note": ""
+    },
+    {
+      "id": "logmtpmpq58vx531",
+      "materialId": "mmtpmnt35jiqgw",
+      "materialName": "王后柔风樱花吐司粉 王后",
+      "quantity": -0.5,
+      "unit": "kg",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788688020000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -0.5,
+      "remaining": 2,
       "note": ""
     }
   ],
