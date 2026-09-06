@@ -647,6 +647,30 @@
       },
       "remainingQuantity": 320,
       "image": null
+    },
+    {
+      "id": "mmtpruvopzppm9",
+      "name": "展艺香草荚",
+      "brand": "展艺",
+      "category": "香草荚",
+      "specification": "20",
+      "unit": "g",
+      "price": 26.8,
+      "packCount": 1,
+      "totalQuantity": 20,
+      "amount": 26.8,
+      "expiryDate": "2027-01-08",
+      "openingDate": "",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 20,
+      "image": null
     }
   ],
   "recipes": [
@@ -2461,6 +2485,23 @@
       "action": "用完",
       "delta": -180,
       "remaining": 320,
+      "note": ""
+    },
+    {
+      "id": "logmtpruvopxe9jt",
+      "materialId": "mmtpruvopzppm9",
+      "materialName": "展艺香草荚 展艺",
+      "quantity": 20,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788696742633,
+      "amountUsed": 0,
+      "priceAtUse": 26.8,
+      "batchId": null,
+      "action": "添加",
+      "delta": 20,
+      "remaining": 20,
       "note": ""
     }
   ],
