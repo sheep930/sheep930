@@ -804,7 +804,7 @@
       "totalQuantity": 100,
       "amount": 49,
       "expiryDate": "2026-11-30",
-      "openingDate": "",
+      "openingDate": "2026-06-06",
       "nutrition": {
         "calories": 2622,
         "protein": 10,
@@ -2924,6 +2924,24 @@
       "delta": 100,
       "remaining": 100,
       "note": ""
+    },
+    {
+      "id": "logmtpsl5e9ffnuy",
+      "materialId": "mmtpskvhdlio3f",
+      "materialName": "瑞士莲特醇排装90%可可黑巧克力 瑞士莲",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1780749120000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 100,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
