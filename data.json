@@ -2074,23 +2074,6 @@
       "note": ""
     },
     {
-      "id": "logmtpqpw1mdhfzg",
-      "materialId": "mmtpqpw1m78b0s",
-      "materialName": "山姆硬红高筋小麦粉 山姆",
-      "quantity": 2000,
-      "unit": "kg",
-      "recipeName": "添加",
-      "recipeId": "",
-      "timestamp": 1788694830202,
-      "amountUsed": 0,
-      "priceAtUse": 16.8,
-      "batchId": null,
-      "action": "添加",
-      "delta": 2000,
-      "remaining": 2000,
-      "note": ""
-    },
-    {
       "id": "logmtpqqmr8p94hq",
       "materialId": "mmtpqpw1m78b0s",
       "materialName": "山姆硬红高筋小麦粉 山姆",
