@@ -599,6 +599,30 @@
       },
       "remainingQuantity": 408,
       "image": null
+    },
+    {
+      "id": "mmtprl1cvc3e15",
+      "name": "瑞慕莫兹瑞拉干酪碎",
+      "brand": "瑞慕",
+      "category": "马苏里拉",
+      "specification": "120",
+      "unit": "g",
+      "price": 23.02,
+      "packCount": 1,
+      "totalQuantity": 120,
+      "amount": 23.02,
+      "expiryDate": "2027-05-05",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1285,
+        "protein": 27.8,
+        "fat": 21.5,
+        "carbs": 1,
+        "sodium": 480,
+        "calcium": 767
+      },
+      "remainingQuantity": 120,
+      "image": null
     }
   ],
   "recipes": [
@@ -2327,6 +2351,23 @@
       "action": "添加",
       "delta": 408,
       "remaining": 408,
+      "note": ""
+    },
+    {
+      "id": "logmtprl1cvo3uf4",
+      "materialId": "mmtprl1cvc3e15",
+      "materialName": "瑞慕莫兹瑞拉干酪碎 瑞慕",
+      "quantity": 120,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788696283423,
+      "amountUsed": 0,
+      "priceAtUse": 23.02,
+      "batchId": null,
+      "action": "添加",
+      "delta": 120,
+      "remaining": 120,
       "note": ""
     }
   ],
