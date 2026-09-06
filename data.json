@@ -383,6 +383,30 @@
       },
       "remainingQuantity": 1,
       "image": null
+    },
+    {
+      "id": "mmtpmt2bw67hlo",
+      "name": "三象牌水磨糯米粉",
+      "brand": "三象牌",
+      "category": "高筋面粉",
+      "specification": "500",
+      "unit": "g",
+      "price": 9.64,
+      "packCount": 2,
+      "totalQuantity": 1000,
+      "amount": 19.28,
+      "expiryDate": "2028-02-23",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1462,
+        "protein": 6,
+        "fat": null,
+        "carbs": 80,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 1000,
+      "image": null
     }
   ],
   "recipes": [
@@ -1396,6 +1420,23 @@
       "action": "添加",
       "delta": 1,
       "remaining": 1,
+      "note": ""
+    },
+    {
+      "id": "logmtpmt2bwgtm1p",
+      "materialId": "mmtpmt2bw67hlo",
+      "materialName": "三象牌水磨糯米粉 三象牌",
+      "quantity": 1000,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788688259852,
+      "amountUsed": 0,
+      "priceAtUse": 9.64,
+      "batchId": null,
+      "action": "添加",
+      "delta": 1000,
+      "remaining": 1000,
       "note": ""
     }
   ],
