@@ -468,7 +468,7 @@
       "totalQuantity": 1000,
       "amount": 91.78,
       "expiryDate": "2027-03-23",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": 3063,
         "protein": 0.7,
@@ -1809,6 +1809,24 @@
       "delta": 1000,
       "remaining": 1000,
       "note": ""
+    },
+    {
+      "id": "logmtpq86ur6g56h",
+      "materialId": "mmtpq81540oegk",
+      "materialName": "总统淡味黄油块 总统",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 1000,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
