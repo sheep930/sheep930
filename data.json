@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsukbh1j2mnmu",
-      "name": "有机抹茶",
-      "brand": "贵茶",
-      "category": "抹茶粉",
-      "specification": "40",
-      "unit": "g",
-      "price": 39.76,
-      "packCount": 1,
-      "totalQuantity": 40,
-      "amount": 39.76,
-      "expiryDate": "2026-11-25",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1333,
-        "protein": 29.9,
-        "fat": 5.2,
-        "carbs": 20.9,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 8
-    },
-    {
       "id": "mmsvhk8cwc841a",
       "name": "柔风吐司粉",
       "brand": "王后",
