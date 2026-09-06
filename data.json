@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsvireddht9la",
-      "name": "优加高钙纯牛奶",
-      "brand": "光明",
-      "category": "全脂牛奶",
-      "specification": "4800",
-      "unit": "ml",
-      "price": 52.37,
-      "packCount": 1,
-      "totalQuantity": 4800,
-      "amount": 52.37,
-      "expiryDate": "2026-12-16",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 317,
-        "protein": 3.8,
-        "fat": 4.3,
-        "carbs": 5.5,
-        "sodium": 70,
-        "calcium": 125
-      },
-      "remainingQuantity": 4800
-    },
-    {
       "id": "mmsujfuqop86lx",
       "name": "加勒比黑巧克力豆66％",
       "brand": "法芙娜",
