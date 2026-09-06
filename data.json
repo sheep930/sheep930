@@ -636,7 +636,7 @@
       "totalQuantity": 1500,
       "amount": 35.74,
       "expiryDate": "2026-09-30",
-      "openingDate": "",
+      "openingDate": "2026-06-01",
       "nutrition": {
         "calories": 1469,
         "protein": 8,
@@ -2410,6 +2410,24 @@
       "delta": 1500,
       "remaining": 1500,
       "note": ""
+    },
+    {
+      "id": "logmtprr55gxpuv9",
+      "materialId": "mmtprqf9kg1cot",
+      "materialName": "王后软白低筋粉 王后",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1780272000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 1500,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
