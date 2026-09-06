@@ -660,7 +660,7 @@
       "totalQuantity": 20,
       "amount": 26.8,
       "expiryDate": "2027-01-08",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": null,
         "protein": null,
@@ -2503,6 +2503,24 @@
       "delta": 20,
       "remaining": 20,
       "note": ""
+    },
+    {
+      "id": "logmtprv9j8fgtxe",
+      "materialId": "mmtpruvopzppm9",
+      "materialName": "展艺香草荚 展艺",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 20,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
