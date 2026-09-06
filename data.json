@@ -623,6 +623,30 @@
       },
       "remainingQuantity": 120,
       "image": null
+    },
+    {
+      "id": "mmtprqf9kg1cot",
+      "name": "王后软白低筋粉",
+      "brand": "王后",
+      "category": "低筋面粉",
+      "specification": "1500",
+      "unit": "g",
+      "price": 35.74,
+      "packCount": 1,
+      "totalQuantity": 1500,
+      "amount": 35.74,
+      "expiryDate": "2026-09-30",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1469,
+        "protein": 8,
+        "fat": 1.2,
+        "carbs": 75.8,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 1500,
+      "image": null
     }
   ],
   "recipes": [
@@ -2368,6 +2392,23 @@
       "action": "添加",
       "delta": 120,
       "remaining": 120,
+      "note": ""
+    },
+    {
+      "id": "logmtprqf9kxaugn",
+      "materialId": "mmtprqf9kg1cot",
+      "materialName": "王后软白低筋粉 王后",
+      "quantity": 1500,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788696534728,
+      "amountUsed": 0,
+      "priceAtUse": 35.74,
+      "batchId": null,
+      "action": "添加",
+      "delta": 1500,
+      "remaining": 1500,
       "note": ""
     }
   ],
