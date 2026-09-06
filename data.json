@@ -767,6 +767,30 @@
       },
       "remainingQuantity": 53,
       "image": null
+    },
+    {
+      "id": "mmtpsgushnnuu0",
+      "name": "嘉利宝黑巧克力54.5%",
+      "brand": "嘉利宝",
+      "category": "黑巧克力",
+      "specification": "500",
+      "unit": "g",
+      "price": 78.22,
+      "packCount": 1,
+      "totalQuantity": 500,
+      "amount": 78.22,
+      "expiryDate": "2027-01-31",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 2307,
+        "protein": 5.1,
+        "fat": 36.6,
+        "carbs": 45.8,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 500,
+      "image": null
     }
   ],
   "recipes": [
@@ -2806,6 +2830,23 @@
       "action": "添加",
       "delta": 53,
       "remaining": 53,
+      "note": ""
+    },
+    {
+      "id": "logmtpsgushbi069",
+      "materialId": "mmtpsgushnnuu0",
+      "materialName": "嘉利宝黑巧克力54.5% 嘉利宝",
+      "quantity": 500,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788697767905,
+      "amountUsed": 0,
+      "priceAtUse": 78.22,
+      "batchId": null,
+      "action": "添加",
+      "delta": 500,
+      "remaining": 500,
       "note": ""
     }
   ],
