@@ -60,7 +60,7 @@
       "totalQuantity": 500,
       "amount": 11.11,
       "expiryDate": "2026-08-16",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": null,
         "protein": null,
@@ -1472,6 +1472,24 @@
       "action": "开封",
       "delta": 0,
       "remaining": 25,
+      "note": "",
+      "packIndex": 1
+    },
+    {
+      "id": "logmtpn6idaeib7c",
+      "materialId": "mmtpdgf15bu5s9",
+      "materialName": "红棉一级糖霜 红棉",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 500,
       "note": "",
       "packIndex": 1
     }
