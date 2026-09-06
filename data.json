@@ -898,30 +898,6 @@
         "calcium": null
       },
       "remainingQuantity": 0
-    },
-    {
-      "id": "mmtp4qz18bphtl",
-      "name": "21312",
-      "brand": "312",
-      "category": "马斯卡彭",
-      "specification": "312",
-      "unit": "g",
-      "price": 312,
-      "packCount": 1,
-      "totalQuantity": 312,
-      "amount": 312,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 312,
-      "image": null
     }
   ],
   "recipes": [
