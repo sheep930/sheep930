@@ -119,6 +119,30 @@
       },
       "remainingQuantity": 50,
       "image": null
+    },
+    {
+      "id": "mmtpdscpbvz299",
+      "name": "天虹牌原味大颗开心果",
+      "brand": "天虹牌",
+      "category": "开心果",
+      "specification": "618",
+      "unit": "g",
+      "price": 81.51,
+      "packCount": 1,
+      "totalQuantity": 618,
+      "amount": 81.51,
+      "expiryDate": "2027-04-04",
+      "openingDate": "2026-08-02",
+      "nutrition": {
+        "calories": 2621,
+        "protein": 19.4,
+        "fat": 53.1,
+        "carbs": 19.2,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 618,
+      "image": null
     }
   ],
   "recipes": [
@@ -843,6 +867,23 @@
       "action": "用完",
       "delta": -200,
       "remaining": 50,
+      "note": ""
+    },
+    {
+      "id": "logmtpdscpb526ik",
+      "materialId": "mmtpdscpbvz299",
+      "materialName": "天虹牌原味大颗开心果 天虹牌",
+      "quantity": 618,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788673110095,
+      "amountUsed": 0,
+      "priceAtUse": 81.51,
+      "batchId": null,
+      "action": "添加",
+      "delta": 618,
+      "remaining": 618,
       "note": ""
     }
   ],
