@@ -863,6 +863,30 @@
       },
       "remainingQuantity": 10000,
       "image": null
+    },
+    {
+      "id": "mmtpt199wvacvc",
+      "name": "沃集鲜8.0纯牛乳炼奶",
+      "brand": "沃集鲜",
+      "category": "炼乳",
+      "specification": "185",
+      "unit": "g",
+      "price": 9.9,
+      "packCount": 1,
+      "totalQuantity": 185,
+      "amount": 9.9,
+      "expiryDate": "2027-10-02",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1405,
+        "protein": 8.1,
+        "fat": 8.8,
+        "carbs": 55.4,
+        "sodium": 80,
+        "calcium": 244
+      },
+      "remainingQuantity": 185,
+      "image": null
     }
   ],
   "recipes": [
@@ -3075,6 +3099,23 @@
       "action": "添加",
       "delta": 10000,
       "remaining": 10000,
+      "note": ""
+    },
+    {
+      "id": "logmtpt199w18w2l",
+      "materialId": "mmtpt199wvacvc",
+      "materialName": "沃集鲜8.0纯牛乳炼奶 沃集鲜",
+      "quantity": 185,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788698719796,
+      "amountUsed": 0,
+      "priceAtUse": 9.9,
+      "batchId": null,
+      "action": "添加",
+      "delta": 185,
+      "remaining": 185,
       "note": ""
     }
   ],
