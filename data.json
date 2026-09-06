@@ -1303,6 +1303,137 @@
       "createdAt": 1786837744805,
       "order": 1786837744805,
       "id": "rmsv123s5y0ses"
+    },
+    {
+      "name": "大理石纹巧克力吐司",
+      "description": "",
+      "ingredients": [
+        {
+          "isTag": true,
+          "tag": "面团"
+        },
+        {
+          "category": "高筋面粉",
+          "quantity": 510,
+          "unit": "kg",
+          "tag": ""
+        },
+        {
+          "category": "酵母",
+          "quantity": 10,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "盐",
+          "quantity": 6,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "奶粉",
+          "quantity": 20,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "炼乳",
+          "quantity": 25,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "水",
+          "quantity": 220,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 40,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "巧克力馅"
+        },
+        {
+          "category": "巧克力",
+          "quantity": 60,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "全脂牛奶",
+          "quantity": 60,
+          "unit": "ml",
+          "tag": ""
+        },
+        {
+          "category": "低筋面粉",
+          "quantity": 40,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "可可粉",
+          "quantity": 20,
+          "unit": "g",
+          "tag": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "混合材料",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        }
+      ],
+      "emoji": "🍪",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1788663792641,
+      "order": 1788663792641,
+      "id": "rmtp88nb59pzab"
     }
   ],
   "usageLogs": [],
@@ -1335,6 +1466,7 @@
     "测试2",
     "测试",
     "蛋黄",
-    "淡奶油"
+    "淡奶油",
+    "炼乳"
   ]
 }
