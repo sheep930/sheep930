@@ -12,7 +12,7 @@
       "totalQuantity": 25,
       "amount": 5.26,
       "expiryDate": "2029-05-16",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": null,
         "protein": null,
@@ -1454,6 +1454,24 @@
       "action": "开封",
       "delta": 0,
       "remaining": 1,
+      "note": "",
+      "packIndex": 1
+    },
+    {
+      "id": "logmtpn5x2029kq7",
+      "materialId": "mmtpdcdbxhgz9j",
+      "materialName": "展艺吉利丁片 展艺",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 25,
       "note": "",
       "packIndex": 1
     }
