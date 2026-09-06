@@ -669,7 +669,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 20,
+      "remainingQuantity": 16,
       "image": null
     }
   ],
@@ -2521,6 +2521,23 @@
       "remaining": 20,
       "note": "",
       "packIndex": 1
+    },
+    {
+      "id": "logmtprvidydqt91",
+      "materialId": "mmtpruvopzppm9",
+      "materialName": "展艺香草荚 展艺",
+      "quantity": -4,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788696720000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -4,
+      "remaining": 16,
+      "note": ""
     }
   ],
   "categories": [
