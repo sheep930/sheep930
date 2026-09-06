@@ -540,7 +540,7 @@
       "totalQuantity": 2,
       "amount": 16.8,
       "expiryDate": "2026-12-31",
-      "openingDate": "",
+      "openingDate": "2026-06-06",
       "nutrition": {
         "calories": 1496,
         "protein": 12.2,
@@ -2159,6 +2159,24 @@
       "delta": 2,
       "remaining": 2,
       "note": ""
+    },
+    {
+      "id": "logmtpqxbt62dgx1",
+      "materialId": "mmtpqx421vab9a",
+      "materialName": "山姆硬红高筋小麦粉 山姆",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1780704000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 2,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
