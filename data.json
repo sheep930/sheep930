@@ -684,7 +684,7 @@
       "totalQuantity": 250,
       "amount": 31.92,
       "expiryDate": "",
-      "openingDate": "",
+      "openingDate": "2026-09-06",
       "nutrition": {
         "calories": 1463,
         "protein": 5.8,
@@ -2579,6 +2579,24 @@
       "delta": 250,
       "remaining": 250,
       "note": ""
+    },
+    {
+      "id": "logmtps1g4mas50i",
+      "materialId": "mmtps1cnpubenw",
+      "materialName": "琪雷萨马斯卡彭 琪雷萨",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1788697020000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 250,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
