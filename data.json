@@ -231,29 +231,6 @@
       "remainingQuantity": 200
     },
     {
-      "id": "mmsukuiqirgrds",
-      "name": "精制白砂糖",
-      "brand": "红棉",
-      "category": "白砂糖",
-      "specification": "1000",
-      "unit": "g",
-      "price": 12.01,
-      "packCount": 1,
-      "totalQuantity": 1000,
-      "amount": 12.01,
-      "expiryDate": "2029-01-06",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 1000
-    },
-    {
       "id": "mmsulgiuhx3tfh",
       "name": "莫兹瑞拉干酪碎",
       "brand": "瑞慕",
