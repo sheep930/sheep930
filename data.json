@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsujo1qjgjdyp",
-      "name": "无糖巧克力70%",
-      "brand": "奥乐齐",
-      "category": "巧克力",
-      "specification": "250",
-      "unit": "g",
-      "price": 39.9,
-      "packCount": 1,
-      "totalQuantity": 250,
-      "amount": 39.9,
-      "expiryDate": "2027-06-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2608,
-        "protein": 7,
-        "fat": 47.8,
-        "carbs": 42.4,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 230
-    },
-    {
       "id": "mmsvifbeqx1zpv",
       "name": "昔绿展绿",
       "brand": "贵茶",
