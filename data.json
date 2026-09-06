@@ -309,7 +309,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 40,
+      "remainingQuantity": 8,
       "image": null
     },
     {
@@ -1321,6 +1321,23 @@
       "action": "添加",
       "delta": 2.5,
       "remaining": 2.5,
+      "note": ""
+    },
+    {
+      "id": "logmtpmo7ocrkd4n",
+      "materialId": "mmtpml0cm7kxvp",
+      "materialName": "贵茶有机抹茶 贵茶",
+      "quantity": -32,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788688020000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -32,
+      "remaining": 8,
       "note": ""
     }
   ],
