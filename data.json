@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsukrxi5ezon9",
-      "name": "天然三零食用盐",
-      "brand": "淮盐",
-      "category": "盐",
-      "specification": "256",
-      "unit": "g",
-      "price": 6.5,
-      "packCount": 1,
-      "totalQuantity": 256,
-      "amount": 6.5,
-      "expiryDate": "2031-06-23",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": 38983,
-        "calcium": null
-      },
-      "remainingQuantity": 256
-    },
-    {
       "id": "mmsvij4w3dcqi8",
       "name": "天然可可粉",
       "brand": "均衡大师",
