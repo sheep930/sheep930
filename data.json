@@ -372,7 +372,7 @@
       "totalQuantity": 1,
       "amount": 12.01,
       "expiryDate": "2029-01-06",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": 1698,
         "protein": null,
@@ -1438,6 +1438,24 @@
       "delta": 1000,
       "remaining": 1000,
       "note": ""
+    },
+    {
+      "id": "logmtpmu2stahbb8",
+      "materialId": "mmtpmr047hcq9a",
+      "materialName": "红棉精制白砂糖 红棉",
+      "quantity": 0,
+      "unit": "kg",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 1,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
