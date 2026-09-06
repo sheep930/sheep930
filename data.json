@@ -75,32 +75,6 @@
       "image": null,
       "purchaseDate": 1788671460000,
       "createdAt": 1788671460000
-    },
-    {
-      "id": "mmtpd64fmndces",
-      "name": "吉利丁片 (副本)",
-      "brand": "",
-      "category": "吉利丁片",
-      "specification": "25",
-      "unit": "g",
-      "price": 20,
-      "packCount": 2,
-      "totalQuantity": 50,
-      "amount": 40,
-      "expiryDate": "2029-05-16",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 50,
-      "image": null,
-      "purchaseDate": 1788671460000,
-      "createdAt": 1788671460000
     }
   ],
   "recipes": [
