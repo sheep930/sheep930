@@ -815,6 +815,30 @@
       },
       "remainingQuantity": 20,
       "image": null
+    },
+    {
+      "id": "mmtpsncscpwcsn",
+      "name": "嘉利宝黑巧克力爆谷米",
+      "brand": "嘉利宝",
+      "category": "黑巧克力",
+      "specification": "800",
+      "unit": "g",
+      "price": 120.42,
+      "packCount": 1,
+      "totalQuantity": 800,
+      "amount": 120.42,
+      "expiryDate": "2027-03-09",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 2120,
+        "protein": 6.3,
+        "fat": 28.3,
+        "carbs": 52.2,
+        "sodium": 167,
+        "calcium": null
+      },
+      "remainingQuantity": 800,
+      "image": null
     }
   ],
   "recipes": [
@@ -2958,6 +2982,23 @@
       "action": "用完",
       "delta": -80,
       "remaining": 20,
+      "note": ""
+    },
+    {
+      "id": "logmtpsncsc8ho6t",
+      "materialId": "mmtpsncscpwcsn",
+      "materialName": "嘉利宝黑巧克力爆谷米 嘉利宝",
+      "quantity": 800,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788698071164,
+      "amountUsed": 0,
+      "priceAtUse": 120.42,
+      "batchId": null,
+      "action": "添加",
+      "delta": 800,
+      "remaining": 800,
       "note": ""
     }
   ],
