@@ -503,30 +503,6 @@
       },
       "remainingQuantity": 80,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788694323055_40mqhq.jpg"
-    },
-    {
-      "id": "mmtpqf304cgxyu",
-      "name": "Soileta生可可粉",
-      "brand": "Soileta",
-      "category": "可可粉",
-      "specification": "150",
-      "unit": "g",
-      "price": 40.73,
-      "packCount": 1,
-      "totalQuantity": 150,
-      "amount": 40.73,
-      "expiryDate": "2027-12-23",
-      "openingDate": "2026-06-06",
-      "nutrition": {
-        "calories": 1312,
-        "protein": 24.2,
-        "fat": 10.9,
-        "carbs": 13.1,
-        "sodium": 21,
-        "calcium": null
-      },
-      "remainingQuantity": 80,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788694324771_2h0q5i.jpg"
     }
   ],
   "recipes": [
