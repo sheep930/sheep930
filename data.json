@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsujfuqop86lx",
-      "name": "加勒比黑巧克力豆66％",
-      "brand": "法芙娜",
-      "category": "巧克力",
-      "specification": "250",
-      "unit": "g",
-      "price": 91.85,
-      "packCount": 1,
-      "totalQuantity": 250,
-      "amount": 91.85,
-      "expiryDate": "2027-01-31",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 2245,
-        "protein": 8,
-        "fat": 40,
-        "carbs": 37,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 50
-    },
-    {
       "id": "mmsolb7jzbmek7",
       "name": "原味大颗开心果",
       "brand": "天虹牌",
