@@ -482,29 +482,6 @@
         "calcium": null
       },
       "remainingQuantity": 50
-    },
-    {
-      "id": "mmsuk531clnjbw",
-      "name": "黑巧克力90%",
-      "brand": "瑞士莲",
-      "category": "巧克力",
-      "specification": "100",
-      "unit": "g",
-      "price": 49,
-      "packCount": 1,
-      "totalQuantity": 100,
-      "amount": 49,
-      "expiryDate": "2026-11-30",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 2622,
-        "protein": 10,
-        "fat": 55,
-        "carbs": 24.5,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 20
     }
   ],
   "recipes": [
