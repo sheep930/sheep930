@@ -392,29 +392,6 @@
       "remainingQuantity": 0
     },
     {
-      "id": "mmsuj0qj256832",
-      "name": "马苏里拉奶酪",
-      "brand": "妙可蓝多",
-      "category": "马苏里拉",
-      "specification": "200",
-      "unit": "g",
-      "price": 23.27,
-      "packCount": 1,
-      "totalQuantity": 200,
-      "amount": 23.27,
-      "expiryDate": "2026-11-17",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1339,
-        "protein": 24.1,
-        "fat": 23.5,
-        "carbs": 3.5,
-        "sodium": 590,
-        "calcium": 678
-      },
-      "remainingQuantity": 100
-    },
-    {
       "id": "mmsujxzm4yw6tp",
       "name": "高活性干酵母耐高糖型",
       "brand": "燕子",
