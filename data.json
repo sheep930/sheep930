@@ -431,6 +431,30 @@
       },
       "remainingQuantity": 0,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788693613998_sl3ela.jpg"
+    },
+    {
+      "id": "mmtpq6ku2q966t",
+      "name": "总统淡味份装黄油",
+      "brand": "总统",
+      "category": "高筋面粉",
+      "specification": "60",
+      "unit": "g",
+      "price": 13.07,
+      "packCount": 1,
+      "totalQuantity": 60,
+      "amount": 13.07,
+      "expiryDate": "2026-10-19",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 3063,
+        "protein": 0.7,
+        "fat": 82,
+        "carbs": 1,
+        "sodium": 12,
+        "calcium": null
+      },
+      "remainingQuantity": 60,
+      "image": null
     }
   ],
   "recipes": [
@@ -1726,6 +1750,23 @@
       "action": "用完",
       "delta": -600,
       "remaining": 0,
+      "note": ""
+    },
+    {
+      "id": "logmtpq6ku2mx9y2",
+      "materialId": "mmtpq6ku2q966t",
+      "materialName": "总统淡味份装黄油 总统",
+      "quantity": 60,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788693929210,
+      "amountUsed": 0,
+      "priceAtUse": 13.07,
+      "batchId": null,
+      "action": "添加",
+      "delta": 60,
+      "remaining": 60,
       "note": ""
     }
   ],
