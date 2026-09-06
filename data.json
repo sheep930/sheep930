@@ -237,7 +237,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 250,
+      "remainingQuantity": 230,
       "image": null
     }
   ],
@@ -1099,6 +1099,23 @@
       "action": "添加",
       "delta": 250,
       "remaining": 250,
+      "note": ""
+    },
+    {
+      "id": "logmtpfduj5urfjl",
+      "materialId": "mmtpfdmx3uzt8e",
+      "materialName": "奥乐齐无糖巧克力70% 奥乐齐",
+      "quantity": -20,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788675780000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -20,
+      "remaining": 230,
       "note": ""
     }
   ],
