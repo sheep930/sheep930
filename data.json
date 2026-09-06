@@ -479,6 +479,54 @@
       },
       "remainingQuantity": 720,
       "image": null
+    },
+    {
+      "id": "mmtpqf243tjazq",
+      "name": "Soileta生可可粉",
+      "brand": "Soileta",
+      "category": "可可粉",
+      "specification": "150",
+      "unit": "g",
+      "price": 40.73,
+      "packCount": 1,
+      "totalQuantity": 150,
+      "amount": 40.73,
+      "expiryDate": "2027-12-23",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1312,
+        "protein": 24.2,
+        "fat": 10.9,
+        "carbs": 13.1,
+        "sodium": 21,
+        "calcium": null
+      },
+      "remainingQuantity": 150,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788694323055_40mqhq.jpg"
+    },
+    {
+      "id": "mmtpqf304cgxyu",
+      "name": "Soileta生可可粉",
+      "brand": "Soileta",
+      "category": "可可粉",
+      "specification": "150",
+      "unit": "g",
+      "price": 40.73,
+      "packCount": 1,
+      "totalQuantity": 150,
+      "amount": 40.73,
+      "expiryDate": "2027-12-23",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1312,
+        "protein": 24.2,
+        "fat": 10.9,
+        "carbs": 13.1,
+        "sodium": 21,
+        "calcium": null
+      },
+      "remainingQuantity": 150,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788694324771_2h0q5i.jpg"
     }
   ],
   "recipes": [
@@ -1843,6 +1891,40 @@
       "action": "用完",
       "delta": -280,
       "remaining": 720,
+      "note": ""
+    },
+    {
+      "id": "logmtpqf243v8dv7",
+      "materialId": "mmtpqf243tjazq",
+      "materialName": "Soileta生可可粉 Soileta",
+      "quantity": 150,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788694324851,
+      "amountUsed": 0,
+      "priceAtUse": 40.73,
+      "batchId": null,
+      "action": "添加",
+      "delta": 150,
+      "remaining": 150,
+      "note": ""
+    },
+    {
+      "id": "logmtpqf304uxhkv",
+      "materialId": "mmtpqf304cgxyu",
+      "materialName": "Soileta生可可粉 Soileta",
+      "quantity": 150,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788694326004,
+      "amountUsed": 0,
+      "priceAtUse": 40.73,
+      "batchId": null,
+      "action": "添加",
+      "delta": 150,
+      "remaining": 150,
       "note": ""
     }
   ],
