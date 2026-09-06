@@ -335,6 +335,30 @@
       },
       "remainingQuantity": 2.5,
       "image": null
+    },
+    {
+      "id": "mmtpmnt35jiqgw",
+      "name": "王后柔风樱花吐司粉",
+      "brand": "王后",
+      "category": "高筋面粉",
+      "specification": "2.5",
+      "unit": "kg",
+      "price": 57.31,
+      "packCount": 1,
+      "totalQuantity": 2.5,
+      "amount": 57.31,
+      "expiryDate": "2027-04-05",
+      "openingDate": "2026-08-02",
+      "nutrition": {
+        "calories": 1476,
+        "protein": 12.2,
+        "fat": 0.8,
+        "carbs": 72.9,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 2.5,
+      "image": null
     }
   ],
   "recipes": [
@@ -1276,6 +1300,23 @@
       "timestamp": 1788687945448,
       "amountUsed": 0,
       "priceAtUse": 46.88,
+      "batchId": null,
+      "action": "添加",
+      "delta": 2.5,
+      "remaining": 2.5,
+      "note": ""
+    },
+    {
+      "id": "logmtpmnt35nx4vw",
+      "materialId": "mmtpmnt35jiqgw",
+      "materialName": "王后柔风樱花吐司粉 王后",
+      "quantity": 2.5,
+      "unit": "kg",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788688014593,
+      "amountUsed": 0,
+      "priceAtUse": 57.31,
       "batchId": null,
       "action": "添加",
       "delta": 2.5,
