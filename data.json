@@ -24,29 +24,6 @@
       "remainingQuantity": 800
     },
     {
-      "id": "mmsvjslujce5t6",
-      "name": "河套奶粉",
-      "brand": "河套",
-      "category": "奶粉",
-      "specification": "600",
-      "unit": "g",
-      "price": 22.85,
-      "packCount": 1,
-      "totalQuantity": 600,
-      "amount": 22.85,
-      "expiryDate": "2027-05-09",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 2169,
-        "protein": 23.8,
-        "fat": 27,
-        "carbs": 45,
-        "sodium": 380,
-        "calcium": 800
-      },
-      "remainingQuantity": 600
-    },
-    {
       "id": "mmsulgiuhx3tfh",
       "name": "莫兹瑞拉干酪碎",
       "brand": "瑞慕",
