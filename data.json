@@ -525,7 +525,7 @@
         "sodium": 21,
         "calcium": null
       },
-      "remainingQuantity": 150,
+      "remainingQuantity": 80,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788694324771_2h0q5i.jpg"
     }
   ],
@@ -1944,6 +1944,23 @@
       "remaining": 150,
       "note": "",
       "packIndex": 1
+    },
+    {
+      "id": "logmtpqfv1fkh15n",
+      "materialId": "mmtpqf304cgxyu",
+      "materialName": "Soileta生可可粉 Soileta",
+      "quantity": -70,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1780704000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -70,
+      "remaining": 80,
+      "note": ""
     }
   ],
   "categories": [
