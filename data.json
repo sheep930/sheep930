@@ -549,7 +549,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 0.5,
+      "remainingQuantity": 0.2,
       "image": null
     }
   ],
@@ -2228,6 +2228,23 @@
       "action": "用完",
       "delta": -1.5,
       "remaining": 0.5,
+      "note": ""
+    },
+    {
+      "id": "logmtpqzjnnwa5r4",
+      "materialId": "mmtpqyfqd92sxr",
+      "materialName": "山姆硬红高筋小麦粉 山姆",
+      "quantity": -0.3,
+      "unit": "kg",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788695220000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -0.3,
+      "remaining": 0.2,
       "note": ""
     }
   ],
