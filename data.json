@@ -346,29 +346,6 @@
       "remainingQuantity": 320
     },
     {
-      "id": "mmsol6vo80ysec",
-      "name": "香草荚",
-      "brand": "",
-      "category": "香草荚",
-      "specification": "20",
-      "unit": "g",
-      "price": 26.8,
-      "packCount": 1,
-      "totalQuantity": 20,
-      "amount": 26.8,
-      "expiryDate": "2026-05-09",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 20
-    },
-    {
       "id": "mmsol0qzqb6tua",
       "name": "马斯卡彭",
       "brand": "琪雷萨",
