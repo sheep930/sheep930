@@ -898,30 +898,6 @@
         "calcium": null
       },
       "remainingQuantity": 0
-    },
-    {
-      "id": "mmtp4tc3dc8ulm",
-      "name": "马斯卡彭1",
-      "brand": "琪雷萨",
-      "category": "马斯卡彭",
-      "specification": "250",
-      "unit": "g",
-      "price": 40,
-      "packCount": 1,
-      "totalQuantity": 250,
-      "amount": 40,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 250,
-      "image": null
     }
   ],
   "recipes": [
