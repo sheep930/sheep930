@@ -21,7 +21,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 1
+      "remainingQuantity": 7
     },
     {
       "id": "mmsvhv3o54o97g",
@@ -1112,6 +1112,23 @@
       "action": "补充",
       "delta": 1,
       "remaining": 1,
+      "note": ""
+    },
+    {
+      "id": "logmtpd8vl4tiz2a",
+      "materialId": "mmsuzyl99tk9zy",
+      "materialName": "T45法式糕点专用粉 王后",
+      "quantity": 6,
+      "unit": "kg",
+      "recipeName": "补充",
+      "recipeId": "",
+      "timestamp": 1788672180000,
+      "amountUsed": 0,
+      "priceAtUse": 25.41,
+      "batchId": null,
+      "action": "补充",
+      "delta": 6,
+      "remaining": 7,
       "note": ""
     }
   ],
