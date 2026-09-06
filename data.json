@@ -21,7 +21,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 25,
+      "remainingQuantity": 15,
       "image": null
     },
     {
@@ -1508,6 +1508,23 @@
       "action": "用完",
       "delta": -340,
       "remaining": 160,
+      "note": ""
+    },
+    {
+      "id": "logmtpn99cunduzj",
+      "materialId": "mmtpdcdbxhgz9j",
+      "materialName": "展艺吉利丁片 展艺",
+      "quantity": -10,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788688980000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -10,
+      "remaining": 15,
       "note": ""
     }
   ],
