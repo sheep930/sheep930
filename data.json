@@ -58,9 +58,9 @@
       "specification": "25",
       "unit": "g",
       "price": 20,
-      "packCount": 1,
+      "packCount": 2,
       "totalQuantity": 50,
-      "amount": 2.26,
+      "amount": 40,
       "expiryDate": "2029-05-16",
       "openingDate": "",
       "nutrition": {
