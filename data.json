@@ -671,6 +671,30 @@
       },
       "remainingQuantity": 16,
       "image": null
+    },
+    {
+      "id": "mmtps1cnpubenw",
+      "name": "琪雷萨马斯卡彭",
+      "brand": "琪雷萨",
+      "category": "马斯卡彭",
+      "specification": "250",
+      "unit": "g",
+      "price": 31.92,
+      "packCount": 1,
+      "totalQuantity": 250,
+      "amount": 31.92,
+      "expiryDate": "",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1463,
+        "protein": 5.8,
+        "fat": 33.5,
+        "carbs": 3,
+        "sodium": 30,
+        "calcium": null
+      },
+      "remainingQuantity": 250,
+      "image": null
     }
   ],
   "recipes": [
@@ -2537,6 +2561,23 @@
       "action": "用完",
       "delta": -4,
       "remaining": 16,
+      "note": ""
+    },
+    {
+      "id": "logmtps1cnpzgr1z",
+      "materialId": "mmtps1cnpubenw",
+      "materialName": "琪雷萨马斯卡彭 琪雷萨",
+      "quantity": 250,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788697044565,
+      "amountUsed": 0,
+      "priceAtUse": 31.92,
+      "batchId": null,
+      "action": "添加",
+      "delta": 250,
+      "remaining": 250,
       "note": ""
     }
   ],
