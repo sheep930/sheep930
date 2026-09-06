@@ -396,7 +396,7 @@
       "totalQuantity": 1000,
       "amount": 19.28,
       "expiryDate": "2028-02-23",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": 1462,
         "protein": 6,
@@ -1632,6 +1632,24 @@
       "action": "开封",
       "delta": 0,
       "remaining": 2,
+      "note": "",
+      "packIndex": 1
+    },
+    {
+      "id": "logmtppnm8vy8z0x",
+      "materialId": "mmtpmt2bw67hlo",
+      "materialName": "三象牌水磨糯米粉 三象牌",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 1000,
       "note": "",
       "packIndex": 1
     }
