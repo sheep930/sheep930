@@ -420,7 +420,7 @@
       "totalQuantity": 600,
       "amount": 22.86,
       "expiryDate": "2027-05-09",
-      "openingDate": "",
+      "openingDate": "2026-09-06",
       "nutrition": {
         "calories": 2169,
         "protein": 23.8,
@@ -2614,6 +2614,24 @@
       "delta": -250,
       "remaining": 0,
       "note": ""
+    },
+    {
+      "id": "logmtps2d4cvmxxk",
+      "materialId": "mmtppzwdy0i02p",
+      "materialName": "河套全脂纯牛奶粉 河套",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1788697080000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 0,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
