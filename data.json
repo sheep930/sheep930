@@ -429,7 +429,7 @@
         "sodium": 380,
         "calcium": 800
       },
-      "remainingQuantity": 600,
+      "remainingQuantity": 0,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788693613998_sl3ela.jpg"
     }
   ],
@@ -1709,6 +1709,23 @@
       "action": "添加",
       "delta": 600,
       "remaining": 600,
+      "note": ""
+    },
+    {
+      "id": "logmtpq4vldigckm",
+      "materialId": "mmtppzwdy0i02p",
+      "materialName": "河套全脂纯牛奶粉 河套",
+      "quantity": -600,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788693780000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -600,
+      "remaining": 0,
       "note": ""
     }
   ],
