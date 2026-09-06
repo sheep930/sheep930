@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsvij4w3dcqi8",
-      "name": "天然可可粉",
-      "brand": "均衡大师",
-      "category": "可可粉",
-      "specification": "100",
-      "unit": "g",
-      "price": 11.55,
-      "packCount": 1,
-      "totalQuantity": 100,
-      "amount": 11.55,
-      "expiryDate": "2026-12-05",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1748,
-        "protein": 27.3,
-        "fat": 11.2,
-        "carbs": 51.2,
-        "sodium": 14,
-        "calcium": null
-      },
-      "remainingQuantity": 15
-    },
-    {
       "id": "mmsul602aajg1s",
       "name": "恩喜村淡味黄油片",
       "brand": "艾许",
