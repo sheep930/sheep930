@@ -191,6 +191,30 @@
       },
       "remainingQuantity": 15,
       "image": null
+    },
+    {
+      "id": "mmtpfaen1b59xk",
+      "name": "艾许恩喜村淡味黄油片",
+      "brand": "艾许",
+      "category": "黄油",
+      "specification": "2",
+      "unit": "kg",
+      "price": 253.96,
+      "packCount": 1,
+      "totalQuantity": 2,
+      "amount": 253.96,
+      "expiryDate": "2027-03-12",
+      "openingDate": "2025-12-31",
+      "nutrition": {
+        "calories": 3159,
+        "protein": 0.8,
+        "fat": 85,
+        "carbs": null,
+        "sodium": 4,
+        "calcium": null
+      },
+      "remainingQuantity": 2,
+      "image": null
     }
   ],
   "recipes": [
@@ -1000,6 +1024,23 @@
       "action": "用完",
       "delta": -85,
       "remaining": 15,
+      "note": ""
+    },
+    {
+      "id": "logmtpfaen1y9pbi",
+      "materialId": "mmtpfaen1b59xk",
+      "materialName": "艾许恩喜村淡味黄油片 艾许",
+      "quantity": 2,
+      "unit": "kg",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788675632029,
+      "amountUsed": 0,
+      "priceAtUse": 253.96,
+      "batchId": null,
+      "action": "添加",
+      "delta": 2,
+      "remaining": 2,
       "note": ""
     }
   ],
