@@ -407,6 +407,30 @@
       },
       "remainingQuantity": 800,
       "image": null
+    },
+    {
+      "id": "mmtppzwdy0i02p",
+      "name": "河套全脂纯牛奶粉",
+      "brand": "河套",
+      "category": "高筋面粉",
+      "specification": "300",
+      "unit": "g",
+      "price": 11.43,
+      "packCount": 2,
+      "totalQuantity": 600,
+      "amount": 22.86,
+      "expiryDate": "2027-05-09",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 2169,
+        "protein": 23.8,
+        "fat": 27,
+        "carbs": 45,
+        "sodium": 380,
+        "calcium": 800
+      },
+      "remainingQuantity": 600,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1788693613998_sl3ela.jpg"
     }
   ],
   "recipes": [
@@ -1668,6 +1692,23 @@
       "action": "用完",
       "delta": -200,
       "remaining": 800,
+      "note": ""
+    },
+    {
+      "id": "logmtppzwdyktqjy",
+      "materialId": "mmtppzwdy0i02p",
+      "materialName": "河套全脂纯牛奶粉 河套",
+      "quantity": 600,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788693617590,
+      "amountUsed": 0,
+      "priceAtUse": 11.43,
+      "batchId": null,
+      "action": "添加",
+      "delta": 600,
+      "remaining": 600,
       "note": ""
     }
   ],
