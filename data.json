@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsvhv3o54o97g",
-      "name": "一级糖霜",
-      "brand": "红棉",
-      "category": "糖粉",
-      "specification": "500",
-      "unit": "g",
-      "price": 11.11,
-      "packCount": 1,
-      "totalQuantity": 500,
-      "amount": 11.11,
-      "expiryDate": "2026-08-16",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 500
-    },
-    {
       "id": "mmsvireddht9la",
       "name": "优加高钙纯牛奶",
       "brand": "光明",
