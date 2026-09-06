@@ -287,6 +287,30 @@
       },
       "remainingQuantity": 16,
       "image": null
+    },
+    {
+      "id": "mmtpml0cm7kxvp",
+      "name": "贵茶有机抹茶",
+      "brand": "贵茶",
+      "category": "抹茶粉",
+      "specification": "40",
+      "unit": "g",
+      "price": 39.76,
+      "packCount": 1,
+      "totalQuantity": 40,
+      "amount": 39.76,
+      "expiryDate": "2026-11-25",
+      "openingDate": "2026-06-01",
+      "nutrition": {
+        "calories": 1333,
+        "protein": 29.9,
+        "fat": 5.2,
+        "carbs": 20.9,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 40,
+      "image": null
     }
   ],
   "recipes": [
@@ -1198,6 +1222,23 @@
       "action": "添加",
       "delta": 16,
       "remaining": 16,
+      "note": ""
+    },
+    {
+      "id": "logmtpml0cm7xur9",
+      "materialId": "mmtpml0cm7kxvp",
+      "materialName": "贵茶有机抹茶 贵茶",
+      "quantity": 40,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788687884038,
+      "amountUsed": 0,
+      "priceAtUse": 39.76,
+      "batchId": null,
+      "action": "添加",
+      "delta": 40,
+      "remaining": 40,
       "note": ""
     }
   ],
