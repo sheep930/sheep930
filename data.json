@@ -405,7 +405,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 1000,
+      "remainingQuantity": 800,
       "image": null
     }
   ],
@@ -1652,6 +1652,23 @@
       "remaining": 1000,
       "note": "",
       "packIndex": 1
+    },
+    {
+      "id": "logmtppnxzdzucyt",
+      "materialId": "mmtpmt2bw67hlo",
+      "materialName": "三象牌水磨糯米粉 三象牌",
+      "quantity": -200,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788693000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -200,
+      "remaining": 800,
+      "note": ""
     }
   ],
   "categories": [
