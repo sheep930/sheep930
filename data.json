@@ -516,7 +516,7 @@
       "totalQuantity": 400,
       "amount": 44.72,
       "expiryDate": "2027-07-11",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": 2465,
         "protein": 6.1,
@@ -2013,6 +2013,24 @@
       "delta": 400,
       "remaining": 400,
       "note": ""
+    },
+    {
+      "id": "logmtpqk2lfubhpt",
+      "materialId": "mmtpqjwtw8qh90",
+      "materialName": "嘉利宝白巧克力32% 嘉利宝",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 400,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
