@@ -117,7 +117,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 250,
+      "remainingQuantity": 50,
       "image": null
     }
   ],
@@ -826,6 +826,23 @@
       "action": "添加",
       "delta": 250,
       "remaining": 250,
+      "note": ""
+    },
+    {
+      "id": "logmtpdpq3rlgal2",
+      "materialId": "mmtpdnd29mhtae",
+      "materialName": "法芙娜加勒比黑巧克力豆66％ 法芙娜",
+      "quantity": -200,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788672840000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -200,
+      "remaining": 50,
       "note": ""
     }
   ],
