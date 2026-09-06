@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsvisc32gifcg",
-      "name": "普通鸡蛋",
-      "brand": "",
-      "category": "鸡蛋",
-      "specification": "16",
-      "unit": "个",
-      "price": 9.5,
-      "packCount": 1,
-      "totalQuantity": 16,
-      "amount": 9.5,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 16
-    },
-    {
       "id": "mmsukbh1j2mnmu",
       "name": "有机抹茶",
       "brand": "贵茶",
