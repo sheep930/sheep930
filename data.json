@@ -506,7 +506,7 @@
         "sodium": 12,
         "calcium": null
       },
-      "remainingQuantity": 120
+      "remainingQuantity": 0
     },
     {
       "id": "mmsuiwz1gni92u",
@@ -1918,6 +1918,23 @@
       "amountUsed": 0.34650000000000003,
       "priceAtUse": 0.1155,
       "batchId": null
+    },
+    {
+      "id": "logmtp3pgs1rlo10",
+      "materialId": "mmtn7q79x887di",
+      "materialName": "淡味份装黄油 总统",
+      "quantity": -1000,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788656160000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -1000,
+      "remaining": 0,
+      "note": ""
     }
   ],
   "categories": [
