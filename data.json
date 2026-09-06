@@ -185,29 +185,6 @@
       "remainingQuantity": 80
     },
     {
-      "id": "mmsokw4i1je1xp",
-      "name": "白巧克力32%",
-      "brand": "嘉利宝",
-      "category": "巧克力",
-      "specification": "400",
-      "unit": "g",
-      "price": 44.72,
-      "packCount": 1,
-      "totalQuantity": 400,
-      "amount": 44.72,
-      "expiryDate": "2027-07-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2465,
-        "protein": 6.1,
-        "fat": 40,
-        "carbs": 51,
-        "sodium": 87,
-        "calcium": null
-      },
-      "remainingQuantity": 100
-    },
-    {
       "id": "mmsulgiuhx3tfh",
       "name": "莫兹瑞拉干酪碎",
       "brand": "瑞慕",
