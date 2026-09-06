@@ -791,6 +791,30 @@
       },
       "remainingQuantity": 50,
       "image": null
+    },
+    {
+      "id": "mmtpskvhdlio3f",
+      "name": "瑞士莲特醇排装90%可可黑巧克力",
+      "brand": "瑞士莲",
+      "category": "黑巧克力",
+      "specification": "100",
+      "unit": "g",
+      "price": 49,
+      "packCount": 1,
+      "totalQuantity": 100,
+      "amount": 49,
+      "expiryDate": "2026-11-30",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 2622,
+        "protein": 10,
+        "fat": 55,
+        "carbs": 24.5,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 100,
+      "image": null
     }
   ],
   "recipes": [
@@ -2882,6 +2906,23 @@
       "action": "用完",
       "delta": -450,
       "remaining": 50,
+      "note": ""
+    },
+    {
+      "id": "logmtpskvhd7e1mw",
+      "materialId": "mmtpskvhdlio3f",
+      "materialName": "瑞士莲特醇排装90%可可黑巧克力 瑞士莲",
+      "quantity": 100,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788697955425,
+      "amountUsed": 0,
+      "priceAtUse": 49,
+      "batchId": null,
+      "action": "添加",
+      "delta": 100,
+      "remaining": 100,
       "note": ""
     }
   ],
