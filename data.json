@@ -898,6 +898,30 @@
         "calcium": null
       },
       "remainingQuantity": 0
+    },
+    {
+      "id": "mmtp4qz18bphtl",
+      "name": "21312",
+      "brand": "312",
+      "category": "马斯卡彭",
+      "specification": "312",
+      "unit": "g",
+      "price": 312,
+      "packCount": 1,
+      "totalQuantity": 312,
+      "amount": 312,
+      "expiryDate": "",
+      "openingDate": "",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 312,
+      "image": null
     }
   ],
   "recipes": [
@@ -1913,6 +1937,23 @@
       "amountUsed": 23.476990291262137,
       "priceAtUse": 0.13189320388349515,
       "batchId": null
+    },
+    {
+      "id": "logmtp4qz1886g27",
+      "materialId": "mmtp4qz18bphtl",
+      "materialName": "21312 312",
+      "quantity": 312,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788657929180,
+      "amountUsed": 0,
+      "priceAtUse": 312,
+      "batchId": null,
+      "action": "添加",
+      "delta": 312,
+      "remaining": 312,
+      "note": ""
     }
   ],
   "categories": [
