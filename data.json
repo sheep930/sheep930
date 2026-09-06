@@ -1783,19 +1783,6 @@
       "note": "件数 1 · 单价 ¥13.07"
     },
     {
-      "id": "logmtnzgwdar3eqk",
-      "materialId": "mmsolb7jzbmek7",
-      "materialName": "原味大颗开心果 天虹牌",
-      "quantity": 309,
-      "unit": "g",
-      "recipeName": "开心果酱",
-      "recipeId": "rmsv123s5y0ses",
-      "timestamp": 1788588594910,
-      "amountUsed": 40.755,
-      "priceAtUse": 0.13189320388349515,
-      "batchId": null
-    },
-    {
       "id": "logmto1m8vsm23z5",
       "materialId": "mmsolb7jzbmek7",
       "materialName": "原味大颗开心果 天虹牌",
@@ -1913,6 +1900,19 @@
       "delta": 10000,
       "remaining": 10000,
       "note": ""
+    },
+    {
+      "id": "logmtp3t5izy8yki",
+      "materialId": "mmsolb7jzbmek7",
+      "materialName": "原味大颗开心果 天虹牌",
+      "quantity": 309,
+      "unit": "g",
+      "recipeName": "开心果酱",
+      "recipeId": "rmsv123s5y0ses",
+      "timestamp": 1788656351291,
+      "amountUsed": 40.755,
+      "priceAtUse": 0.13189320388349515,
+      "batchId": null
     }
   ],
   "categories": [
