@@ -695,6 +695,30 @@
       },
       "remainingQuantity": 0,
       "image": null
+    },
+    {
+      "id": "mmtps72b7jhgjh",
+      "name": "妙可蓝多马苏里拉",
+      "brand": "妙可蓝多",
+      "category": "马苏里拉",
+      "specification": "200",
+      "unit": "g",
+      "price": 23.27,
+      "packCount": 1,
+      "totalQuantity": 200,
+      "amount": 23.27,
+      "expiryDate": "2026-11-17",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1339,
+        "protein": 24.1,
+        "fat": 23.5,
+        "carbs": 3.5,
+        "sodium": 590,
+        "calcium": 678
+      },
+      "remainingQuantity": 200,
+      "image": null
     }
   ],
   "recipes": [
@@ -2666,6 +2690,23 @@
       "action": "用完",
       "delta": -48,
       "remaining": 360,
+      "note": ""
+    },
+    {
+      "id": "logmtps72b7divgy",
+      "materialId": "mmtps72b7jhgjh",
+      "materialName": "妙可蓝多马苏里拉 妙可蓝多",
+      "quantity": 200,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788697311091,
+      "amountUsed": 0,
+      "priceAtUse": 23.27,
+      "batchId": null,
+      "action": "添加",
+      "delta": 200,
+      "remaining": 200,
       "note": ""
     }
   ],
