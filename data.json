@@ -8,9 +8,9 @@
       "specification": "1",
       "unit": "kg",
       "price": 25.41,
-      "packCount": 1,
-      "totalQuantity": 1,
-      "amount": 25.41,
+      "packCount": 2,
+      "totalQuantity": 2,
+      "amount": 50.82,
       "expiryDate": "2027-05-27",
       "openingDate": "",
       "nutrition": {
