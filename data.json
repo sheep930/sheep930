@@ -69,7 +69,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 500,
+      "remainingQuantity": 160,
       "image": null
     },
     {
@@ -1492,6 +1492,23 @@
       "remaining": 500,
       "note": "",
       "packIndex": 1
+    },
+    {
+      "id": "logmtpn8q1so95uy",
+      "materialId": "mmtpdgf15bu5s9",
+      "materialName": "红棉一级糖霜 红棉",
+      "quantity": -340,
+      "unit": "g",
+      "recipeName": "用完",
+      "recipeId": "",
+      "timestamp": 1788688980000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "用完",
+      "delta": -340,
+      "remaining": 160,
+      "note": ""
     }
   ],
   "categories": [
