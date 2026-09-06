@@ -839,6 +839,30 @@
       },
       "remainingQuantity": 780,
       "image": null
+    },
+    {
+      "id": "mmtpsxxrt4cz71",
+      "name": "昆仑山饮用天然矿泉水",
+      "brand": "昆仑山",
+      "category": "水",
+      "specification": "500",
+      "unit": "ml",
+      "price": 1.39,
+      "packCount": 20,
+      "totalQuantity": 10000,
+      "amount": 27.799999999999997,
+      "expiryDate": "2028-04-23",
+      "openingDate": "",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 10000,
+      "image": null
     }
   ],
   "recipes": [
@@ -3034,6 +3058,23 @@
       "action": "用完",
       "delta": -20,
       "remaining": 780,
+      "note": ""
+    },
+    {
+      "id": "logmtpsxxrtitd0o",
+      "materialId": "mmtpsxxrt4cz71",
+      "materialName": "昆仑山饮用天然矿泉水 昆仑山",
+      "quantity": 10000,
+      "unit": "ml",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788698564921,
+      "amountUsed": 0,
+      "priceAtUse": 1.39,
+      "batchId": null,
+      "action": "添加",
+      "delta": 10000,
+      "remaining": 10000,
       "note": ""
     }
   ],
