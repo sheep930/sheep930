@@ -553,29 +553,6 @@
         "calcium": null
       },
       "remainingQuantity": 780
-    },
-    {
-      "id": "mmtpclqoqt8lik",
-      "name": "有机抹茶 (副本)",
-      "brand": "贵茶",
-      "category": "抹茶粉",
-      "specification": "40",
-      "unit": "g",
-      "price": 39.76,
-      "packCount": 1,
-      "totalQuantity": 40,
-      "amount": 39.76,
-      "expiryDate": "2026-11-25",
-      "openingDate": "2026-06-01",
-      "nutrition": {
-        "calories": 1333,
-        "protein": 29.9,
-        "fat": 5.2,
-        "carbs": 20.9,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 40
     }
   ],
   "recipes": [
