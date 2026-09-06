@@ -204,7 +204,7 @@
       "totalQuantity": 2,
       "amount": 253.96,
       "expiryDate": "2027-03-12",
-      "openingDate": "",
+      "openingDate": "2025-12-31",
       "nutrition": {
         "calories": 3159,
         "protein": 0.8,
@@ -1560,6 +1560,24 @@
       "action": "开封",
       "delta": 0,
       "remaining": 309,
+      "note": "",
+      "packIndex": 1
+    },
+    {
+      "id": "logmtpnez9fdw7t8",
+      "materialId": "mmtpfaen1b59xk",
+      "materialName": "艾许恩喜村淡味黄油片 艾许",
+      "quantity": 0,
+      "unit": "kg",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1767139200000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 1.3,
       "note": "",
       "packIndex": 1
     }
