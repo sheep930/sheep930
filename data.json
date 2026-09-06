@@ -204,7 +204,7 @@
       "totalQuantity": 2,
       "amount": 253.96,
       "expiryDate": "2027-03-12",
-      "openingDate": "2025-12-31",
+      "openingDate": "",
       "nutrition": {
         "calories": 3159,
         "protein": 0.8,
