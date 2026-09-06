@@ -1,32 +1,5 @@
 {
-  "materials": [
-    {
-      "id": "mmtpcugcyiw9md",
-      "name": "吉利丁片",
-      "brand": "",
-      "category": "吉利丁片",
-      "specification": "25",
-      "unit": "g",
-      "price": 20,
-      "packCount": 2,
-      "totalQuantity": 50,
-      "amount": 40,
-      "expiryDate": "2029-12-31",
-      "openingDate": "",
-      "nutrition": {
-        "calories": null,
-        "protein": null,
-        "fat": null,
-        "carbs": null,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 50,
-      "image": null,
-      "purchaseDate": 1788671460000,
-      "createdAt": 1788671460000
-    }
-  ],
+  "materials": [],
   "recipes": [
     {
       "name": "提拉米苏",
