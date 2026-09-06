@@ -1,31 +1,5 @@
 {
-  "materials": [
-    {
-      "id": "mmtpcqaxq00ury",
-      "name": "水磨糯米粉",
-      "brand": "三象牌",
-      "category": "糯米粉",
-      "specification": "500",
-      "unit": "g",
-      "price": 9.9,
-      "packCount": 2,
-      "totalQuantity": 500,
-      "amount": 19.28,
-      "expiryDate": "2026-12-31",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1462,
-        "protein": 6,
-        "fat": null,
-        "carbs": 80,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 500,
-      "purchaseDate": 1788671280000,
-      "createdAt": 1788671280000
-    }
-  ],
+  "materials": [],
   "recipes": [
     {
       "name": "提拉米苏",
