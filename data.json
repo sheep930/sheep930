@@ -47,6 +47,30 @@
       },
       "remainingQuantity": 1,
       "image": null
+    },
+    {
+      "id": "mmtpdgf15bu5s9",
+      "name": "一级糖霜",
+      "brand": "红棉",
+      "category": "糖粉",
+      "specification": "500",
+      "unit": "g",
+      "price": 11.11,
+      "packCount": 1,
+      "totalQuantity": 500,
+      "amount": 11.11,
+      "expiryDate": "2026-08-16",
+      "openingDate": "2026-01-01",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 500,
+      "image": null
     }
   ],
   "recipes": [
@@ -703,6 +727,23 @@
       "action": "添加",
       "delta": 1,
       "remaining": 1,
+      "note": ""
+    },
+    {
+      "id": "logmtpdgf15tx2z4",
+      "materialId": "mmtpdgf15bu5s9",
+      "materialName": "一级糖霜 红棉",
+      "quantity": 500,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788672553241,
+      "amountUsed": 0,
+      "priceAtUse": 11.11,
+      "batchId": null,
+      "action": "添加",
+      "delta": 500,
+      "remaining": 500,
       "note": ""
     }
   ],
