@@ -44,7 +44,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 500
+      "remainingQuantity": 490
     },
     {
       "id": "mmsvireddht9la",
@@ -182,7 +182,7 @@
         "sodium": 14,
         "calcium": null
       },
-      "remainingQuantity": 15
+      "remainingQuantity": 12
     },
     {
       "id": "mmsul602aajg1s",
@@ -619,7 +619,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 1000
+      "remainingQuantity": 987
     },
     {
       "id": "mmsoxgypl0kq0n",
@@ -1879,6 +1879,45 @@
       "delta": 800,
       "remaining": 800,
       "note": "件数 1 · 单价 ¥100.00"
+    },
+    {
+      "id": "logmtp3heu27a0yj",
+      "materialId": "mmsukuiqirgrds",
+      "materialName": "精制白砂糖 红棉",
+      "quantity": 13,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788655803482,
+      "amountUsed": 0.15613,
+      "priceAtUse": 0.01201,
+      "batchId": null
+    },
+    {
+      "id": "logmtp3heu3wbwpj",
+      "materialId": "mmsvhv3o54o97g",
+      "materialName": "一级糖霜 红棉",
+      "quantity": 10,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788655803483,
+      "amountUsed": 0.2222,
+      "priceAtUse": 0.02222,
+      "batchId": null
+    },
+    {
+      "id": "logmtp3heu3waipt",
+      "materialId": "mmsvij4w3dcqi8",
+      "materialName": "天然可可粉 均衡大师",
+      "quantity": 3,
+      "unit": "g",
+      "recipeName": "提拉米苏",
+      "recipeId": "rmsolj3o9ueh5b",
+      "timestamp": 1788655803483,
+      "amountUsed": 0.34650000000000003,
+      "priceAtUse": 0.1155,
+      "batchId": null
     }
   ],
   "categories": [
