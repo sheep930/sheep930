@@ -1,29 +1,6 @@
 {
   "materials": [
     {
-      "id": "mmsvhk8cwc841a",
-      "name": "柔风吐司粉",
-      "brand": "王后",
-      "category": "高筋面粉",
-      "specification": "2.5",
-      "unit": "kg",
-      "price": 46.88,
-      "packCount": 1,
-      "totalQuantity": 2.5,
-      "amount": 46.88,
-      "expiryDate": "2027-03-17",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1498,
-        "protein": 13.2,
-        "fat": 1.8,
-        "carbs": 71,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 2.5
-    },
-    {
       "id": "mmsv0dwunqh6uv",
       "name": "柔风樱花吐司粉",
       "brand": "王后",
