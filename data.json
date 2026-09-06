@@ -167,6 +167,30 @@
       },
       "remainingQuantity": 256,
       "image": null
+    },
+    {
+      "id": "mmtpf8g8tujbtb",
+      "name": "均衡大师天然可可粉",
+      "brand": "均衡大师",
+      "category": "可可粉",
+      "specification": "100",
+      "unit": "g",
+      "price": 11.55,
+      "packCount": 1,
+      "totalQuantity": 100,
+      "amount": 11.55,
+      "expiryDate": "2026-12-05",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1748,
+        "protein": 27.3,
+        "fat": 11.2,
+        "carbs": 51.2,
+        "sodium": 14,
+        "calcium": null
+      },
+      "remainingQuantity": 100,
+      "image": null
     }
   ],
   "recipes": [
@@ -942,6 +966,23 @@
       "action": "添加",
       "delta": 256,
       "remaining": 256,
+      "note": ""
+    },
+    {
+      "id": "logmtpf8g8tbabmn",
+      "materialId": "mmtpf8g8tujbtb",
+      "materialName": "均衡大师天然可可粉 均衡大师",
+      "quantity": 100,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788675540797,
+      "amountUsed": 0,
+      "priceAtUse": 11.55,
+      "batchId": null,
+      "action": "添加",
+      "delta": 100,
+      "remaining": 100,
       "note": ""
     }
   ],
