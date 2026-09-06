@@ -492,7 +492,7 @@
       "totalQuantity": 150,
       "amount": 40.73,
       "expiryDate": "2027-12-23",
-      "openingDate": "",
+      "openingDate": "2026-06-06",
       "nutrition": {
         "calories": 1312,
         "protein": 24.2,
@@ -1937,6 +1937,24 @@
       "delta": -70,
       "remaining": 80,
       "note": ""
+    },
+    {
+      "id": "logmtpqgutz65m0e",
+      "materialId": "mmtpqf243tjazq",
+      "materialName": "Soileta生可可粉 Soileta",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1780704000000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 150,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
