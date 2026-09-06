@@ -719,6 +719,30 @@
       },
       "remainingQuantity": 100,
       "image": null
+    },
+    {
+      "id": "mmtpsbkw64xunn",
+      "name": "燕子高活性干酵母耐高糖型",
+      "brand": "燕子",
+      "category": "酵母",
+      "specification": "40",
+      "unit": "g",
+      "price": 9.42,
+      "packCount": 1,
+      "totalQuantity": 40,
+      "amount": 9.42,
+      "expiryDate": "2027-10-18",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1575,
+        "protein": 47.6,
+        "fat": 1.7,
+        "carbs": 45.5,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 40,
+      "image": null
     }
   ],
   "recipes": [
@@ -2724,6 +2748,23 @@
       "action": "用完",
       "delta": -100,
       "remaining": 100,
+      "note": ""
+    },
+    {
+      "id": "logmtpsbkw7xkpvq",
+      "materialId": "mmtpsbkw64xunn",
+      "materialName": "燕子高活性干酵母耐高糖型 燕子",
+      "quantity": 40,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788697521799,
+      "amountUsed": 0,
+      "priceAtUse": 9.42,
+      "batchId": null,
+      "action": "添加",
+      "delta": 40,
+      "remaining": 40,
       "note": ""
     }
   ],
