@@ -23,6 +23,32 @@
       },
       "remainingQuantity": 25,
       "image": null
+    },
+    {
+      "id": "mmtpctzs4qf44x",
+      "name": "吉利丁片",
+      "brand": "",
+      "category": "吉利丁片",
+      "specification": "25",
+      "unit": "g",
+      "price": 6,
+      "packCount": 1,
+      "totalQuantity": 25,
+      "amount": 2.26,
+      "expiryDate": "2029-05-16",
+      "openingDate": "",
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 25,
+      "image": null,
+      "purchaseDate": 1788671460000,
+      "createdAt": 1788671460000
     }
   ],
   "recipes": [
@@ -612,6 +638,23 @@
       "delta": 25,
       "remaining": 25,
       "note": ""
+    },
+    {
+      "id": "logmtpctzs4h2di0",
+      "materialId": "mmtpctzs4qf44x",
+      "materialName": "吉利丁片",
+      "quantity": 25,
+      "unit": "g",
+      "recipeName": "购入",
+      "recipeId": "",
+      "timestamp": 1788671460000,
+      "amountUsed": 0,
+      "priceAtUse": 6,
+      "batchId": null,
+      "action": "购入",
+      "delta": 25,
+      "remaining": 25,
+      "note": "件数 1 · 单价 ¥6.00"
     }
   ],
   "categories": [
