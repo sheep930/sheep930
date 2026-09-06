@@ -71,6 +71,30 @@
       },
       "remainingQuantity": 500,
       "image": null
+    },
+    {
+      "id": "mmtpdloxpgxzol",
+      "name": "光明优加高钙纯牛奶",
+      "brand": "光明",
+      "category": "全脂牛奶",
+      "specification": "200",
+      "unit": "ml",
+      "price": 2.18,
+      "packCount": 24,
+      "totalQuantity": 4800,
+      "amount": 52.32000000000001,
+      "expiryDate": "2026-12-16",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 317,
+        "protein": 3.8,
+        "fat": 4.3,
+        "carbs": 5.5,
+        "sodium": 70,
+        "calcium": 125
+      },
+      "remainingQuantity": 4800,
+      "image": null
     }
   ],
   "recipes": [
@@ -744,6 +768,23 @@
       "action": "添加",
       "delta": 500,
       "remaining": 500,
+      "note": ""
+    },
+    {
+      "id": "logmtpdloxpapf1g",
+      "materialId": "mmtpdloxpgxzol",
+      "materialName": "光明优加高钙纯牛奶 光明",
+      "quantity": 4800,
+      "unit": "ml",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1788672799357,
+      "amountUsed": 0,
+      "priceAtUse": 2.18,
+      "batchId": null,
+      "action": "添加",
+      "delta": 4800,
+      "remaining": 4800,
       "note": ""
     }
   ],
