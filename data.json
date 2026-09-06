@@ -346,29 +346,6 @@
       "remainingQuantity": 320
     },
     {
-      "id": "mmsol0qzqb6tua",
-      "name": "马斯卡彭",
-      "brand": "琪雷萨",
-      "category": "马斯卡彭",
-      "specification": "250",
-      "unit": "g",
-      "price": 31.92,
-      "packCount": 1,
-      "totalQuantity": 0,
-      "amount": 31.92,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1463,
-        "protein": 5.8,
-        "fat": 35.5,
-        "carbs": 3,
-        "sodium": 30,
-        "calcium": null
-      },
-      "remainingQuantity": 0
-    },
-    {
       "id": "mmsujxzm4yw6tp",
       "name": "高活性干酵母耐高糖型",
       "brand": "燕子",
