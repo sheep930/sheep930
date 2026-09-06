@@ -132,7 +132,7 @@
       "totalQuantity": 618,
       "amount": 81.51,
       "expiryDate": "2027-04-04",
-      "openingDate": "",
+      "openingDate": "2026-08-02",
       "nutrition": {
         "calories": 2621,
         "protein": 19.4,
@@ -1542,6 +1542,24 @@
       "action": "开封",
       "delta": 0,
       "remaining": 50,
+      "note": "",
+      "packIndex": 1
+    },
+    {
+      "id": "logmtpndk5nwfqpc",
+      "materialId": "mmtpdscpbvz299",
+      "materialName": "天虹牌原味大颗开心果 天虹牌",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1785628800000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 309,
       "note": "",
       "packIndex": 1
     }
