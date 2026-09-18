@@ -454,7 +454,7 @@
         "calcium": null
       },
       "remainingQuantity": 15,
-      "image": null
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789746738285_l1votg.jpg"
     },
     {
       "id": "mmtpsbkw64xunn",
@@ -2134,7 +2134,7 @@
     {
       "id": "logmtpdcdbx0f6t8",
       "materialId": "mmtpdcdbxhgz9j",
-      "materialName": "吉利丁片",
+      "materialName": "展艺吉利丁片 展艺",
       "quantity": 25,
       "unit": "g",
       "recipeName": "添加",
@@ -2145,7 +2145,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 25,
-      "remaining": 25,
+      "remaining": 15,
       "note": ""
     },
     {
