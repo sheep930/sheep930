@@ -887,6 +887,30 @@
       },
       "remainingQuantity": 1,
       "image": null
+    },
+    {
+      "id": "mmu6zmxec29ju1",
+      "name": "普通鸡蛋",
+      "brand": "",
+      "category": "蛋白",
+      "specification": "1000",
+      "unit": "g",
+      "price": 6,
+      "packCount": 1,
+      "totalQuantity": 1000,
+      "amount": 6,
+      "expiryDate": "",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 254,
+        "protein": 11.6,
+        "fat": 0.1,
+        "carbs": 3.1,
+        "sodium": 79.4,
+        "calcium": 9
+      },
+      "remainingQuantity": 1000,
+      "image": null
     }
   ],
   "recipes": [
@@ -3724,6 +3748,23 @@
       "remaining": 0,
       "note": "",
       "packIndex": 1
+    },
+    {
+      "id": "logmu6zmxec5xt29",
+      "materialId": "mmu6zmxec29ju1",
+      "materialName": "普通鸡蛋",
+      "quantity": 1000,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1789737733524,
+      "amountUsed": 0,
+      "priceAtUse": 6,
+      "batchId": null,
+      "action": "添加",
+      "delta": 1000,
+      "remaining": 1000,
+      "note": ""
     }
   ],
   "categories": [
