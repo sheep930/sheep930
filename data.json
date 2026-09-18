@@ -886,7 +886,7 @@
         "calcium": null
       },
       "remainingQuantity": 1,
-      "image": null
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738647186_eg402t.jpg"
     },
     {
       "id": "mmu6zmxec29ju1",
@@ -2151,7 +2151,7 @@
     {
       "id": "logmtpddynz1kn0h",
       "materialId": "mmtpddynztzja5",
-      "materialName": "T45法式糕点专用粉 T45面粉",
+      "materialName": "王后T45法式糕点专用粉 王后",
       "quantity": 1,
       "unit": "kg",
       "recipeName": "添加",
