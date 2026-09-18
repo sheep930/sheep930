@@ -1502,6 +1502,49 @@
       "createdAt": 1788663792641,
       "order": 1788663792641,
       "id": "rmtp88nb59pzab"
+    },
+    {
+      "name": "树桩千层卷",
+      "description": "",
+      "ingredients": [
+        {
+          "isTag": true,
+          "tag": "生巧"
+        },
+        {
+          "category": "黑巧克力",
+          "quantity": 200,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 25,
+          "unit": "g",
+          "tag": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "1",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        }
+      ],
+      "emoji": "🍰",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1789725703587,
+      "order": 1789725703587,
+      "id": "rmu6sh31fdkhkx"
     }
   ],
   "usageLogs": [
