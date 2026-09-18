@@ -276,7 +276,7 @@
       "totalQuantity": 53,
       "amount": 3.7,
       "expiryDate": "2026-09-05",
-      "openingDate": "",
+      "openingDate": "2026-09-18",
       "nutrition": {
         "calories": 2095,
         "protein": 6.3,
@@ -3136,6 +3136,24 @@
       "delta": -53,
       "remaining": 0,
       "note": ""
+    },
+    {
+      "id": "logmu6rpy67138ib",
+      "materialId": "mmtpsebm5ejxm8",
+      "materialName": "麦提莎麦芽脆心巧克力球 麦提莎",
+      "quantity": 0,
+      "unit": "g",
+      "recipeName": "开封",
+      "recipeId": "",
+      "timestamp": 1789724437000,
+      "amountUsed": 0,
+      "priceAtUse": 0,
+      "batchId": null,
+      "action": "开封",
+      "delta": 0,
+      "remaining": 0,
+      "note": "",
+      "packIndex": 1
     }
   ],
   "categories": [
