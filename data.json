@@ -22,7 +22,7 @@
         "calcium": null
       },
       "remainingQuantity": 320,
-      "image": null
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738308907_w30llh.jpg"
     },
     {
       "id": "mmtpqyfqd92sxr",
@@ -3268,7 +3268,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 1500,
-      "remaining": 1500,
+      "remaining": 320,
       "note": ""
     },
     {
