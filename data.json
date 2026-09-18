@@ -1717,6 +1717,147 @@
       "createdAt": 1789725703587,
       "order": 1789725703587,
       "id": "rmu6sh31fdkhkx"
+    },
+    {
+      "name": "法式可颂",
+      "description": "",
+      "ingredients": [
+        {
+          "category": "全脂牛奶",
+          "quantity": 150,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "酵母",
+          "quantity": 3.3,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "T45面粉",
+          "quantity": 300,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 20,
+          "unit": "kg",
+          "tag": ""
+        },
+        {
+          "category": "盐",
+          "quantity": 4,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 20,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "片状黄油",
+          "quantity": 180,
+          "unit": "g",
+          "tag": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "牛奶和酵母混合融化。",
+          "images": [],
+          "materials": [
+            0,
+            1
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "厨师机中加入材料，搅拌成团。",
+          "images": [],
+          "materials": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "加入黄油，打出手套膜，25度醒发15分钟。",
+          "images": [],
+          "materials": [
+            6
+          ],
+          "timerMinutes": 15
+        },
+        {
+          "text": "把片状黄油用油纸包裹，折成18x16，用擀面杖把黄油拍软，然后擀开，冷藏备用。",
+          "images": [],
+          "materials": [
+            7
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "把醒发好的面团擀成小圆饼，用保鲜膜包好，冷冻30分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 30
+        },
+        {
+          "text": "取出面团，撒少许干面粉，擀成36x18cm的长方形。中间放上黄油片，面皮向中间叠起来盖住黄油片。面皮中间和两边的接口处捏起来封口。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "旋转面团，沿接口方向擀长至50cm，下面的折到1/3处，上面的折下来，对接，再对折。保鲜膜包好，冷冻30分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "取出面团，压松后擀成50x20cm的长方形。折1/3，再包住1/3。把叠好的面皮继续擀大，直到42x25cm，冷冻30分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "一边10cm做标记，一边5cm做标记，切出底边10cm的等腰三角形，三角形底部拉伸，向顶部卷起来，接口向下。烤箱放热水，28度，醒发90分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 90
+        },
+        {
+          "text": "醒发好的面团，在正面刷上一层蛋液。预热好烤箱190度，烤20分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 20
+        }
+      ],
+      "emoji": "🥐",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1789729077754,
+      "order": 1789729077754,
+      "id": "rmu6uhekap1r0j"
     }
   ],
   "usageLogs": [
@@ -3479,6 +3620,7 @@
     "吉利丁片",
     "手指饼干",
     "测试",
-    "白巧克力"
+    "白巧克力",
+    "片状黄油"
   ]
 }
