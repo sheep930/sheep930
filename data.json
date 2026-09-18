@@ -265,6 +265,30 @@
       "image": null
     },
     {
+      "id": "mmtpfdmx3uzt8e",
+      "name": "奥乐齐无糖巧克力70%",
+      "brand": "奥乐齐",
+      "category": "黑巧克力",
+      "specification": "250",
+      "unit": "g",
+      "price": 39.9,
+      "packCount": 1,
+      "totalQuantity": 250,
+      "amount": 39.9,
+      "expiryDate": "2027-06-11",
+      "openingDate": "2026-08-02",
+      "nutrition": {
+        "calories": 2608,
+        "protein": 7,
+        "fat": 47.8,
+        "carbs": 42.4,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 230,
+      "image": null
+    },
+    {
       "id": "mmtpsebm5ejxm8",
       "name": "麦提莎麦芽脆心巧克力球",
       "brand": "麦提莎",
@@ -334,30 +358,6 @@
         "calcium": null
       },
       "remainingQuantity": 1.3,
-      "image": null
-    },
-    {
-      "id": "mmtpfdmx3uzt8e",
-      "name": "奥乐齐无糖巧克力70%",
-      "brand": "奥乐齐",
-      "category": "黑巧克力",
-      "specification": "250",
-      "unit": "g",
-      "price": 39.9,
-      "packCount": 1,
-      "totalQuantity": 250,
-      "amount": 39.9,
-      "expiryDate": "2027-06-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2608,
-        "protein": 7,
-        "fat": 47.8,
-        "carbs": 42.4,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 230,
       "image": null
     },
     {
@@ -1360,21 +1360,9 @@
           "tag": "巧克力馅"
         },
         {
-          "category": "黑巧克力",
-          "quantity": 60,
-          "unit": "g",
-          "tag": ""
-        },
-        {
-          "category": "黄油",
+          "category": "蛋白",
           "quantity": 50,
           "unit": "g",
-          "tag": ""
-        },
-        {
-          "category": "鸡蛋",
-          "quantity": 1,
-          "unit": "个",
           "tag": ""
         },
         {
@@ -1386,7 +1374,7 @@
         {
           "category": "全脂牛奶",
           "quantity": 60,
-          "unit": "ml",
+          "unit": "g",
           "tag": ""
         },
         {
@@ -1400,16 +1388,105 @@
           "quantity": 20,
           "unit": "g",
           "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黑巧克力",
+          "quantity": 60,
+          "unit": "g",
+          "tag": ""
         }
       ],
       "steps": [
         {
-          "text": "除黄油和盐外，所有材料放入厨师机",
+          "text": "除黄油和盐外，所有材料放入厨师机，低速搅拌成团，转高速打出厚膜。",
           "images": [],
           "materials": [
-            1
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8
           ],
           "timerMinutes": 0
+        },
+        {
+          "text": "加入黄油和盐低速搅拌到黄油吸收，转高速打出手套膜。",
+          "images": [],
+          "materials": [
+            9,
+            4
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "预整成长方形，冷冻30分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 30
+        },
+        {
+          "text": "制作巧克力馅，材料隔水融化，不停搅拌成团。",
+          "images": [],
+          "materials": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "装入保鲜袋（16x24）冰箱冷冻",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "面团取出，擀成长32x24的长方形，把巧克力夹心放在中间，开酥。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "第一次开酥：70x24，1/8处折叠，再对折。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "第二次开酥：70x24，1/8处折叠，再对折。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "第三次开酥：38*16，切8条，分2份，编4股辫。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "编好后，收口在下面，正面朝上，放入吐司盒发酵。温度32度，湿度80%，发酵2小时",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 120
+        },
+        {
+          "text": "发到8分满，放入预热好的烤箱，上火170，下火190，最下层，烤26分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 26
         }
       ],
       "emoji": "🍪",
