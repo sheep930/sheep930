@@ -1295,7 +1295,7 @@
     },
     {
       "name": "大理石纹巧克力吐司",
-      "description": "",
+      "description": "450g*2",
       "ingredients": [
         {
           "isTag": true,
@@ -1304,7 +1304,7 @@
         {
           "category": "高筋面粉",
           "quantity": 510,
-          "unit": "kg",
+          "unit": "g",
           "tag": ""
         },
         {
@@ -1404,9 +1404,11 @@
       ],
       "steps": [
         {
-          "text": "混合材料",
+          "text": "除黄油和盐外，所有材料放入厨师机",
           "images": [],
-          "materials": [],
+          "materials": [
+            1
+          ],
           "timerMinutes": 0
         }
       ],
