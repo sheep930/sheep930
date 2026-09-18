@@ -1858,6 +1858,108 @@
       "createdAt": 1789729077754,
       "order": 1789729077754,
       "id": "rmu6uhekap1r0j"
+    },
+    {
+      "name": "鲜奶牧场吐司",
+      "description": "450g*2",
+      "ingredients": [
+        {
+          "category": "高筋面粉",
+          "quantity": 500,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "酵母",
+          "quantity": 5,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "盐",
+          "quantity": 8,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 1,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "全脂牛奶",
+          "quantity": 330,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "除黄油外所有材料放入厨师机搅拌出厚膜",
+          "images": [],
+          "materials": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "加入黄油，打出手套膜。揉圆，30度，发酵40分钟",
+          "images": [],
+          "materials": [
+            6
+          ],
+          "timerMinutes": 40
+        },
+        {
+          "text": "分成6份（每份160g），揉圆，室温松弛18分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 18
+        },
+        {
+          "text": "把面团搓成长条，尽量擀长一点，翻过来，把底部擀薄，从上往下卷，卷紧一点，接口放在下面，放入吐司盒。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "35度发酵到9分满。烤箱预热，上温140，下温200，烤26分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        }
+      ],
+      "emoji": "🍞",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1789729744205,
+      "order": 1789729744205,
+      "id": "rmu6uvosto3yns"
     }
   ],
   "usageLogs": [
