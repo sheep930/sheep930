@@ -646,7 +646,7 @@
         "calcium": 767
       },
       "remainingQuantity": 120,
-      "image": null
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789746021295_j1z448.jpg"
     },
     {
       "id": "mmtpfiobsik2r2",
@@ -2151,7 +2151,7 @@
     {
       "id": "logmtpddynz1kn0h",
       "materialId": "mmtpddynztzja5",
-      "materialName": "王后T45法式糕点专用粉 王后",
+      "materialName": "T45法式糕点专用粉 T45面粉",
       "quantity": 1,
       "unit": "kg",
       "recipeName": "添加",
@@ -2168,7 +2168,7 @@
     {
       "id": "logmtpdgf15tx2z4",
       "materialId": "mmtpdgf15bu5s9",
-      "materialName": "红棉一级糖霜 红棉",
+      "materialName": "一级糖霜 红棉",
       "quantity": 500,
       "unit": "g",
       "recipeName": "添加",
@@ -2179,7 +2179,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 500,
-      "remaining": 160,
+      "remaining": 500,
       "note": ""
     },
     {
@@ -2213,7 +2213,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 250,
-      "remaining": 50,
+      "remaining": 250,
       "note": ""
     },
     {
@@ -2247,7 +2247,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 618,
-      "remaining": 309,
+      "remaining": 618,
       "note": ""
     },
     {
@@ -2298,7 +2298,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 100,
-      "remaining": 15,
+      "remaining": 100,
       "note": ""
     },
     {
@@ -2434,7 +2434,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 40,
-      "remaining": 8,
+      "remaining": 40,
       "note": ""
     },
     {
@@ -2468,7 +2468,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 2.5,
-      "remaining": 2,
+      "remaining": 2.5,
       "note": ""
     },
     {
@@ -2536,7 +2536,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 1000,
-      "remaining": 800,
+      "remaining": 1000,
       "note": ""
     },
     {
@@ -2835,7 +2835,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 1000,
-      "remaining": 720,
+      "remaining": 1000,
       "note": ""
     },
     {
@@ -2991,7 +2991,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 400,
-      "remaining": 100,
+      "remaining": 400,
       "note": ""
     },
     {
@@ -3148,7 +3148,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 2,
-      "remaining": 0.2,
+      "remaining": 2,
       "note": ""
     },
     {
@@ -3234,7 +3234,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 408,
-      "remaining": 360,
+      "remaining": 408,
       "note": ""
     },
     {
@@ -3268,7 +3268,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 1500,
-      "remaining": 320,
+      "remaining": 1500,
       "note": ""
     },
     {
@@ -3389,7 +3389,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 250,
-      "remaining": 0,
+      "remaining": 250,
       "note": ""
     },
     {
@@ -3494,7 +3494,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 200,
-      "remaining": 100,
+      "remaining": 200,
       "note": ""
     },
     {
@@ -3545,7 +3545,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 53,
-      "remaining": 0,
+      "remaining": 53,
       "note": ""
     },
     {
@@ -3562,7 +3562,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 500,
-      "remaining": 50,
+      "remaining": 500,
       "note": ""
     },
     {
@@ -3614,7 +3614,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 100,
-      "remaining": 20,
+      "remaining": 100,
       "note": ""
     },
     {
@@ -3666,7 +3666,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 800,
-      "remaining": 780,
+      "remaining": 800,
       "note": ""
     },
     {
