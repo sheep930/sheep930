@@ -2043,6 +2043,177 @@
       "createdAt": 1789729744205,
       "order": 1789729744205,
       "id": "rmu6uvosto3yns"
+    },
+    {
+      "name": "焦糖脆皮泡芙",
+      "description": "",
+      "ingredients": [
+        {
+          "isTag": true,
+          "tag": "泡芙脆皮"
+        },
+        {
+          "category": "黄油",
+          "quantity": 125,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 62.5,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "低筋面粉",
+          "quantity": 125,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "焦糖脆皮"
+        },
+        {
+          "category": "麦芽糖",
+          "quantity": 75,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 60,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 75,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "盐",
+          "quantity": 1.5,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "低筋面粉",
+          "quantity": 67.4,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "泡芙面团"
+        },
+        {
+          "category": "黄油",
+          "quantity": 90,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "全脂牛奶",
+          "quantity": 90,
+          "unit": "ml",
+          "tag": ""
+        },
+        {
+          "category": "水",
+          "quantity": 150,
+          "unit": "ml",
+          "tag": ""
+        },
+        {
+          "category": "低筋面粉",
+          "quantity": 150,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 4.5,
+          "unit": "个",
+          "tag": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "盆内加入，揉成团，没有颗粒。搓成条状，冷冻。",
+          "images": [],
+          "materials": [
+            1,
+            2,
+            3
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "将麦芽糖、黄油、糖、盐，隔水融化，加入面粉搅拌均匀，装入裱花袋。",
+          "images": [],
+          "materials": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "锅内放入水、黄油、牛奶，大火烧开。",
+          "images": [],
+          "materials": [
+            11,
+            12,
+            13
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "离火加入面粉，搅拌细腻无颗粒.",
+          "images": [],
+          "materials": [
+            14
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "重新回炉，烧至糊化的状态，倒出面团，冷却到45-50度左右，逐一加入鸡蛋，每次加蛋需充分融合。面糊提起可以倒三角。",
+          "images": [],
+          "materials": [
+            15
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "裱花袋挤出泡芙，泡芙皮切1元硬币厚度，盖在泡芙上面，最后把焦糖酱记在泡芙皮上方。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "风炉模式，预热烤箱，160度烤35分钟。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 35
+        }
+      ],
+      "emoji": "🍪",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1789747815867,
+      "order": 1789747815867,
+      "id": "rmu75n0zf366q6"
     }
   ],
   "usageLogs": [
@@ -3840,6 +4011,7 @@
     "手指饼干",
     "测试",
     "白巧克力",
-    "片状黄油"
+    "片状黄油",
+    "麦芽糖"
   ]
 }
