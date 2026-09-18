@@ -340,7 +340,7 @@
       "id": "mmtpfdmx3uzt8e",
       "name": "奥乐齐无糖巧克力70%",
       "brand": "奥乐齐",
-      "category": "黄油",
+      "category": "黑巧克力",
       "specification": "250",
       "unit": "g",
       "price": 39.9,
@@ -1748,7 +1748,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 250,
-      "remaining": 250,
+      "remaining": 230,
       "note": ""
     },
     {
