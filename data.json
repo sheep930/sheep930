@@ -388,7 +388,7 @@
       "id": "mmtpfaen1b59xk",
       "name": "艾许恩喜村淡味黄油片",
       "brand": "艾许",
-      "category": "黄油",
+      "category": "片状黄油",
       "specification": "2",
       "unit": "kg",
       "price": 253.96,
@@ -2147,7 +2147,7 @@
       "batchId": null,
       "action": "添加",
       "delta": 2,
-      "remaining": 2,
+      "remaining": 1.3,
       "note": ""
     },
     {
