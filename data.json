@@ -337,30 +337,6 @@
       "image": null
     },
     {
-      "id": "mmtpfaen1b59xk",
-      "name": "艾许恩喜村淡味黄油片",
-      "brand": "艾许",
-      "category": "黄油",
-      "specification": "2",
-      "unit": "kg",
-      "price": 253.96,
-      "packCount": 1,
-      "totalQuantity": 2,
-      "amount": 253.96,
-      "expiryDate": "2027-03-12",
-      "openingDate": "2025-12-31",
-      "nutrition": {
-        "calories": 3159,
-        "protein": 0.8,
-        "fat": 85,
-        "carbs": null,
-        "sodium": 4,
-        "calcium": null
-      },
-      "remainingQuantity": 1.3,
-      "image": null
-    },
-    {
       "id": "mmtpq6ku2q966t",
       "name": "总统淡味份装黄油",
       "brand": "总统",
@@ -406,6 +382,30 @@
         "calcium": null
       },
       "remainingQuantity": 720,
+      "image": null
+    },
+    {
+      "id": "mmtpfaen1b59xk",
+      "name": "艾许恩喜村淡味黄油片",
+      "brand": "艾许",
+      "category": "黄油",
+      "specification": "2",
+      "unit": "kg",
+      "price": 253.96,
+      "packCount": 1,
+      "totalQuantity": 2,
+      "amount": 253.96,
+      "expiryDate": "2027-03-12",
+      "openingDate": "2025-12-31",
+      "nutrition": {
+        "calories": 3159,
+        "protein": 0.8,
+        "fat": 85,
+        "carbs": null,
+        "sodium": 4,
+        "calcium": null
+      },
+      "remainingQuantity": 1.3,
       "image": null
     },
     {
@@ -1522,11 +1522,183 @@
           "quantity": 25,
           "unit": "g",
           "tag": ""
+        },
+        {
+          "category": "淡奶油",
+          "quantity": 160,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "淡奶油",
+          "quantity": 40,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "树皮"
+        },
+        {
+          "category": "黑巧克力",
+          "quantity": 110,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "千层皮"
+        },
+        {
+          "category": "鸡蛋",
+          "quantity": 3,
+          "unit": "个",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 40,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "可可粉",
+          "quantity": 10,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "低筋面粉",
+          "quantity": 100,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 35,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "全脂牛奶",
+          "quantity": 330,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "isTag": true,
+          "tag": "巧克力奶油"
+        },
+        {
+          "category": "奶油奶酪",
+          "quantity": 100,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "淡奶油",
+          "quantity": 350,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 25,
+          "unit": "g",
+          "tag": ""
         }
       ],
       "steps": [
         {
-          "text": "1",
+          "text": "黑巧、黄油隔水融化，再加入淡奶油。一部分倒入方形模具。",
+          "images": [],
+          "materials": [
+            1,
+            2,
+            3
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "剩下的部分加入热好的60度奶油。冷藏4小时以上。",
+          "images": [],
+          "materials": [
+            4
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "巧克力融化，降温至32度，倒在塑料膜上抹平。凝固后做树皮用。",
+          "images": [],
+          "materials": [
+            6
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "鸡蛋加糖搅拌均匀，筛入可可粉，搅拌均匀。",
+          "images": [],
+          "materials": [
+            8,
+            9,
+            10
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "筛入低筋面粉搅拌均匀，加入黄油搅拌均匀。",
+          "images": [],
+          "materials": [
+            11,
+            12
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "加入牛奶混合均匀，过筛。",
+          "images": [],
+          "materials": [
+            13
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "平底锅加热面糊，倒出多余面糊，摊熟饼皮放凉。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "奶油奶酪与步骤二生巧酱70g混合，用电动打蛋器打匀。",
+          "images": [],
+          "materials": [
+            15,
+            17
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "与淡奶油混合打发。",
+          "images": [],
+          "materials": [
+            16
+          ],
+          "timerMinutes": 0
+        },
+        {
+          "text": "饼皮铺好，涂抹奶油，抹平。",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        },
+        {
+          "text": "取步骤一生巧切割摆放到饼皮上，卷紧后冷藏2小时定型.",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 120
+        },
+        {
+          "text": "表面抹淡奶油，用巧克力树皮装饰一下。撒可可粉和糖粉点缀。",
           "images": [],
           "materials": [],
           "timerMinutes": 0
