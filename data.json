@@ -2238,6 +2238,75 @@
       "createdAt": 1789747815867,
       "order": 1789747815867,
       "id": "rmu75n0zf366q6"
+    },
+    {
+      "name": "雪媚娘",
+      "description": "",
+      "ingredients": [
+        {
+          "category": "糯米粉",
+          "quantity": 180,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "全脂牛奶",
+          "quantity": 264,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "黄油",
+          "quantity": 38,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "玉米淀粉",
+          "quantity": 50,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "炼乳",
+          "quantity": 88,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "淡奶油",
+          "quantity": 500,
+          "unit": "g",
+          "tag": ""
+        },
+        {
+          "category": "白砂糖",
+          "quantity": 20,
+          "unit": "g",
+          "tag": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "混合",
+          "images": [],
+          "materials": [],
+          "timerMinutes": 0
+        }
+      ],
+      "emoji": "🍰",
+      "finalImages": [],
+      "nutrition": {
+        "calories": null,
+        "protein": null,
+        "fat": null,
+        "carbs": null,
+        "sodium": null,
+        "calcium": null
+      },
+      "createdAt": 1789777386213,
+      "order": 1789777386213,
+      "id": "rmu7n8tlx64v8i"
     }
   ],
   "usageLogs": [
@@ -4053,6 +4122,7 @@
     "白巧克力",
     "片状黄油",
     "麦芽糖",
-    "测试"
+    "测试",
+    "玉米淀粉"
   ]
 }
