@@ -4126,5 +4126,13 @@
     "麦芽糖",
     "测试",
     "玉米淀粉"
-  ]
+  ],
+  "sortState": {
+    "key": "category",
+    "direction": "asc",
+    "label": "分类名称",
+    "materialOrder": [],
+    "recipeOrder": [],
+    "recipeSort": "recent"
+  }
 }
