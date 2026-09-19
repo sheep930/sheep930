@@ -2339,6 +2339,12 @@
           "tag": ""
         },
         {
+          "category": "低筋面粉",
+          "quantity": 180,
+          "unit": "g",
+          "tag": ""
+        },
+        {
           "category": "马苏里拉",
           "quantity": 100,
           "unit": "g",
@@ -2360,22 +2366,30 @@
           "timerMinutes": 0
         },
         {
-          "text": "蛋液分多次加入搅匀，加芝士碎100g搅匀翻拌至无干粉，整形成喜欢的形状，冷冻30分钟。",
+          "text": "蛋液分多次加入搅匀，加芝士碎搅匀。",
           "images": [
             "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789785477518_63yhsu.jpg",
             "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789785574264_n0ed0s.jpg"
           ],
           "materials": [
             3,
-            4
+            5
           ],
           "timerMinutes": 0
+        },
+        {
+          "text": "筛入低筋面粉，翻拌至无干粉，整形成喜欢的形状，冷冻30分钟。",
+          "images": [],
+          "materials": [
+            4
+          ],
+          "timerMinutes": 30
         },
         {
           "text": "切成0.7cm厚度的饼干，预热好的烤箱，160度20分钟左右。",
           "images": [],
           "materials": [],
-          "timerMinutes": 0
+          "timerMinutes": 20
         }
       ],
       "emoji": "🍪",
