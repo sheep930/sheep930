@@ -2226,7 +2226,9 @@
         }
       ],
       "emoji": "🍪",
-      "finalImages": [],
+      "finalImages": [
+        "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789777883610_xgg6gj.jpg"
+      ],
       "nutrition": {
         "calories": null,
         "protein": null,
