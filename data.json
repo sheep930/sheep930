@@ -1,6 +1,102 @@
 {
   "materials": [
     {
+      "id": "mmtpqjwtw8qh90",
+      "name": "嘉利宝白巧克力32%",
+      "brand": "嘉利宝",
+      "category": "白巧克力",
+      "specification": "400",
+      "unit": "g",
+      "price": 44.72,
+      "packCount": 1,
+      "totalQuantity": 400,
+      "amount": 44.72,
+      "expiryDate": "2027-07-11",
+      "openingDate": "2026-08-02",
+      "nutrition": {
+        "calories": 2465,
+        "protein": 6.1,
+        "fat": 40,
+        "carbs": 51,
+        "sodium": 87,
+        "calcium": null
+      },
+      "remainingQuantity": 100,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789739223251_97loq1.jpg"
+    },
+    {
+      "id": "mmtpmr047hcq9a",
+      "name": "红棉精制白砂糖",
+      "brand": "红棉",
+      "category": "白砂糖",
+      "specification": "1",
+      "unit": "kg",
+      "price": 12.01,
+      "packCount": 1,
+      "totalQuantity": 1,
+      "amount": 12.01,
+      "expiryDate": "2029-01-06",
+      "openingDate": "2026-08-02",
+      "nutrition": {
+        "calories": 1698,
+        "protein": null,
+        "fat": null,
+        "carbs": 99.9,
+        "sodium": null,
+        "calcium": null
+      },
+      "remainingQuantity": 1,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738911631_1vomqx.jpg"
+    },
+    {
+      "id": "mmu6zmxec29ju1",
+      "name": "普通鸡蛋",
+      "brand": "",
+      "category": "蛋白",
+      "specification": "1000",
+      "unit": "g",
+      "price": 6,
+      "packCount": 1,
+      "totalQuantity": 1000,
+      "amount": 6,
+      "expiryDate": "",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 254,
+        "protein": 11.6,
+        "fat": 0.1,
+        "carbs": 3.1,
+        "sodium": 79.4,
+        "calcium": 9
+      },
+      "remainingQuantity": 1000,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789744832880_clz1xm.jpg"
+    },
+    {
+      "id": "mmu6zogj9can0u",
+      "name": "普通鸡蛋",
+      "brand": "",
+      "category": "蛋黄",
+      "specification": "1000",
+      "unit": "g",
+      "price": 6,
+      "packCount": 1,
+      "totalQuantity": 1000,
+      "amount": 6,
+      "expiryDate": "",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1360,
+        "protein": 15.2,
+        "fat": 28.2,
+        "carbs": 3.4,
+        "sodium": 54.9,
+        "calcium": 112
+      },
+      "remainingQuantity": 1000,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789744843387_mmxhmo.jpg"
+    },
+    {
       "id": "mmtprqf9kg1cot",
       "name": "王后软白低筋粉",
       "brand": "王后",
@@ -119,78 +215,6 @@
       },
       "remainingQuantity": 1.5,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738598077_93qj66.jpg"
-    },
-    {
-      "id": "mmtpmr047hcq9a",
-      "name": "红棉精制白砂糖",
-      "brand": "红棉",
-      "category": "白砂糖",
-      "specification": "1",
-      "unit": "kg",
-      "price": 12.01,
-      "packCount": 1,
-      "totalQuantity": 1,
-      "amount": 12.01,
-      "expiryDate": "2029-01-06",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 1698,
-        "protein": null,
-        "fat": null,
-        "carbs": 99.9,
-        "sodium": null,
-        "calcium": null
-      },
-      "remainingQuantity": 1,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738911631_1vomqx.jpg"
-    },
-    {
-      "id": "mmtpriaynel46g",
-      "name": "京糖纯正红糖",
-      "brand": "京糖",
-      "category": "红糖",
-      "specification": "408",
-      "unit": "g",
-      "price": 12.2,
-      "packCount": 1,
-      "totalQuantity": 408,
-      "amount": 12.2,
-      "expiryDate": "2028-03-23",
-      "openingDate": "2026-08-06",
-      "nutrition": {
-        "calories": 1608,
-        "protein": null,
-        "fat": null,
-        "carbs": 94.6,
-        "sodium": null,
-        "calcium": 128
-      },
-      "remainingQuantity": 360,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789739024304_dbcjco.jpg"
-    },
-    {
-      "id": "mmtpqjwtw8qh90",
-      "name": "嘉利宝白巧克力32%",
-      "brand": "嘉利宝",
-      "category": "白巧克力",
-      "specification": "400",
-      "unit": "g",
-      "price": 44.72,
-      "packCount": 1,
-      "totalQuantity": 400,
-      "amount": 44.72,
-      "expiryDate": "2027-07-11",
-      "openingDate": "2026-08-02",
-      "nutrition": {
-        "calories": 2465,
-        "protein": 6.1,
-        "fat": 40,
-        "carbs": 51,
-        "sodium": 87,
-        "calcium": null
-      },
-      "remainingQuantity": 100,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789739223251_97loq1.jpg"
     },
     {
       "id": "mmtpdnd29mhtae",
@@ -337,6 +361,30 @@
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789739840434_khva4o.jpg"
     },
     {
+      "id": "mmtpriaynel46g",
+      "name": "京糖纯正红糖",
+      "brand": "京糖",
+      "category": "红糖",
+      "specification": "408",
+      "unit": "g",
+      "price": 12.2,
+      "packCount": 1,
+      "totalQuantity": 408,
+      "amount": 12.2,
+      "expiryDate": "2028-03-23",
+      "openingDate": "2026-08-06",
+      "nutrition": {
+        "calories": 1608,
+        "protein": null,
+        "fat": null,
+        "carbs": 94.6,
+        "sodium": null,
+        "calcium": 128
+      },
+      "remainingQuantity": 360,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789739024304_dbcjco.jpg"
+    },
+    {
       "id": "mmtpq6ku2q966t",
       "name": "总统淡味份装黄油",
       "brand": "总统",
@@ -383,30 +431,6 @@
       },
       "remainingQuantity": 720,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789743956509_ro1mvp.jpg"
-    },
-    {
-      "id": "mmtpfaen1b59xk",
-      "name": "艾许恩喜村淡味黄油片",
-      "brand": "艾许",
-      "category": "片状黄油",
-      "specification": "2",
-      "unit": "kg",
-      "price": 253.96,
-      "packCount": 1,
-      "totalQuantity": 2,
-      "amount": 253.96,
-      "expiryDate": "2027-03-12",
-      "openingDate": "2025-12-31",
-      "nutrition": {
-        "calories": 3159,
-        "protein": 0.8,
-        "fat": 85,
-        "carbs": null,
-        "sodium": 4,
-        "calcium": null
-      },
-      "remainingQuantity": 1.3,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789740321285_aow5vj.jpg"
     },
     {
       "id": "mmtpmjyx3i4soi",
@@ -745,6 +769,30 @@
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789745389455_ry6f9l.jpg"
     },
     {
+      "id": "mmtpfaen1b59xk",
+      "name": "艾许恩喜村淡味黄油片",
+      "brand": "艾许",
+      "category": "片状黄油",
+      "specification": "2",
+      "unit": "kg",
+      "price": 253.96,
+      "packCount": 1,
+      "totalQuantity": 2,
+      "amount": 253.96,
+      "expiryDate": "2027-03-12",
+      "openingDate": "2025-12-31",
+      "nutrition": {
+        "calories": 3159,
+        "protein": 0.8,
+        "fat": 85,
+        "carbs": null,
+        "sodium": 4,
+        "calcium": null
+      },
+      "remainingQuantity": 1.3,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789740321285_aow5vj.jpg"
+    },
+    {
       "id": "mmtpdloxpgxzol",
       "name": "光明优加高钙纯牛奶",
       "brand": "光明",
@@ -889,52 +937,28 @@
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738647186_eg402t.jpg"
     },
     {
-      "id": "mmu6zmxec29ju1",
-      "name": "普通鸡蛋",
-      "brand": "",
-      "category": "蛋白",
-      "specification": "1000",
+      "id": "mmu7mq06gu8sdz",
+      "name": "蜜蜂牌金典麦芽糖",
+      "brand": "蜜蜂牌",
+      "category": "麦芽糖",
+      "specification": "380",
       "unit": "g",
-      "price": 6,
+      "price": 17.41,
       "packCount": 1,
-      "totalQuantity": 1000,
-      "amount": 6,
+      "totalQuantity": 380,
+      "amount": 17.41,
       "expiryDate": "",
       "openingDate": "",
       "nutrition": {
-        "calories": 254,
-        "protein": 11.6,
-        "fat": 0.1,
-        "carbs": 3.1,
-        "sodium": 79.4,
-        "calcium": 9
+        "calories": 1442,
+        "protein": 0.6,
+        "fat": null,
+        "carbs": 84.2,
+        "sodium": 16,
+        "calcium": null
       },
-      "remainingQuantity": 1000,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789744832880_clz1xm.jpg"
-    },
-    {
-      "id": "mmu6zogj9can0u",
-      "name": "普通鸡蛋",
-      "brand": "",
-      "category": "蛋黄",
-      "specification": "1000",
-      "unit": "g",
-      "price": 6,
-      "packCount": 1,
-      "totalQuantity": 1000,
-      "amount": 6,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1360,
-        "protein": 15.2,
-        "fat": 28.2,
-        "carbs": 3.4,
-        "sodium": 54.9,
-        "calcium": 112
-      },
-      "remainingQuantity": 1000,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789744843387_mmxhmo.jpg"
+      "remainingQuantity": 380,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789776505341_rjhg07.jpg"
     }
   ],
   "recipes": [
@@ -3977,6 +4001,23 @@
       "delta": 1000,
       "remaining": 1000,
       "note": ""
+    },
+    {
+      "id": "logmu7mq06gpa2r7",
+      "materialId": "mmu7mq06gu8sdz",
+      "materialName": "蜜蜂牌金典麦芽糖 蜜蜂牌",
+      "quantity": 380,
+      "unit": "g",
+      "recipeName": "添加",
+      "recipeId": "",
+      "timestamp": 1789776508264,
+      "amountUsed": 0,
+      "priceAtUse": 17.41,
+      "batchId": null,
+      "action": "添加",
+      "delta": 380,
+      "remaining": 380,
+      "note": ""
     }
   ],
   "categories": [
@@ -4009,9 +4050,9 @@
     "香草荚",
     "吉利丁片",
     "手指饼干",
-    "测试",
     "白巧克力",
     "片状黄油",
-    "麦芽糖"
+    "麦芽糖",
+    "测试"
   ]
 }
