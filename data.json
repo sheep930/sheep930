@@ -673,6 +673,30 @@
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789746021295_j1z448.jpg"
     },
     {
+      "id": "mmu7mq06gu8sdz",
+      "name": "蜜蜂牌金典麦芽糖",
+      "brand": "蜜蜂牌",
+      "category": "麦芽糖",
+      "specification": "380",
+      "unit": "g",
+      "price": 17.41,
+      "packCount": 1,
+      "totalQuantity": 380,
+      "amount": 17.41,
+      "expiryDate": "",
+      "openingDate": "",
+      "nutrition": {
+        "calories": 1442,
+        "protein": 0.6,
+        "fat": null,
+        "carbs": 84.2,
+        "sodium": 16,
+        "calcium": null
+      },
+      "remainingQuantity": 380,
+      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789776505341_rjhg07.jpg"
+    },
+    {
       "id": "mmtpfiobsik2r2",
       "name": "贵茶昔绿展绿",
       "brand": "贵茶",
@@ -935,30 +959,6 @@
       },
       "remainingQuantity": 1,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738647186_eg402t.jpg"
-    },
-    {
-      "id": "mmu7mq06gu8sdz",
-      "name": "蜜蜂牌金典麦芽糖",
-      "brand": "蜜蜂牌",
-      "category": "麦芽糖",
-      "specification": "380",
-      "unit": "g",
-      "price": 17.41,
-      "packCount": 1,
-      "totalQuantity": 380,
-      "amount": 17.41,
-      "expiryDate": "",
-      "openingDate": "",
-      "nutrition": {
-        "calories": 1442,
-        "protein": 0.6,
-        "fat": null,
-        "carbs": 84.2,
-        "sodium": 16,
-        "calcium": null
-      },
-      "remainingQuantity": 380,
-      "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789776505341_rjhg07.jpg"
     }
   ],
   "recipes": [
@@ -1960,13 +1960,13 @@
       "ingredients": [
         {
           "category": "高筋面粉",
-          "quantity": 500,
+          "quantity": 520,
           "unit": "g",
           "tag": ""
         },
         {
           "category": "白砂糖",
-          "quantity": 50,
+          "quantity": 30,
           "unit": "g",
           "tag": ""
         },
@@ -1978,7 +1978,7 @@
         },
         {
           "category": "盐",
-          "quantity": 8,
+          "quantity": 6,
           "unit": "g",
           "tag": ""
         },
