@@ -45,7 +45,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 1,
+      "remainingQuantity": 0.97,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738911631_1vomqx.jpg"
     },
     {
@@ -141,7 +141,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 0.2,
+      "remainingQuantity": 0,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738824624_9vb92o.jpg"
     },
     {
@@ -189,7 +189,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 2,
+      "remainingQuantity": 1.68,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789738360822_bypavb.jpg"
     },
     {
@@ -405,7 +405,7 @@
         "sodium": 12,
         "calcium": null
       },
-      "remainingQuantity": 60,
+      "remainingQuantity": 10,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789741670852_56cvy5.jpg"
     },
     {
@@ -453,7 +453,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 16,
+      "remainingQuantity": 15,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789744524009_gwhesc.jpg"
     },
     {
@@ -501,7 +501,7 @@
         "sodium": null,
         "calcium": null
       },
-      "remainingQuantity": 40,
+      "remainingQuantity": 35,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789740513024_4pa13y.jpg"
     },
     {
@@ -837,7 +837,7 @@
         "sodium": 70,
         "calcium": 125
       },
-      "remainingQuantity": 4800,
+      "remainingQuantity": 4470,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789745325739_vftf9s.jpg"
     },
     {
@@ -933,7 +933,7 @@
         "sodium": 38983,
         "calcium": null
       },
-      "remainingQuantity": 256,
+      "remainingQuantity": 250,
       "image": "https://cdn.jsdelivr.net/gh/sheep930/sheep930@main/images/1789746685969_bxljnd.jpg"
     },
     {
@@ -4185,6 +4185,110 @@
       "delta": 380,
       "remaining": 380,
       "note": ""
+    },
+    {
+      "id": "logmw68cozwcirqt",
+      "materialId": "mmtpmr047hcq9a",
+      "materialName": "红棉精制白砂糖 红棉",
+      "quantity": 0.03,
+      "unit": "kg",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471116,
+      "amountUsed": 0.36029999999999995,
+      "priceAtUse": 12.01,
+      "batchId": null
+    },
+    {
+      "id": "logmw68cozxxaikp",
+      "materialId": "mmtpsbkw64xunn",
+      "materialName": "燕子高活性干酵母耐高糖型 燕子",
+      "quantity": 5,
+      "unit": "g",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471117,
+      "amountUsed": 1.1775,
+      "priceAtUse": 0.2355,
+      "batchId": null
+    },
+    {
+      "id": "logmw68cozx9f6kv",
+      "materialId": "mmtpdwxpj6wykq",
+      "materialName": "淮盐天然三零食用盐 淮盐",
+      "quantity": 6,
+      "unit": "g",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471117,
+      "amountUsed": 0.15234375,
+      "priceAtUse": 0.025390625,
+      "batchId": null
+    },
+    {
+      "id": "logmw68cozxbovm4",
+      "materialId": "mmtpmjyx3i4soi",
+      "materialName": "普通鸡蛋",
+      "quantity": 1,
+      "unit": "个",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471117,
+      "amountUsed": 0.6,
+      "priceAtUse": 0.6,
+      "batchId": null
+    },
+    {
+      "id": "logmw68cozxxj7yi",
+      "materialId": "mmtpdloxpgxzol",
+      "materialName": "光明优加高钙纯牛奶 光明",
+      "quantity": 330,
+      "unit": "ml",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471117,
+      "amountUsed": 3.597,
+      "priceAtUse": 0.0109,
+      "batchId": null
+    },
+    {
+      "id": "logmw68cozy505dp",
+      "materialId": "mmtpqyfqd92sxr",
+      "materialName": "山姆硬红高筋小麦粉 山姆",
+      "quantity": 0.2,
+      "unit": "kg",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471118,
+      "amountUsed": 1.6800000000000002,
+      "priceAtUse": 8.4,
+      "batchId": null
+    },
+    {
+      "id": "logmw68cozyjbkmn",
+      "materialId": "mmtpmnt35jiqgw",
+      "materialName": "王后柔风樱花吐司粉 王后",
+      "quantity": 0.32,
+      "unit": "kg",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471118,
+      "amountUsed": 7.33568,
+      "priceAtUse": 22.924,
+      "batchId": null
+    },
+    {
+      "id": "logmw68cozyhsri3",
+      "materialId": "mmtpq6ku2q966t",
+      "materialName": "总统淡味份装黄油 总统",
+      "quantity": 50,
+      "unit": "g",
+      "recipeName": "鲜奶牧场吐司",
+      "recipeId": "rmu6uvosto3yns",
+      "timestamp": 1794045471118,
+      "amountUsed": 10.891666666666667,
+      "priceAtUse": 0.21783333333333335,
+      "batchId": null
     }
   ],
   "categories": [
